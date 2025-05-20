@@ -1,0 +1,466 @@
+user_msg,expected_intent,expected_class,expected_attributes,expected_filter_attributes
+"add student with name=anderson martins gomes, age=20",ADD,student,"{'name': 'Anderson Martins Gomes', 'age': '20'}",
+"add subject with name=brazilian history, description=the history of brazil",ADD,subject,"{'name': 'Brazilian History', 'description': 'The history of Brazil'}",
+"add teacher with name=paulo henrique, age=65, email=ph@uece.br",ADD,teacher,"{'name': 'Paulo Henrique', 'age': '65', 'email': 'ph@uece.br'}",
+"add subject with name=math, description=the best subject ever",ADD,subject,"{'name': 'Math', 'description': 'The best subject ever'}",
+"add subject with name=math, description='the best subject ever!'",ADD,subject,"{'name': 'Math', 'description': 'The best subject ever!'}",
+add student name=anderson,ADD,student,{'name': 'Anderson'},
+get students with name anderson,READ,student,{'name': 'anderson'},
+show me the teachers,READ,teacher,,
+show teachers,READ,teacher,,
+show teacher,READ,teacher,,
+"include outcome value 900, date is today, and description is ""adjusting the numbers""",ADD,outcome,"{'value': '900', 'date': 'today', 'description': 'adjusting the numbers'}",
+get invoices,READ,invoice,,
+"add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10",ADD,test,"{'scope': 'Module X', 'date': '01/01/2022', 'timeout': '100', 'limit': '10'}",
+add a test with scope=module y and number = 8,ADD,test,"{'scope': 'Module Y', 'number': '8'}",
+"add student with name=anderson, age=199",ADD,student,"{'name': 'Anderson', 'age': '199'}",
+"delete student name is anderson, and age is 199",DELETE,student,"{'name': 'Anderson', 'age': '199'}",
+"add article with title=the title, author=the author",ADD,article,"{'title': 'The title', 'author': 'The author'}",
+"update article with title ""the title"" and author ""the author"" set the title to ""the new title""",UPDATE,article,{'title': 'The new title'},"{'title': 'The title', 'author': 'The author'}"
+add article with author=anderson,ADD,article,{'author': 'Anderson'},
+"delete article when author=""anderson""",DELETE,article,{'author': 'Anderson'},
+show me the articles,READ,article,,
+"add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords",ADD,article,"{'title': 'The title', 'author': 'The author', 'abstract': 'The abstract', 'keywords': 'The keywords'}",
+"update article with title ""the title"", setting the co-author as ""anderson gomes""",UPDATE,article,{'co_author': 'Anderson Gomes'},{'title': 'The title'}
+"update article with id=1, setting the first author as ""paulo maia""",UPDATE,article,{'first_author': 'Paulo Maia'},{'id': '1'}
+show all students,READ,student,,
+view students,READ,student,,
+fetch the students,READ,student,,
+get the students,READ,student,,
+"for the students with name='anderson', update the name to 'anderson martins'",UPDATE,student,{'name': 'Anderson Martins'},{'name': 'Anderson'}
+please change student with name paulo update age to 30,UPDATE,student,{'age': '30'},{'name': 'Paulo'}
+"for students with name anderson, update age to 30",UPDATE,student,{'age': '30'},{'name': 'Anderson'}
+update students,UPDATE,student,,
+"please, when students have the name equal to anderson, update the age to 30.",UPDATE,student,{'age': '30'},{'name': 'Anderson'}
+update students setting the age to 42 when name is anderson,UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+update students set the age to 42 when name is anderson,UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+set students with age to 42 when name is anderson,UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+"for students with name anderson, update the age to 42",UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+please change student with name anderson update age to 30,UPDATE,student,{'age': '30'},{'name': 'Anderson'}
+"please, change the student with name='anderson', updating the age to 30",UPDATE,student,{'age': '30'},{'name': 'Anderson'}
+"update the age to 42, for students with name='anderson'",UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+add a student with name joseph,ADD,student,{'name': 'Joseph'},
+get students,READ,student,,
+add article with title 'dome: a no-code tool',ADD,article,{'title': 'DomE: A no-code tool'},
+get articles,READ,article,,
+"update the articles with id=1, setting the title='new title'",UPDATE,article,{'title': 'new title'},{'id': '1'}
+"add article with title='title 2', author='rodrigo'",ADD,article,"{'title': 'title 2', 'author': 'Rodrigo'}",
+"update the articles with id=1, setting the co-author='layza'",UPDATE,article,{'co_author': 'Layza'},{'id': '1'}
+delete the article with id=1,DELETE,article,{'id': '1'},
+add a student with age=45,ADD,student,{'age': '45'},
+show students,READ,student,,
+"include company with name=acme, address=150 coconut street",ADD,company,"{'name': 'ACME', 'address': '150 Coconut Street'}",
+list companies,READ,company,,
+"add another company with name=caju enterprises, owner=anderson gomes and address=200 cumbuco street",ADD,company,"{'name': 'Caju Enterprises', 'owner': 'Anderson Gomes', 'address': '200 Cumbuco Street'}",
+which company has caju in its name?,READ,company,{'name': 'caju'},
+"is there a company with ""caju"" in its name?",READ,company,{'name': 'caju'},
+delete the company whose name is acme,DELETE,company,{'name': 'ACME'},
+add a new company with name=american beauty and owner=kevin spacey,ADD,company,"{'name': 'American Beauty', 'owner': 'Kevin Spacey'}",
+list company names sorted in ascending order,READ,company,{'names': 'sorted'},
+list companies sorted by name in ascending order,READ,company,{'name': 'ascending'},
+add a new company with name=american beauty and owner=janjo chiquim,ADD,company,"{'name': 'American Beauty', 'owner': 'janjo chiquim'}",
+add a new company with name=american beauty and owner=roger rommel,ADD,company,"{'name': 'American Beauty', 'owner': 'Roger Rommel'}",
+"list companies, sort by name",READ,company,{'sort': 'by name'},
+list all companies,READ,company,,
+show all companies,READ,company,,
+add company with name=roger arrombado,ADD,company,{'name': 'Roger Arrombado'},
+get companies,READ,company,,
+include a company with name=mimoso construcoes,ADD,company,{'name': 'Mimoso Construcoes'},
+add company a,ADD,company,,
+add article with abstract equal to 'this is a good article',ADD,article,{'abstract': 'this is a good article'},
+add an article with an abstract equal to 'this is a good article about de human history. the human narratives are around the technology evolution and it's impact on society.',ADD,article,"{'abstract': ""this is a good article about de human history. The human narratives are around the technology evolution and it's impact on society.""}",
+add a student with name mary,ADD,student,{'name': 'Mary'},
+add student 👍,ADD,student,,
+"i want to add a student with name 'rodrigo', age 20 and his skin color is white",ADD,student,"{'name': 'Rodrigo', 'age': '20', 'skin': 'white'}",
+"now, i want to view all students",READ,student,,
+i want to delete all students,DELETE,student,,
+delete students,DELETE,student,,
+delete students with id <= 4,DELETE,student,{'id': '4'},
+delete students with idless than or equal to 4,DELETE,student,,
+delete students with id less than or equal to 4,DELETE,student,{'id': 'less than or equal to 4'},
+"delete students with id=1, id=2 and id=3",DELETE,student,,
+get students with id <4,READ,student,{'id': '4'},
+get all students with name 'rodrigo',READ,student,{'name': 'Rodrigo'},
+"i want to change the name of a student with name 'rodrigo'. now, i want to set his name as 'rodrigo freitas'",UPDATE,student,{'name': 'Rodrigo Freitas'},{'name': 'Rodrigo'}
+delete 'update' from all students,DELETE,student,,
+get all students that starts with 'r',READ,student,,
+get all students starting with the letter r,READ,student,{'letter': 'R'},
+get all students that the name starts with the letter r,READ,student,{'name': 'R'},
+"add film with name ""love, rosie"" and genre ""romance""",ADD,film,"{'name': 'love, Rosie', 'genre': 'romance'}",
+show me the section film,READ,section_film,,
+show me film,READ,film,,
+"add film ""batman (2022)"" with genre=action",ADD,film,{'genre': 'action'},
+"add film with name ""batman (2022)"" and genre=action",ADD,film,"{'name': 'Batman (2022)', 'genre': 'action'}",
+"add a film with name ""avatar (2022)"" and genre=action, and another film with name=crepúsculo and genre ""drama""",ADD,film,"{'name': 'Avatar (2022)', 'genre': 'action'}",
+"add a film with name ""avatar (2022)"" and genre=action",ADD,film,"{'name': 'Avatar (2022)', 'genre': 'action'}",
+"now add film with name=crepúsculo and genre ""drama""",ADD,film,"{'name': 'Crepusculo', 'genre': 'Drama'}",
+"add film with name=crepúsculo and genre ""drama""",ADD,film,"{'name': 'Crepusculo', 'genre': 'Drama'}",
+"add film with name='crepúsculo' and genre ""drama""",ADD,film,"{'name': 'Crepusculo', 'genre': 'Drama'}",
+"add film film with name='crepúsculo' and genre=""drama""",ADD,film,"{'name': 'Crepusculo', 'genre': 'Drama'}",
+"add film with name='crepúsculo' and genre=""drama""",ADD,film,"{'name': 'Crepusculo', 'genre': 'Drama'}",
+"add film with name ""crepúsculo"" and genre=drama",ADD,film,"{'name': 'Crepusculo', 'genre': 'Drama'}",
+"add film with name ""crepusculo"" and genre=drama",ADD,film,"{'name': 'Crepusculo', 'genre': 'Drama'}",
+show me film where action is the genre,READ,film,{'genre': 'action'},
+show me film where genre = action,READ,film,{'genre': 'action'},
+add a student with name=anderson,ADD,student,{'name': 'anderson'},
+add a teacher with name equal to 'italo roger',ADD,teacher,{'name': 'Italo Roger'},
+get all teachers,READ,teacher,,
+get teachers,READ,teacher,,
+give me all students,READ,student,,
+add a former teacher with name = anderson,ADD,former_teacher,{'name': 'Anderson'},
+add a former student with name = roger,ADD,former_student,{'name': 'Roger'},
+"add a article with title=’dome: an experiment', abstract=’this
+is a cool experiment’, keywords=’dome, ai, machine learning, self-drive systems, python’, data=’2023’, first author=’anderson
+martins gomes’, co-author=’paulo henrique maia’, second author= ‘marina alves costa gomes’",ADD,article,"{'title': 'DoME: an experiment', 'abstract': 'this is a cool experiment', 'keywords': 'dome, ai, machine learning, self-drive systems, python', 'date': '2023', 'first_author': 'anderson martins gomes', 'co_author': 'paulo henrique maia', 'second_author': 'marina alves costa gomes'}",
+add a movie with name=final fantasy,ADD,film,{'name': 'Final Fantasy'},
+get movies,READ,film,,
+get filmes where id=3,READ,film,{'id': '3'},
+get films,READ,film,,
+"update film with id=6, setting year to 2023",UPDATE,film,{'year': '2023'},{'id': '6'}
+add film with title=et,ADD,film,{'title': 'ET'},
+add student with name='anderson',ADD,student,{'name': 'anderson'},
+get all films,READ,film,,
+add a student with age=43,ADD,student,{'age': '43'},
+get student with name=julio,READ,student,{'name': 'Julio'},
+get student with name=anderson,READ,student,{'name': 'Anderson'},
+add student with name=julio,ADD,student,{'name': 'Julio'},
+list student,READ,student,,
+add course with name='computer engineering',ADD,course,{'name': 'Computer Engineering'},
+list all entities,READ,entities,,
+get courses,READ,course,,
+show course,READ,course,,
+get the class with name=student,READ,student,{'class': 'student'},
+add student with name=abcd,ADD,student,{'name': 'abcd'},
+add student with name=abcdef,ADD,student,{'name': 'abcdef'},
+"add student with name='maria', phone=123456",ADD,student,"{'name': 'maria', 'phone': '123456'}",
+add student with name joseph,ADD,student,{'name': 'Joseph'},
+update student age=40 when id= 4,UPDATE,student,{'age': '40'},{'id': '4'}
+"add an article with title='dome: a reference architecture, publish year = 2023",ADD,article,"{'title': 'DoME: A Reference Architecture', 'publish_year': '2023'}",
+"add an article with title='dome: a reference architecture', and the publish year = 2023",ADD,article,"{'title': 'DoME: A Reference Architecture', 'publish_year': '2023'}",
+"add an article with title='dome: a reference architecture', and year = 2023",ADD,article,"{'title': 'DoME: A Reference Architecture', 'year': '2023'}",
+get all articles,READ,article,,
+"add article with title='another article', and author='charles bronson'",ADD,article,"{'title': 'Another Article', 'author': 'Charles Bronson'}",
+show me all articles,READ,article,,
+"update the article with id=1, setting the author='madona'",UPDATE,article,{'author': 'Madona'},{'id': '1'}
+i want you to show me all articles,READ,article,,
+"add a new article with title ""experimental demonstration of shor's quantum factoring algorithm using qubits""",ADD,article,"{'title': ""Experimental demonstration of Shor's quantum factoring algorithm using qubits""}",
+show all articles,READ,article,,
+"update article with id = 2, but now i want to set title as 'experimental demonstration of shor's quantum factoring algorithm using qubits'",UPDATE,article,"{'title': ""Experimental demonstration of Shor's quantum factoring algorithm using qubits""}",{'id': '2'}
+add a new article with title 'quantum machine learning',ADD,article,{'title': 'Quantum Machine Learning'},
+show me articles,READ,article,,
+"update the article with id 3, but now i want to set its year=2022",UPDATE,article,{'year': '2022'},{'id': '3'}
+show articles,READ,article,,
+add a new article with title='futuro deletado,ADD,article,{'title': 'futuro deletado'},
+delete all articles with title='futuro deletado',DELETE,article,{'title': 'futuro deletado'},
+get blockages,READ,blockages,,
+"add a blockade with the localization ’222 road, km 13’",ADD,blockade,"{'localization': '222 road, km 13'}",
+show me all blockages,READ,blockages,,
+show me all blockades,READ,blockade,,
+"add a blockade with the localization ’222 road, km 13’, and type='partial blockade'",ADD,blockade,"{'localization': '222 road, km 13', 'type': 'partial blockade'}",
+get blockades,READ,blockade,,
+"add a blockade with the localization ’116 road, km 105’, and type='partial blockade'",ADD,blockade,"{'localization': '116 road, km 105', 'type': 'partial blockade'}",
+add article with title 'shor's quantum',ADD,article,"{'title': ""Shor's Quantum""}",
+add a student with name='mariana alves',ADD,student,{'name': 'Mariana Alves'},
+show me all students,READ,student,,
+show me all aritcles,READ,aritcles,,
+showme all articles,READ,article,{'showme': 'all articles'},
+add an article with title='cautious adaptation of defiant components',ADD,article,{'title': 'Cautious Adaptation of Defiant Components'},
+"update the article with id=6, setting the year=2019",UPDATE,article,{'year': '2019'},{'id': '6'}
+retrieve articles,READ,article,,
+view articles,READ,article,,
+present me the list of articles,READ,article,{'list': 'articles'},
+delete all articles with year=2019,DELETE,article,{'year': '2019'},
+"please, add a pokemon with name=""pikachu""",ADD,pokemon,{'name': 'Pikachu'},
+get pokemon,READ,pokemon,,
+"update the pokemon with name ""pikachu"" and set its type=""electric""",UPDATE,pokemon,{'type': 'Electric'},{'name': 'pikachu'}
+"update a pokemon with name=""pikachu"" by adding ""evolve_to""=""raichu""",UPDATE,pokemon,{'evolve_to': 'Raichu'},{'name': 'Pikachu'}
+"update a pokemon with name=""pikachu"" by setting ""evolve_to""=""raichu""",UPDATE,pokemon,{'evolve_to': 'Raichu'},{'name': 'Pikachu'}
+"update the pokemon with name=""pikachu"", setting ""evolve_to""=""raichu""",UPDATE,pokemon,{'evolve_to': 'Raichu'},{'name': 'Pikachu'}
+"update a pokemon with name=""pikachu"" by setting evolve_to=""raichu""",UPDATE,pokemon,{'evolve_to': 'Raichu'},{'name': 'Pikachu'}
+"update the pokemon with name=""pikachu"", setting evolve_to=""raichu""",UPDATE,pokemon,{'evolve_to': 'Raichu'},{'name': 'Pikachu'}
+"update the pokemon with name=""pikachu"", setting evolveto=""raichu""",UPDATE,pokemon,{'evolve_to': 'Raichu'},{'name': 'Pikachu'}
+"update the pokemon with name ""pikachu"", setting evolve_to=""raichu""",UPDATE,pokemon,{'evolve_to': 'Raichu'},{'name': 'Pikachu'}
+"update the pokemon with name ""pikachu"", setting evolveto=""raichu""",UPDATE,pokemon,{'evolve_to': 'Raichu'},{'name': 'Pikachu'}
+"update the pokemon with name=""pikachu"", setting the evolveto=""raichu""",UPDATE,pokemon,{'evolveto': 'Raichu'},{'name': 'Pikachu'}
+"update the pokemon with id=1, setting the evolveto=""raichu""",UPDATE,pokemon,{'evolveto': 'Raichu'},{'id': '1'}
+"update the pokemon with name=""pikachu"", setting the evolution=""raichu""",UPDATE,pokemon,{'evolution': 'Raichu'},{'name': 'Pikachu'}
+"get pokemon with name=""pikachu""",READ,pokemon,{'name': 'Pikachu'},
+get pokemon with name pikachu,READ,pokemon,{'name': 'Pikachu'},
+"add a pokemon with name=""eevee"" and type=""normal""",ADD,pokemon,"{'name': 'Eevee', 'type': 'Normal'}",
+view pokemon,READ,pokemon,,
+show me all pokemon,READ,pokemon,,
+"delete the pokemon with name=""eevee""",DELETE,pokemon,{'name': 'Eevee'},
+get pokemons,READ,pokemon,,
+show me all article,READ,article,,
+"add an article with title ""dragonfly""",ADD,article,{'title': 'Dragonfly'},
+"update the article with id=7, setting the year=2020.",UPDATE,article,{'year': '2020'},{'id': '7'}
+"update the article with id=7, setting the year1=2020",UPDATE,article,{'year1': '2020'},{'id': '7'}
+delete all articles with year=2020,DELETE,article,{'year': '2020'},
+"i would like to add an article named ""advances in natural language processing"" and author=julia hirschberg and christopher d. manning",ADD,article,"{'name': 'advances in natural language processing', 'author': 'JULIA HIRSCHBERG and CHRISTOPHER D. MANNING'}",
+"add article named ""advances in natural language processing"" and author=julia hirschberg and christopher d. manning",ADD,article,"{'name': 'advances in natural language processing', 'author': 'JULIA HIRSCHBERG and CHRISTOPHER D. MANNING'}",
+"i would like to add an article with name ""advances in natural language processing"" and author=julia hirschberg and co-author= christopher d. manning",ADD,article,"{'name': 'Advances in natural language processing', 'author': 'JULIA HIRSCHBERG', 'co_author': 'CHRISTOPHER D. MANNING'}",
+"add article with name ""advances in natural language processing"" and author=julia hirschberg and co-author= christopher d. manning",ADD,article,"{'name': 'Advances in natural language processing', 'author': 'JULIA HIRSCHBERG', 'co_author': 'CHRISTOPHER D. MANNING'}",
+"add an article with name ""advances in natural language processing"", author=julia hirschberg, co-author= christopher d. manning",ADD,article,"{'name': 'Advances in natural language processing', 'author': 'JULIA HIRSCHBERG', 'co_author': 'CHRISTOPHER D. MANNING'}",
+"add article with name ""advances in natural language processing"", author=julia hirschberg, co-author= christopher d. manning",ADD,article,"{'name': 'Advances in natural language processing', 'author': 'JULIA HIRSCHBERG', 'co_author': 'CHRISTOPHER D. MANNING'}",
+show me all authors,READ,authors,,
+add an article with title='dome: a reference architecture',ADD,article,{'title': 'DoME: A Reference Architecture'},
+show me article,READ,article,,
+update the article with id=8 setting the year=2015,UPDATE,article,{'year': '2015'},{'id': '8'}
+"update the article with id=8 setting name="""" and title=""advances in natural language processing""",UPDATE,article,"{'name': '', 'title': 'Advances in natural language processing'}",{'id': '8'}
+"update the article with id=8 setting title=""advances in natural language processing""",UPDATE,article,{'title': 'Advances in natural language processing'},{'id': '8'}
+show me articles with year=2015,READ,article,{'year': '2015'},
+"update the article with id=8 setting the title=""advances in natural language processing""",UPDATE,article,{'title': 'Advances in natural language processing'},{'id': '8'}
+show me articles where yaer=2015,READ,article,,
+show me articles where year=2015,READ,article,{'year': '2015'},
+delete the attribute name  from article,DELETE,attribute,{'attribute': 'name'},
+delete name from article,DELETE,article,{'name': 'article'},
+"update the article with id=8 setting the name=""""",UPDATE,article,{'name': ''},{'id': '8'}
+"update the article with id=8 setting the name="" """,UPDATE,article,{'name': ' '},{'id': '8'}
+"update the article with id=8 setting the name=a""""",UPDATE,article,{'name': 'a'},{'id': '8'}
+update the article with id=8 setting the name=null,UPDATE,article,{'name': 'null'},{'id': '8'}
+update the article with id=8 deleting the name,UPDATE,article,{'name': ''},{'id': '8'}
+delete the article with id=9,DELETE,article,{'id': '9'},
+"add a article with name ""experimental framework to simulate rescue operations after a natural disaster"" and keywords= experimental framework, simulation, benchmark",ADD,article,"{'name': 'Experimental Framework to Simulate Rescue Operations after a Natural Disaster', 'keywords': 'Experimental framework, Simulation, Benchmark'}",
+"update the article with name ""experimental framework, simulation, benchmark"" setting year=2020",UPDATE,article,{'year': '2020'},"{'name': 'Experimental framework, Simulation, Benchmark'}"
+"update the article with name ""experimental framework to simulate rescue operations after a natural disaster"" setting year=2020",UPDATE,article,{'year': '2020'},{'name': 'Experimental framework to simulate rescue operations after a natural disaster'}
+"update the article with name=""experimental framework to simulate rescue operations after a natural disaster"" setting year=2020",UPDATE,article,{'year': '2020'},{'name': 'Experimental framework to simulate rescue operations after a natural disaster'}
+update the article with name=experimental framework to simulate rescue operations after a natural disaster setting the year=2020,UPDATE,article,{'year': '2020'},{'name': 'Experimental framework to simulate rescue operations after a natural disaster'}
+"update the article with keywords ""experimental framework, simulation, benchmark"" setting the year=2020",UPDATE,article,{'year': '2020'},"{'keywords': 'Experimental framework, Simulation, Benchmark'}"
+show me articles where year > 2013,READ,article,{'year': '2013'},
+show me articles where year != 2015,READ,article,{'year': '2015'},
+show articles with id > 6,READ,article,{'id': '6'},
+show me articles with id=9,READ,article,{'id': '9'},
+show me article where id > 6,READ,article,{'id': '6'},
+show me article where id = 6,READ,article,{'id': '6'},
+show me article where id=9,READ,article,{'id': '9'},
+show me article where id=10,READ,article,{'id': '10'},
+add city with name=fortaleza and state=ceará,ADD,city,"{'name': 'Fortaleza', 'state': 'Ceará'}",
+"add city with name=berlin, country=germany, population=3.645 million",ADD,city,"{'name': 'Berlin', 'country': 'Germany', 'population': '3.645 million'}",
+show me city,READ,city,,
+delete all cities,DELETE,city,,
+delete city where id=1 and id=2,DELETE,city,{'id': '1'},
+delete city where id-2,DELETE,city,,
+delete city where id=2,DELETE,city,{'id': '2'},
+add city with name= teste and number=1,ADD,city,"{'name': 'teste', 'number': '1'}",
+add city with name= teste and number=2,ADD,city,"{'name': 'teste', 'number': '2'}",
+delete city where name=teste,DELETE,city,{'name': 'teste'},
+"delete city where name=""teste""",DELETE,city,{'name': 'teste'},
+delete city where number=1,DELETE,city,{'number': '1'},
+delete all city with name=teste,DELETE,city,{'name': 'teste'},
+"delete all city with name=""teste""",DELETE,city,{'name': 'teste'},
+delete all city where number=1,DELETE,city,{'number': '1'},
+delete city where id=4,DELETE,city,{'id': '4'},
+delete city where name=fortaleza,DELETE,city,{'name': 'Fortaleza'},
+add city with name fortaleza and state=ceará,ADD,city,"{'name': 'Fortaleza', 'state': 'Ceará'}",
+"add city with name ""fortaleza"" and state=ceará",ADD,city,"{'name': 'Fortaleza', 'state': 'Ceará'}",
+delete city where state=ceará,DELETE,city,{'state': 'Ceará'},
+"delete city where state=""ceará""",DELETE,city,{'state': 'Ceará'},
+show pokemons,READ,pokemon,,
+"delete city where name=""fortaleza""",DELETE,city,{'name': 'Fortaleza'},
+show me pokemons,READ,pokemon,,
+get city,READ,city,,
+"update a pokemon with name=""pikachu"" by setting evolve to=""raichu""",UPDATE,pokemon,{'evolve_to': 'Raichu'},{'name': 'Pikachu'}
+delete city where id=8,DELETE,city,{'id': '8'},
+"update a pokemon with name=""pikachu"" by setting evolvution =""raichu""",UPDATE,pokemon,{'evolvution': 'Raichu'},{'name': 'Pikachu'}
+delete all city where name=fortaleza,DELETE,city,{'name': 'Fortaleza'},
+"update a pokemon with name=""pikachu"" by setting evolution to=""raichu""",UPDATE,pokemon,{'evolution': 'Raichu'},{'name': 'Pikachu'}
+view all pokemons,READ,pokemon,,
+view the pokemon,READ,pokemon,,
+"add article with title ""v-measure: a conditional entropy-based external cluster evaluation measure"", author ""v-measure: a conditional entropy-based external cluster evaluation measure"", co-author ""andrew rosenberg"" and year=2007",ADD,article,"{'title': 'V-measure: A conditional entropy-based external cluster evaluation measure', 'author': 'Andrew Rosenberg', 'year': '2007'}",
+"add article with title ""v-measure: a conditional entropy-based external cluster evaluation measure"", author=""julia hirschberg"", co-author=""andrew rosenberg"" and year=2007",ADD,article,"{'title': 'V-measure: A conditional entropy-based external cluster evaluation measure', 'author': 'JULIA HIRSCHBERG', 'co_author': 'Andrew Rosenberg', 'year': '2007'}",
+"add an article with title=""v-measure: a conditional entropy-based external cluster evaluation measure"", author=""julia hirschberg"", co-author=""andrew rosenberg"" , year=2007",ADD,article,"{'title': 'V-measure: A conditional entropy-based external cluster evaluation measure', 'author': 'JULIA HIRSCHBERG', 'co_author': 'Andrew Rosenberg', 'year': '2007'}",
+"add article with title ""v-measure: a conditional entropy-based external cluster evaluation measure"", author=""julia hirschberg""",ADD,article,"{'title': 'V-measure: A conditional entropy-based external cluster evaluation measure', 'author': 'JULIA HIRSCHBERG'}",
+"update the article where title=""v-measure: a conditional entropy-based external cluster evaluation measure"" setting  co-author=""andrew rosenberg""",UPDATE,article,{'co_author': 'Andrew Rosenberg'},{'title': 'V-measure: A conditional entropy-based external cluster evaluation measure'}
+"update article with id=11 setting co-author=""andrew rosenberg"" and year=2007",UPDATE,article,"{'co_author': 'Andrew Rosenberg', 'year': '2007'}",{'id': '11'}
+"update article where id=11 setting co-author=""andrew rosenberg""",UPDATE,article,{'co_author': 'Andrew Rosenberg'},{'id': '11'}
+"update the article with id=11 setting co-author=""andrew rosenberg"" and year=2007",UPDATE,article,"{'co_author': 'Andrew Rosenberg', 'year': '2007'}",{'id': '11'}
+"update the article with id=11 setting co-author=""andrew rosenberg""",UPDATE,article,{'co-author': 'ANDREW ROSENBERG'},{'id': '11'}
+"update the article with id=11, setting coauthor=""andrew rosenberg""",UPDATE,article,{'coauthor': 'ANDREW ROSENBERG'},{'id': '11'}
+"update the article with author=""julia hirschberg"", setting the year=2007",UPDATE,article,{'year': '2007'},{'author': 'JULIA HIRSCHBERG'}
+"update the article with id=11, setting the year=2007",UPDATE,article,{'year': '2007'},{'id': '11'}
+"delete all articles where author=""julia hirschberg""",DELETE,article,{'author': 'JULIA HIRSCHBERG'},
+add a pokemon with name='squid',ADD,pokemon,{'name': 'Squid'},
+get all pokemons,READ,pokemon,,
+get student with name=itamar,READ,student,{'name': 'Itamar'},
+list all students,READ,student,,
+add an article with title='dome: a domesticated movie experiment',ADD,article,{'title': 'DoME: A Domesticated Movie Experiment'},
+"update the article with id=1, setting the year=3021",UPDATE,article,{'year': '3021'},{'id': '1'}
+show the model,READ,model,,
+"update all articles with year=3021, setting the author='bill gates'",UPDATE,article,{'author': 'Bill Gates'},{'year': '3021'}
+get articles when year=3021,READ,article,{'year': '3021'},
+add student with name='bill' and lastname='gates',ADD,student,"{'name': 'Bill', 'lastname': 'Gates'}",
+"add article with title=""dome: day of my enlightenment"" and publisher=""the matrix""",ADD,article,"{'title': 'DoME: Day of My Enlightenment', 'publisher': 'The Matrix'}",
+add an article with title='dome: day of my enlightenment' and publisher='the matrix',ADD,article,"{'title': 'DoME: Day of My Enlightenment', 'publisher': 'The Matrix'}",
+add an article with title='dome: day of my enlightenment',ADD,article,{'title': 'DoME: Day of My Enlightenment'},
+"update article with id=2, setting publisher='the matrix'",UPDATE,article,{'publisher': 'The Matrix'},{'id': '2'}
+"update article with id=2, setting year=2222",UPDATE,article,{'year': '2222'},{'id': '2'}
+"update article with id=2, setting circulation=10000",UPDATE,article,{'circulation': '10000'},{'id': '2'}
+add student with name='daniel' and lastname='burns',ADD,student,"{'name': 'Daniel', 'lastname': 'Burns'}",
+"add goblin with title='streaming services' and text='netflix, amazon prime, disney+, star+'",ADD,goblin,"{'title': 'Streaming services', 'text': 'Netflix, Amazon Prime, Disney+, Star+'}",
+list my goblins,READ,goblins,,
+get goblins,READ,goblins,,
+get streamings,READ,streaming,,
+add klingon with name='gowron',ADD,klingon,{'name': 'gowron'},
+kill all klingons,DELETE,klingon,,
+add equipment with name = 'engine' and sector = 'generators',ADD,equipment,"{'name': 'Engine', 'sector': 'Generators'}",
+"add equipment with name = 'furnace', sector = 'metal shaping' and manager = 'anderson smith'",ADD,equipment,"{'name': 'Furnace', 'sector': 'Metal shaping', 'manager': 'Anderson Smith'}",
+list equipment,READ,equipment,,
+"list equipment, filtering by name starting with 'en'",READ,equipment,{'name': 'En'},
+"for the equipment with name = 'furnace', change manager to 'jane cooper'",UPDATE,equipment,{'manager': 'Jane Cooper'},{'name': 'Furnace'}
+please delete equipment whose sector is 'generators',DELETE,equipment,{'sector': 'Generators'},
+add person with name='chuck',ADD,person,{'name': 'chuck'},
+get all persons,READ,person,,
+get all person with name chuck,READ,person,{'name': 'chuck'},
+add an article with title='quantum machine learning',ADD,article,{'title': 'Quantum Machine Learning'},
+"update the article with id=1, setting the year=2021.",UPDATE,article,{'year': '2021'},{'id': '1'}
+delete all articles with year=2021.,DELETE,article,{'year': '2021'},
+add show with name=paul di'anno,ADD,show,"{'name': ""Paul Di'Anno""}",
+show me the results,READ,results,,
+get all shows_,READ,show,,
+get the show_,READ,show,,
+show me all shows_,READ,show,,
+show me all show_,READ,show,,
+show me the shows_,READ,show,,
+show shows_,READ,show,,
+show students or whatever,READ,student,,
+add student joão daniel,ADD,student,{'name': 'João Daniel'},
+show me all shows,READ,show,,
+add class with name=“estrutura de dados”,ADD,class,{'name': 'estrutura de dados'},
+add student with name joão daniel,ADD,student,{'name': 'João Daniel'},
+add class with name=‘estrutura de dados’,ADD,class,{'name': 'estrutura de dados'},
+add class with name=estrutura de dados,ADD,class,{'name': 'estrutura de dados'},
+"add student with name = ""joão daniel""",ADD,student,{'name': 'João Daniel'},
+add student with name = 'joão daniel',ADD,student,{'name': 'João Daniel'},
+add student with name = 'joao daniel',ADD,student,{'name': 'Joao Daniel'},
+add student with name=‘estrutura de dados’,ADD,student,{'name': 'estrutura de dados'},
+"plese, show students",READ,student,,
+would you please show students,READ,student,,
+would you please show me students,READ,student,,
+would you please show me all students you have,READ,student,,
+delete a show with name=paul dianno,DELETE,show,{'name': 'Paul DiAnno'},
+include student with name=alinson,ADD,student,{'name': 'Alinson'},
+show me shows,READ,show,,
+add a show with name = paul di'anno and date = 01/27/2023,ADD,show,"{'name': ""Paul Di'Anno"", 'date': '01/27/2023'}",
+"update the article with id=4, setting the email=alinson.donato@gmail.com",UPDATE,article,{'email': 'alinson.donato@gmail.com'},{'id': '4'}
+get student with id=4,READ,student,{'id': '4'},
+"add show with name = renegados, and date = 01/28/2023 and place = centro cultural bnb",ADD,show,"{'name': 'Renegados', 'date': '01/28/2023', 'place': 'Centro Cultural BNB'}",
+get student with email=alinson.donato@gmail.com,READ,student,{'email': 'alinson.donato@gmail.com'},
+"update the student with id=4, setting the email=alinson.donato@gmail.com",UPDATE,student,{'email': 'alinson.donato@gmail.com'},{'id': '4'}
+"add show with name = metallica, and date = 02/30/2023 and place = castelao",ADD,show,"{'name': 'Metallica', 'date': '02/30/2023', 'place': 'Castelao'}",
+add student with name=donato,ADD,student,{'name': 'Donato'},
+"add student with name=donato, email=alinson.donato@prf.gov.br",ADD,student,"{'name': 'Donato', 'email': 'alinson.donato@prf.gov.br'}",
+delete the student with email=alinson.donato@prf.gov.br,DELETE,student,{'email': 'alinson.donato@prf.gov.br'},
+update the student with name=alinson with name=alinson donato,UPDATE,student,{'name': 'Alinson Donato'},{'name': 'Alinson'}
+"create student with name="" or 1=1); drop table students; --""",ADD,student,"{'name': 'or 1=1)', 'table': 'STUDENTS'}",
+"update a show with name metallica, replace date with 10/22/2024",UPDATE,show,{'date': '10/22/2024'},{'name': 'metallica'}
+get all shows,READ,show,,
+"create student with name="" or 1=1}; drop table students; --""",ADD,student,"{'name': '1=1', 'table': 'STUDENTS'}",
+"create student with name=""' or 1=1; drop table students; --""",ADD,student,"{'name': '1=1', 'table': 'STUDENTS'}",
+"create student with name=""' or 1=1; drop table student; --""",ADD,student,"{'name': '1=1', 'table': 'STUDENT'}",
+"add an article with title='experimental framework, simulation, benchmark'",ADD,article,"{'title': 'Experimental framework, Simulation, Benchmark'}",
+create student with name=' or 1=1; drop table students; --',ADD,student,"{'name': '1=1', 'table': 'STUDENTS'}",
+"update the article with id=1, setting the
+year=2020",UPDATE,article,{'year': '2020'},{'id': '1'}
+"update the article with id=2, setting the
+author='zé das couves'",UPDATE,article,{'author': 'Zé das Couves'},{'id': '2'}
+"update the article with id=3, setting the
+year=2020",UPDATE,article,{'year': '2020'},{'id': '3'}
+"create student with name=""robert'); drop table students; --""",ADD,student,"{'name': 'Robert', 'table': 'STUDENTS'}",
+"create student with name=""robert' and 1=1); drop table students; --""",ADD,student,"{'name': 'Robert', 'table': 'STUDENTS'}",
+"create student with email=""alinson.donato@gmail.com' and 1=1); drop table students; --""",ADD,student,"{'email': 'alinson.donato@gmail.com', 'table': 'STUDENTS'}",
+"create student with email=""alinson.donato@gmail.com' and 1=1); drop database managedsys_web; --""",ADD,student,"{'email': 'alinson.donato@gmail.com', 'database': 'MANAGEDSYS_WEB'}",
+create student with email=amg@gmail.com,ADD,student,{'email': 'amg@gmail.com'},
+show tables,READ,tables,,
+add sku with name='john doe',ADD,sku,{'name': 'John Doe'},
+show skus,READ,sku,,
+add elf with name='galadriel' and type='forest',ADD,elf,"{'name': 'Galadriel', 'type': 'Forest'}",
+"add elf with name='galadriel', type='forest', age='1247', ringtype='water' and power='perception'",ADD,elf,"{'name': 'Galadriel', 'type': 'Forest', 'age': '1247', 'ringtype': 'Water', 'power': 'Perception'}",
+"add elf with name='galadriel', type='forest', age='1247', ringtype='water', power='perception'",ADD,elf,"{'name': 'Galadriel', 'type': 'Forest', 'age': '1247', 'ringtype': 'Water', 'power': 'Perception'}",
+"add elf with name='galadriel', type='forest', age='1247', power='perception'",ADD,elf,"{'name': 'Galadriel', 'type': 'Forest', 'age': '1247', 'power': 'Perception'}",
+"add elf with name='galadriel', type='forest', age='1247', ring type='water' and power='perception'",ADD,elf,"{'name': 'Galadriel', 'type': 'Forest', 'age': '1247', 'ring': ""type='Water' and power='Perception""}",
+"add elf with name=galadriel, type=forest, age=1247, ringtype=water and power=perception",ADD,elf,"{'name': 'Galadriel', 'type': 'Forest', 'age': '1247', 'ringtype': 'Water', 'power': 'Perception'}",
+get student with name=eliakim',READ,student,{'name': 'Eliakim'},
+include student with name=anderson,ADD,student,{'name': 'Anderson'},
+include student with name=eliakim,ADD,student,{'name': 'Eliakim'},
+list students,READ,student,,
+add an article with title = 'análise sobre a ausência de aula prática no ensino da disciplina de ciências biológicas',ADD,article,{'title': 'análise sobre a ausência de aula prática no ensino da disciplina de ciências biológicas'},
+add an article with title = 'crop: linking code reviews to source code changes',ADD,article,{'title': 'CROP: Linking Code Reviews to Source Code Changes'},
+"update the article with id=4, setting the year=2018",UPDATE,article,{'year': '2018'},{'id': '4'}
+delete all articles with year=2018.,DELETE,article,{'year': '2018'},
+add an article with title = 'dealing with iot defiant components',ADD,article,{'title': 'Dealing with IoT Defiant Components'},
+"update the article with id=1, setting the year=2020",UPDATE,article,{'year': '2020'},{'id': '1'}
+"update the article with id=5, setting the author='adrilene fonseca'",UPDATE,article,{'author': 'Adrilene Fonseca'},{'id': '5'}
+delete all articles with author=zé das couves,DELETE,article,{'author': 'Zé das Couves'},
+add an article with title='behind the intents: an in-depth empirical study on software refactoring in modern code review',ADD,article,{'title': 'Behind the intents: An in-depth empirical study on software refactoring in modern'},
+"update the article with id=6, setting the
+year=2020",UPDATE,article,{'year': '2020'},{'id': '6'}
+"include student with name=matheus freitas, email=fernandes.matheus@aluno.uece.br",ADD,student,"{'name': 'Matheus Freitas', 'email': 'fernandes.matheus@aluno.uece.b'}",
+show me all student,READ,student,,
+"add an article with title=building microservices: using an api gateway, author=chris richardson",ADD,article,"{'title': 'Building Microservices: Using an API Gateway', 'author': 'Chris Richardson'}",
+"add an article with title=introduction to microservices, author=chris richardson",ADD,article,"{'title': 'Introduction to MIcroservices', 'author': 'Chris Richardson'}",
+"update the article with id=7, setting the year=2018",UPDATE,article,{'year': '2018'},{'id': '7'}
+"add a subject with name=""data structures"" and professor=""ana luiza""",ADD,subject,"{'name': 'Data Structures', 'professor': 'Ana Luiza'}",
+"add a subject with name=""data structures"" and professor=""josé negreiros""",ADD,subject,"{'name': 'Data Structures', 'professor': 'José Negreiros'}",
+get subject,READ,subject,,
+"add a subject with name ""linear algebra"" and professor=""thelmo pontes""",ADD,subject,"{'name': 'Linear Algebra', 'professor': 'Telmo Pontes'}",
+"update the subject with name=""linear algebra"", setting professor=""thelmo pontes""",UPDATE,subject,{'professor': 'Thelmo Pontes'},{'name': 'Linear Algebra'}
+"update the subject with id=3, setting professor=""thelmo pontes""",UPDATE,subject,{'professor': 'Thelmo Pontes'},{'id': '3'}
+"update the subject where name=""data structures"", setting semester=""2023.1""",UPDATE,subject,{'name': 'Data Structures'},{'semester': '2023.1'}
+get subjects,READ,subject,,
+"update the subject with name=""data structures"", setting semester=""2023.1""",UPDATE,subject,{'semester': '2023.1'},{'name': 'Data Structures'}
+"update the subject where name=""data structures"", setting the semester=""2023.1""",UPDATE,subject,{'semester': '2023.1'},{'name': 'Data Structures'}
+"update the subject where semester=""2023.1"", setting name=""data structures""",UPDATE,subject,{'name': 'Data Structures'},{'semester': '2023.1'}
+add a subject with name='brazilian history',ADD,subject,{'name': 'Brazilian History'},
+get all subjects,READ,subject,,
+"update subject with id=4, setting the main reference to 'brasil, uma história'",UPDATE,subject,"{'main_reference': ""to 'Brasil, uma História""}",{'id': '4'}
+get pizzas,READ,pizza,,
+add a pizza with flavour='pepperoni',ADD,pizza,{'flavour': 'pepperoni'},
+show pizzas,READ,pizza,,
+add a ice cream with flavour=vanilla,ADD,ice_cream,{'flavour': 'vanilla'},
+show ice creams,READ,ice_cream,,
+show me all ice cream,READ,ice_cream,,
+add student with name=sergio,ADD,student,{'name': 'Sergio'},
+show me student where name=sergii,READ,student,{'name': 'sergii'},
+show me student where name=sergio,READ,student,{'name': 'Sergio'},
+show me student where name=sergio; drop students,READ,student,{'name': 'Sergio'},
+show me student where name='sergio; drop students',READ,student,{'name': 'Sergio'},
+add students where name=injection;drop students,ADD,student,{'name': 'Injection'},
+add students where name='injection;drop students',ADD,student,{'name': 'Injection;DROP students'},
+delete student name=injection,DELETE,student,{'name': 'Injection'},
+delete student name='injection;drop students;',DELETE,student,{'name': 'Injection'},
+delete student name='injection;drop students',DELETE,student,{'name': 'Injection;DROP students'},
+delete student name='--injection;drop students',DELETE,student,{'name': '--Injection;DROP students'},
+"update the article with id=9, setting the author=darcio",UPDATE,article,{'author': 'Darcio'},{'id': '9'}
+"update the article with id=9, setting the year=darcio",UPDATE,article,{'year': 'Darcio'},{'id': '9'}
+"update the article with id=9, setting the year=2023",UPDATE,article,{'year': '2023'},{'id': '9'}
+"update the article with id=9, setting the co-author=souza",UPDATE,article,{'co_author': 'Souza'},{'id': '9'}
+add an article with title = 'apis modernas e assincronas com python',ADD,article,{'title': 'APIs Modernas e Assincronas com Python'},
+get all entities,READ,entities,,
+"update the article with id=10, setting the year=2023",UPDATE,article,{'year': '2023'},{'id': '10'}
+delete all articles with id=8,DELETE,article,{'id': '8'},
+"update the article with id=10, setting the author='odivon'",UPDATE,article,{'author': 'Odivon'},{'id': '10'}
+can you save a article named “architecture guide”?,ADD,article,{'name': 'architecture guide'},
+add article great,ADD,article,,
+add article with description = ‘the architecture guide”,ADD,article,{'description': 'The Architecture Guide”'},
+update article id=11 set author=‘leo siebra’,UPDATE,article,{'author': 'Leo Siebra'},{'id': '11'}
+update article id=11  author=‘leo siebra’,UPDATE,article,{'author': 'Leo Siebra'},{'id': '11'}
+get my articles,READ,article,,
+add a product type=book,ADD,product,{'type': 'book'},
+get products,READ,product,,
+show article id=2,READ,article,{'id': '2'},
+show article where id=5,READ,article,{'id': '5'},
+show article where id=1,READ,article,{'id': '1'},
+"update article with id=11, setting the author=leo siebra",UPDATE,article,{'author': 'Leo Siebra'},{'id': '11'}
+show me the article with id=11,READ,article,{'id': '11'},
+"please add a article with title='attention is all you need', year=2022, author=""alex nogueira"", keywords=['attention']",ADD,article,"{'title': 'Attention is all you need', 'year': '2022', 'author': 'Alex Nogueira', 'keywords': 'Attention'}",
+"add article with title='attention is all you need', year=2022, author=""alex nogueira"", keywords=['attention']",ADD,article,"{'title': 'Attention is all you need', 'year': '2022', 'author': 'Alex Nogueira', 'keywords': 'Attention'}",
+"update article with id=12, setting revision=1",UPDATE,article,{'revision': '1'},{'id': '12'}
+add a movie with title='batman begins',ADD,film,{'title': 'Batman Begins'},
+"add a movie with title='the dark knight', ""running time""=152",ADD,film,"{'title': 'The Dark Knight', 'running_time': '152'}",
+get all students with name='anderson',READ,student,{'name': 'Anderson'},
+add a former teacher with name='onelia',ADD,former_teacher,{'name': 'Onelia'},
+add an invoice with value=100,ADD,invoice,{'value': '100'},
+get all invoice,READ,invoice,,
+add car with license=2020,ADD,car,{'license': '2020'},
+add car with color=black,ADD,car,{'color': 'black'},
+get all cars,READ,car,,

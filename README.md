@@ -1,6 +1,6 @@
 # Query Generator
 
-This programa is used to generate synthetic queries using language models based on user-generated queries documentend on a CSV file.
+This programa is used to generate synthetic queries, using contexts generated throught simillarity grouping, and evolution steps.
 
 ## Requeriments
 
