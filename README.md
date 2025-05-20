@@ -10,7 +10,7 @@ This programa is used to generate synthetic queries, using contexts generated th
 
 The models used during the tests of this program were Mistral, Llama2, Gemma and Phi.
 
-2. It's necessary a csv file containing user-generated queries on the project folder, if the first cell of the collumn containg the user queries has a different name than ``user_msg``, then you need to change the following name:
+2. It's necessary a csv file containing user-generated queries on the ``Input`` folder, if the first cell of the collumn containg the user queries has a different name than ``user_msg``, then you need to change the following name:
 
   queries_reais = df["user_msg"].dropna().tolist()
 
