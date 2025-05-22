@@ -5,6 +5,10 @@ import random
 import requests
 import json
 import csv
+import sys
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 #Evolution prompt templpates
 multi_context_template = """
