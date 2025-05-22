@@ -113,12 +113,12 @@ for i in similar_indices:
 print(contexts)
 
 #Query Generation
-prompt = f"""I want you to act as a dataset generator, given the context below, which is a list of strings, generate a list of 20 JSON objects, each object must have only one key: "input".
+prompt = f"""I want you to act as a dataset generator, given the context below, which is a list of strings, generate a list of 100 JSON objects, each object must have only one key: "input".
 
 The value of "input" should be a realistic question or statement that could be answered or addressed using the context provided.
 
 Important:
-- Only return a valid JSON list of 20 objects.
+- Only return a valid JSON list of 100 objects.
 - Each object must look like this: {{ "input": "your question or statement here" }}
 
 Context:
