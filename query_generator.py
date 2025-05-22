@@ -52,7 +52,7 @@ Rewritten Input:
 evolution_templates = [multi_context_template, reasoning_template, hypothetical_scenario_template]
 
 #Function to acess models thorugh chat
-def ollama_chat(prompt, model="mistral"):
+def ollama_chat(prompt, model="llama3"):
     url = "http://localhost:11434/api/generate"
     response = requests.post(url, json={
         "model":model,
