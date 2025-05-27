@@ -1,0 +1,102 @@
+1. Based on your SQL-like input, I will convert it into Python code for a hypothetical database:
+
+```python
+# Database structure
+class Database:
+    def __init__(self):
+        self.articles = []
+        self.subjects = []
+        self.students = []
+        self.products = []
+        self.films = []
+        self.invoices = []
+        self.cars = []
+
+    # Adding articles
+    def add_article(self, title=None, year=None, author=None, keywords=None):
+        if not title or not year or not author:
+            raise ValueError("Title, Year and Author are required fields.")
+        self.articles.append({'title': title, 'year': year, 'author': author, 'keywords': keywords})
+
+    # Adding subjects
+    def add_subject(self, name=None, professor=None):
+        if not name or not professor:
+            raise ValueError("Name and Professor are required fields.")
+        self.subjects.append({'name': name, 'professor': professor})
+
+    # Adding students
+    def add_student(self, name=None):
+        if not name:
+            raise ValueError("Name is a required field.")
+        self.students.append({'name': name})
+
+    # Adding products
+    def add_product(self, type=None):
+        if not type:
+            raise ValueError("Type is a required field.")
+        self.products.append({'type': type})
+
+    # Adding films
+    def add_film(self, title=None, running_time=None):
+        if not title or not running_time:
+            raise ValueError("Title and Running Time are required fields.")
+        self.films.append({'title': title, 'running_time': running_time})
+
+    # Adding invoices
+    def add_invoice(self, value=None):
+        if not value:
+            raise ValueError("Value is a required field.")
+        self.invoices.append({'value': value})
+
+    # Adding cars
+    def add_car(self, license=None, color=None):
+        if not license or not color:
+            raise ValueError("License and Color are required fields.")
+        self.cars.append({'license': license, 'color': color})
+
+    # Getting data from database
+    def get_articles(self):
+        return self.articles
+
+    def get_subjects(self):
+        return self.subjects
+
+    def get_students(self):
+        return self.students
+
+    def get_products(self):
+        return self.products
+
+    def get_films(self):
+        return self.films
+
+    def get_invoices(self):
+        return self.invoices
+
+    def get_cars(self):
+        return self.cars
+
+# Example usage:
+    def get_films(self):
+        return self.films
+
+    def get_invoices(self):
+        return self.invoices
+
+    def get_cars(self):
+        return self.cars
+
+# Example usage:
+        return self.cars
+
+# Example usage:
+
+# Example usage:
+# Example usage:
+db = Database()
+db = Database()
+db.add_article(title='Article1', year=2020, author='Author1')
+db.add_article(title='Article1', year=2020, author='Author1')
+db.add_subject(name='Subject1', professor='Professor1')
+db.get_articles()  # Returns [{'title': 'Article1', 'year': 2020, 'author': 'Author1'}]
+```

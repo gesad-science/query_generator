@@ -1,0 +1,89 @@
+1. "add product with type='clothing', category='t-shirts', price=25", ADD,product,"{'type': 'clothing', 'category': 't-shirts', 'price': '25'}"
+  2. "update product where id=1, setting price=30", UPDATE,product,{'price': '30'},{'id': '1'}
+  3. "delete product where id=4", DELETE,product,{'id': '4'}
+  4. "add employee with name='john', position='software engineer'", ADD,employee,"{'name': 'John', 'position': 'Software Engineer'}"
+  5. "update employee where id=2, setting salary=60000", UPDATE,employee,{'salary': '60000'},{'id': '2'}
+  6. "get all employees with position='software engineer'", READ,employee,{'position': 'Software Engineer'}
+  7. "add department with name='IT'", ADD,department,"{'name': 'IT'}"
+  8. "update department where id=3, setting manager='jane'", UPDATE,department,{'manager': 'Jane'},{'id': '3'}
+  9. "delete department where name='HR'" , DELETE,department,{'name': 'HR'}
+ 10. "add customer with name='mary', email='mary@example.com'", ADD,customer,"{'name': 'Mary', 'email': 'mary@example.com'}"
+ 11. "update customer where id=5, setting phone_number='1234567890'", UPDATE,customer,{'phone_number': '1234567890'},{'id': '5'}
+ 12. "get all customers with name='mary'" , READ,customer,{'name': 'Mary'}
+ 13. "add order with item='laptop', quantity=2", ADD,order,"{'item': 'laptop', 'quantity': '2'}"
+ 14. "update order where id=7, setting total_price=500", UPDATE,order,{'total_price': '500'},{'id': '7'}
+ 15. "delete order where id=8" , DELETE,order,{'id': '8'}
+ 16. "add project with name='project A'", ADD,project,"{'name': 'Project A'}"
+ 17. "update project where id=3, setting manager='james'", UPDATE,project,{'manager': 'James'},{'id': '3'}
+ 18. "delete project where name='project B'" , DELETE,project,{'name': 'Project B'}
+ 19. "add task with title='task 1'", ADD,task,"{'title': 'Task 1'}"
+ 20. "update task where id=5, setting due_date='2023-04-30'" , UPDATE,task,{'due_date': '2023-04-30'},{'id': '5'}
+ 21. "delete task where id=6" , DELETE,task,{'id': '6'}
+ 22. "add vacation with destination='paris'", ADD,vacation,"{'destination': 'Paris'}"
+ 23. "update vacation where id=9, setting start_date='2023-05-15'" , UPDATE,vacation,{'start_date': '2023-05-15'},{'id': '9'}
+ 24. "delete vacation where id=10" , DELETE,vacation,{'id': '10'}
+ 25. "add event with name='event X'", ADD,event,"{'name': 'Event X'}"
+ 26. "update event where id=11, setting location='new york'" , UPDATE,event,{'location': 'New York'},{'id': '11'}
+ 27. "delete event where id=12" , DELETE,event,{'id': '12'}
+ 28. "add meeting with title='meeting 1'", ADD,meeting,"{'title': 'Meeting 1'}"
+ 29. "update meeting where id=13, setting attendees='john, jane'" , UPDATE,meeting,{'attendees': 'John, Jane'},{'id': '13'}
+ 30. "delete meeting where id=14" , DELETE,meeting,{'id': '14'}
+ 31. "add subscription with service='netflix'", ADD,subscription,"{'service': 'Netflix'}"
+ 32. "update subscription where id=15, setting start_date='2023-06-01'" , UPDATE,subscription,{'start_date': '2023-06-01'},{'id': '15'}
+ 33. "delete subscription where id=16" , DELETE,subscription,{'id': '16'}
+ 34. "add membership with level='premium'", ADD,membership,"{'level': 'Premium'}"
+ 35. "update membership where id=17, setting expiration_date='2024-12-31'" , UPDATE,membership,{'expiration_date': '2024-12-31'},{'id': '17'}
+ 36. "delete membership where id=18" , DELETE,membership,{'id': '18'}
+ 37. "add book with title='the great gatsby'", ADD,book,"{'title': 'The Great Gatsby'}"
+ 38. "update book where id=19, setting author='F. Scott Fitzgerald'" , UPDATE,book,{'author': 'F. Scott Fitzgerald'},{'id': '19'}
+ 39. "delete book where id=20" , DELETE,book,{'id': '20'}
+ 40. "add song with title='bohemian rhapsody'", ADD,song,"{'title': 'Bohemian Rhapsody'}"
+ 41. "update song where id=21, setting artist='queen'" , UPDATE,song,{'artist': 'Queen'},{'id': '21'}
+ 42. "delete song where id=22" , DELETE,song,{'id': '22'}
+ 43. "add album with title='greatest hits'", ADD,album,"{'title': 'Greatest Hits'}"
+ 44. "update album where id=23, setting artist='queen'" , UPDATE,album,{'artist': 'Queen'},{'id': '23'}
+ 45. "delete album where id=24" , DELETE,album,{'id': '24'}
+ 46. "add recipe with title='chicken parmesan'", ADD,recipe,"{'title': 'Chicken Parmesan'}"
+ 47. "update recipe where id=25, setting ingredients='chicken, marinara sauce, mozzarella'" , UPDATE,recipe,{'ingredients': 'Chicken, Marinara Sauce, Mozzarella'},{'id': '25'}
+ 48. "delete recipe where id=26" , DELETE,recipe,{'id': '26'}
+ 49. "add restaurant with name='pizza place'", ADD,restaurant,"{'name': 'Pizza Place'}"
+ 50. "update restaurant where id=27, setting cuisine='italian'" , UPDATE,restaurant,{'cuisine': 'Italian'},{'id': '27'}
+ 51. "delete restaurant where id=28" , DELETE,restaurant,{'id': '28'}
+ 52. "add game with title='the legend of zelda'", ADD,game,"{'title': 'The Legend of Zelda'}"
+ 53. "update game where id=29, setting developer='nintendo'" , UPDATE,game,{'developer': 'Nintendo'},{'id': '29'}
+ 54. "delete game where id=30" , DELETE,game,{'id': '30'}
+ 55. "add app with name='facebook'", ADD,app,"{'name': 'Facebook'}"
+ 56. "update app where id=31, setting developer='facebook'" , UPDATE,app,{'developer': 'Facebook'},{'id': '31'}
+ 57. "delete app where id=32" , DELETE,app,{'id': '32'}
+ 58. "add movie with title='star wars'", ADD,movie,"{'title': 'Star Wars'}"
+ 59. "update movie where id=33, setting studio='lucasfilm'" , UPDATE,movie,{'studio': 'Lucasfilm'},{'id': '33'}
+ 60. "delete movie where id=34" , DELETE,movie,{'id': '34'}
+ 61. "add user with username='john_doe'", ADD,user,"{'username': 'John_Doe'}"
+ 62. "update user where id=35, setting password='password123'" , UPDATE,user,{'password': 'password123'},{'id': '35'}
+ 63. "delete user where id=36" , DELETE,user,{'id': '36'}
+ 64. "add vehicle with model='corolla'", ADD,vehicle,"{'model': 'Corolla'}"
+ 65. "update vehicle where id=37, setting type='car'" , UPDATE,vehicle,{'type': 'Car'},{'id': '37'}
+ 66. "delete vehicle where id=38" , DELETE,vehicle,{'id': '38'}
+ 67. "add pet with name='fluffy'", ADD,pet,"{'name': 'Fluffy'}"
+ 68. "update pet where id=39, setting type='cat'" , UPDATE,pet,{'type': 'Cat'},{'id': '39'}
+ 69. "delete pet where id=40" , DELETE,pet,{'id': '40'}
+ 70. "add car with make='toyota'", ADD,car,"{'make': 'Toyota'}"
+ 71. "update car where id=41, setting model='camry'" , UPDATE,car,{'model': 'Camry'},{'id': '41'}
+ 72. "delete car where id=42" , DELETE,car,{'id': '42'}
+ 73. "add bike with type='mountain'", ADD,bike,"{'type': 'Mountain'}"
+ 74. "update bike where id=43, setting brand='trek'" , UPDATE,bike,{'brand': 'Trek'},{'id': '43'}
+ 75. "delete bike where id=44" , DELETE,bike,{'id': '44'}
+ 65. "update vehicle where id=37, setting type='car'" , UPDATE,vehicle,{'type': 'Car'},{'id': '37'}
+ 66. "delete vehicle where id=38" , DELETE,vehicle,{'id': '38'}
+ 67. "add pet with name='fluffy'", ADD,pet,"{'name': 'Fluffy'}"
+ 68. "update pet where id=39, setting type='cat'" , UPDATE,pet,{'type': 'Cat'},{'id': '39'}
+ 69. "delete pet where id=40" , DELETE,pet,{'id': '40'}
+ 70. "add car with make='toyota'", ADD,car,"{'make': 'Toyota'}"
+ 71. "update car where id=41, setting model='camry'" , UPDATE,car,{'model': 'Camry'},{'id': '41'}
+ 72. "delete car where id=42" , DELETE,car,{'id': '42'}
+ 73. "add bike with type='mountain'", ADD,bike,"{'type': 'Mountain'}"
+ 74. "update bike where id=43, setting brand='trek'" , UPDATE,bike,{'brand': 'Trek'},{'id': '43'}
+ 75. "delete bike where id=44" , DELETE,bike,{'id': '44'}
+ 76. "add fish with name='nemo'", ADD,fish,"{'name': 'Nemo'}"
+ 77. "update fish where id=45, setting species='clown'" , UPDATE,fish,{'species': 'Clown'},{'id': '45'}
+ 78. "delete fish where id=46" , DELETE,fish,{'id': '46'}

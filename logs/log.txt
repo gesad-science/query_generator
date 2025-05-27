@@ -1,0 +1,13 @@
+=== Query Generator 1.0 ===
+
+1) Gerar contextos com os embeddings.
+2) Gerar queries a partir de CSV (sem contextos).
+3) Gerar queries a partir dos contextos.
+4) Evoluir queries geradas.
+5) Fazer contextos, gera├º├úo e evolu├º├úo completas.
+
+Traceback (most recent call last):
+  File "C:\Users\joaqm\Projetos\query_generator\query_generator.py", line 161, in <module>
+    parsed_queries = json.loads(query)
+                                ^^^^^
+NameError: name 'query' is not defined

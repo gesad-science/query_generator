@@ -1,0 +1,100 @@
+1. "add a subject with name=""computer graphics"" and professor=""jose marques"",ADD,subject,"{'name': 'Computer Graphics', 'professor': 'Jose Marques'}"
+  2. "update the subject where name=""linear algebra"", setting semester=""2023.2"",UPDATE,subject,{'semester': '2023.2'},{'name': 'Linear Algebra'}
+  3. "delete subject with id=5",DELETE,subject,{'id': '5'}
+  4. "add a product type=service,ADD,product,{'type': 'service'}"
+  5. "get products where type='book'" ,READ,product,{'type': 'book'}
+  6. "show article with id=13",READ,article,{'id': '13'}
+  7. "update article with id=14, setting keywords=['deep learning']",UPDATE,article,{'keywords': 'Deep Learning'},{'id': '14'}
+  8. "add a movie with title='the avengers', running time=143",ADD,film,"{'title': 'The Avengers', 'running_time': '143'}"
+  9. "get all films where title='the dark knight rises'",READ,film,{'title': 'The Dark Knight Rises'}
+ 10. "add a former teacher with name='rodrigo'",ADD,former_teacher,"{'name': 'Rodrigo'}"
+ 11. "update the article where id=15, setting co_author='jose luis'",UPDATE,article,{'co_author': 'Jose Luis'},{'id': '15'}
+ 12. "delete invoice with value=200",DELETE,invoice,{'value': '200'}
+ 13. "add car with license=2021 and color=red",ADD,car,"{'license': '2021', 'color': 'red'}"
+ 14. "get all cars where license='2019'",READ,car,{'license': '2019'}
+ 15. "add an invoice with value=300",ADD,invoice,"{'value': '300'}"
+ 16. "get all invoices where value='200'",READ,invoice,{'value': '200'}
+ 17. "add a product type=device,ADD,product,{'type': 'device'}"
+ 18. "get products where type='service'" ,READ,product,{'type': 'service'}
+ 19. "show article with id=16",READ,article,{'id': '16'}
+ 20. "update the subject where name=""data structures"", setting professor=""maria fernandes""",UPDATE,subject,{'professor': 'Maria Fernandes'},{'name': 'Data Structures'}   
+ 21. "delete car with license=2018",DELETE,car,{'license': '2018'}
+ 22. "add a movie with title='inception', running time=148",ADD,film,"{'title': 'Inception', 'running_time': '148'}"
+ 23. "get all films where title='batman v superman: dawn of justice'",READ,film,{'title': 'Batman v Superman: Dawn of Justice'}
+ 24. "add a former teacher with name='rafael'",ADD,former_teacher,"{'name': 'Rafael'}"
+ 25. "update article with id=17, setting year=2021",UPDATE,article,{'year': '2021'},{'id': '17'}
+ 26. "delete invoice with value=400",DELETE,invoice,{'value': '400'}
+ 27. "add car with license=2022 and color=white",ADD,car,"{'license': '2022', 'color': 'white'}"
+ 28. "get all cars where license='2021'",READ,car,{'license': '2021'}
+ 29. "add an invoice with value=500",ADD,invoice,"{'value': '500'}"
+ 30. "get all invoices where value='300'",READ,invoice,{'value': '300'}
+ 31. "add a product type=equipment,ADD,product,{'type': 'equipment'}"
+ 32. "get products where type='device'" ,READ,product,{'type': 'device'}
+ 33. "show article with id=18",READ,article,{'id': '18'}
+ 34. "update the subject where name=""discrete mathematics"", setting professor=""pedro costa""",UPDATE,subject,{'professor': 'Pedro Costa'},{'name': 'Discrete Mathematics'} 
+ 35. "delete car with license=2017",DELETE,car,{'license': '2017'}
+ 36. "add a movie with title='iron man', running time=126",ADD,film,"{'title': 'Iron Man', 'running_time': '126'}"
+ 37. "get all films where title='the amazing spiderman'",READ,film,{'title': 'The Amazing Spiderman'}
+ 38. "add a former teacher with name='juliana'",ADD,former_teacher,"{'name': 'Juliana'}"
+ 39. "update article with id=19, setting co_author='joão pereira'",UPDATE,article,{'co_author': 'Joao Pereira'},{'id': '19'}
+ 40. "delete invoice with value=600",DELETE,invoice,{'value': '600'}
+ 41. "add car with license=2023 and color=blue",ADD,car,"{'license': '2023', 'color': 'blue'}"
+ 42. "get all cars where license='2022'",READ,car,{'license': '2022'}
+ 43. "add an invoice with value=700",ADD,invoice,"{'value': '700'}"
+ 44. "get all invoices where value='500'",READ,invoice,{'value': '500'}
+ 45. "add a product type=software,ADD,product,{'type': 'software'}"
+ 46. "get products where type='equipment'" ,READ,product,{'type': 'equipment'}
+ 47. "show article with id=20",READ,article,{'id': '20'}
+ 48. "update the subject where name=""calculus""", setting professor=""lucas benedito""",UPDATE,subject,{'professor': 'Lucas Benedito'},{'name': 'Calculus'}
+ 49. "delete car with license=2016",DELETE,car,{'license': '2016'}
+ 50. "add a movie with title='ant-man', running time=117",ADD,film,"{'title': 'Ant-Man', 'running_time': '117'}"
+ 51. "get all films where title='guardians of the galaxy'",READ,film,{'title': 'Guardians of the Galaxy'}
+ 52. "add a former teacher with name='isabella'",ADD,former_teacher,"{'name': 'Isabella'}"
+ 53. "update article with id=21, setting year=2022",UPDATE,article,{'year': '2022'},{'id': '21'}
+ 54. "delete invoice with value=800",DELETE,invoice,{'value': '800'}
+ 55. "add car with license=2024 and color=yellow",ADD,car,"{'license': '2024', 'color': 'yellow'}"
+ 56. "get all cars where license='2023'",READ,car,{'license': '2023'}
+ 57. "add an invoice with value=900",ADD,invoice,"{'value': '900'}"
+ 58. "get all invoices where value='700'",READ,invoice,{'value': '700'}
+ 59. "add a product type=tool,ADD,product,{'type': 'tool'}"
+ 60. "get products where type='software'" ,READ,product,{'type': 'software'}
+ 61. "show article with id=22",READ,article,{'id': '22'}
+ 62. "update the subject where name=""physics""", setting professor=""pedro rodrigues""",UPDATE,subject,{'professor': 'Pedro Rodrigues'},{'name': 'Physics'}
+ 63. "delete car with license=2015",DELETE,car,{'license': '2015'}
+ 64. "add a movie with title='thor: the dark world', running time=112",ADD,film,"{'title': 'Thor: The Dark World', 'running_time': '112'}"
+ 65. "get all films where title='captain america: civil war'",READ,film,{'title': 'Captain America: Civil War'}
+ 66. "add a former teacher with name='alexandre'",ADD,former_teacher,"{'name': 'Alexandre'}"
+ 67. "update article with id=23, setting keywords=['machine learning']",UPDATE,article,{'keywords': 'Machine Learning'},{'id': '23'}
+ 68. "delete invoice with value=1000",DELETE,invoice,{'value': '1000'}
+ 69. "add car with license=2025 and color=black",ADD,car,"{'license': '2025', 'color': 'black'}"
+ 70. "get all cars where license='2024'",READ,car,{'license': '2024'}
+ 71. "add an invoice with value=1100",ADD,invoice,"{'value': '1100'}"
+ 72. "get all invoices where value='900'",READ,invoice,{'value': '900'}
+ 73. "add a product type=material,ADD,product,{'type': 'material'}"
+ 74. "get products where type='tool'" ,READ,product,{'type': 'tool'}
+ 75. "show article with id=24",READ,article,{'id': '24'}
+ 76. "update the subject where name=""algebra""", setting professor=""joao silva""",UPDATE,subject,{'professor': 'Joao Silva'},{'name': 'Algebra'}
+ 77. "delete car with license=2014",DELETE,car,{'license': '2014'}
+ 78. "add a movie with title='doctor strange', running time=115",ADD,film,"{'title': 'Doctor Strange', 'running_time': '115'}"
+ 79. "get all films where title='the fantastic four'",READ,film,{'title': 'The Fantastic Four'}
+ 80. "add a former teacher with name='lucas souza'",ADD,former_teacher,"{'name': 'Lucas Souza'}"
+ 81. "update article with id=25, setting year=2023",UPDATE,article,{'year': '2023'},{'id': '25'}
+ 82. "delete invoice with value=1200",DELETE,invoice,{'value': '1200'}
+ 83. "add car with license=2026 and color=red",ADD,car,"{'license': '2026', 'color': 'red'}"
+ 84. "get all cars where license='2025'",READ,car,{'license': '2025'}
+ 85. "add an invoice with value=1300",ADD,invoice,"{'value': '1300'}"
+ 86. "get all invoices where value='1100'",READ,invoice,{'value': '1100'}
+ 87. "add a product type=accessory,ADD,product,{'type': 'accessory'}"
+ 88. "get products where type='material'" ,READ,product,{'type': 'material'}
+ 89. "show article with id=26",READ,article,{'id': '26'}
+ 90. "update the subject where name=""statistics""", setting professor=""henrique borges""",UPDATE,subject,{'professor': 'Henrique Borges'},{'name': 'Statistics'}
+ 91. "delete car with license=2013",DELETE,car,{'license': '2013'}
+ 92. "add a movie with title='the incredible hulk', running time=95",ADD,film,"{'title': 'The Incredible Hulk', 'running_time': '95'}"
+ 93. "get all films where title='the avengers: age of ultron'",READ,film,{'title': 'The Avengers: Age of Ultron'}
+ 94. "add a former teacher with name='thiago'",ADD,former_teacher,"{'name': 'Thiago'}"
+ 95. "update article with id=27, setting keywords=['natural language processing']",UPDATE,article,{'keywords': 'Natural Language Processing'},{'id': '27'}
+ 96. "delete invoice with value=1400",DELETE,invoice,{'value': '1400'}
+ 97. "add car with license=2027 and color=silver",ADD,car,"{'license': '2027', 'color': 'silver'}"
+ 98. "get all cars where license='2026'",READ,car,{'license': '2026'}
+ 99. "add an invoice with value=1500",ADD,invoice,"{'value': '1500'}"
+ 100. "get all invoices where value='1300'",READ,invoice,{'value': '1300'}
