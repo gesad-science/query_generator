@@ -1,0 +1,362 @@
+1. ADD product with name="shirt", type="clothing", price=20, color="red"
+2. UPDATE product SET price=25 WHERE name="shirt"
+3. DELETE product WHERE name="shirt"
+4. GET product WHERE name="shirt"
+5. ADD book with title="1984", author="George Orwell", publisher="Penguin Books"
+6. UPDATE book SET price=15 WHERE title="1984"
+7. DELETE book WHERE title="1984"
+8. GET book WHERE title="1984"
+9. ADD movie with title="The Godfather", director="Francis Ford Coppola", year=1972
+10. UPDATE movie SET duration=175 WHERE title="The Godfather"
+11. DELETE movie WHERE title="The Godfather"
+12. GET movie WHERE title="The Godfather"
+13. ADD course with title="Introduction to Python", instructor="John Doe", price=50
+14. UPDATE course SET duration=20 WHERE title="Introduction to Python"
+15. DELETE course WHERE title="Introduction to Python"
+16. GET course WHERE title="Introduction to Python"
+17. ADD article with title="The Impact of AI on Business", author="Jane Smith", publication_date="2023-03-15"
+18. UPDATE article SET content="AI has significantly affected businesses in various ways..." WHERE title="The Impact of AI on Business"
+19. DELETE article WHERE title="The Impact of AI on Business"
+20. GET article WHERE title="The Impact of AI on Business"
+21. ADD project with name="Website Redesign", team_size=3, deadline="2023-04-01"
+22. UPDATE project SET status="completed" WHERE name="Website Redesign"
+23. DELETE project WHERE name="Website Redesign"
+24. GET project WHERE name="Website Redesign"
+25. ADD pet with name="Buddy", species="dog", breed="Labrador", age=3
+26. UPDATE pet SET vaccination_status="up-to-date" WHERE name="Buddy"
+27. DELETE pet WHERE name="Buddy"
+28. GET pet WHERE name="Buddy"
+29. ADD event with title="Company Party", date="2023-05-15", location="New York"
+30. UPDATE event SET description="Join us for a night of fun and celebration!" WHERE title="Company Party"
+31. DELETE event WHERE title="Company Party"
+32. GET event WHERE title="Company Party"
+33. ADD account with username="john.doe", email="[john.doe@example.com](mailto:john.doe@example.com)", password="password123"
+34. UPDATE account SET email="new.email@example.com" WHERE username="john.doe"
+35. DELETE account WHERE username="john.doe"
+36. GET account WHERE username="john.doe"
+37. ADD order with order_number="12345", customer_name="Jane Doe", total=100, status="completed"
+38. UPDATE order SET delivery_address="123 Main Street" WHERE order_number="12345"
+39. DELETE order WHERE order_number="12345"
+40. GET order WHERE order_number="12345"
+41. ADD ingredient with name="garlic", category="spices", unit_price=2
+42. UPDATE ingredient SET quantity_in_stock=10 WHERE name="garlic"
+43. DELETE ingredient WHERE name="garlic"
+44. GET ingredient WHERE name="garlic"
+45. ADD recipe with title="Spaghetti Aglio e Olio", serving_size=2, ingredients="garlic, olive oil, chili flakes, spaghetti"
+46. UPDATE recipe SET preparation\_time="15 minutes" WHERE title="Spaghetti Aglio e Olio"
+47. DELETE recipe WHERE title="Spaghetti Aglio e Olio"
+48. GET recipe WHERE title="Spaghetti Aglio e Olio"
+49. ADD room with number=101, capacity=50, type="classroom", building="Main Building"
+50. UPDATE room SET availability="available" WHERE number=101
+51. DELETE room WHERE number=101
+52. GET room WHERE number=101
+53. ADD employee with first\_name="John", last\_name="Doe", department="IT", position="Software Engineer"
+54. UPDATE employee SET email="[joh
+
+As queries foram salvas em: Results/generated_queries.csv
+
+Execução 2 de generate_queries...
+1. ADD car with name="Tesla Model 3", type="electric vehicle", price=40000, color="blue"
+2. UPDATE car SET price=45000 WHERE name="Tesla Model 3"
+3. DELETE car WHERE name="Tesla Model 3"
+4. GET car WHERE name="Tesla Model 3"
+5. ADD song with title="Bohemian Rhapsody", artist="Queen", length=378, genre="rock"
+6. UPDATE song SET album="A Night at the Opera" WHERE title="Bohemian Rhapsody"
+7. DELETE song WHERE title="Bohemian Rhapsody"
+8. GET song WHERE title="Bohemian Rhapsody"
+9. ADD book with title="To Kill a Mockingbird", author="Harper Lee", publisher="J. B. Lippincott & Co."
+10. UPDATE book SET price=8 WHERE title="To Kill a Mockingbird"
+11. DELETE book WHERE title="To Kill a Mockingbird"
+12. GET book WHERE title="To Kill a Mockingbird"
+13. ADD movie with title="Pulp Fiction", director="Quentin Tarantino", year=1994
+14. UPDATE movie SET duration=154 WHERE title="Pulp Fiction"
+15. DELETE movie WHERE title="Pulp Fiction"
+16. GET movie WHERE title="Pulp Fiction"
+17. ADD course with title="Calculus I", instructor="John Doe", price=1000
+18. UPDATE course SET duration=3 WHERE title="Calculus I"
+19. DELETE course WHERE title="Calculus I"
+20. GET course WHERE title="Calculus I"
+21. ADD article with title="The Theory of Relativity", author="Albert Einstein", publication\_date="1905-06-30"
+22. UPDATE article SET content="The special theory of relativity, or the kinematical part..." WHERE title="The Theory of Relativity"
+23. DELETE article WHERE title="The Theory of Relativity"
+24. GET article WHERE title="The Theory of Relativity"
+25. ADD project with name="Mobile App Development", team\_size=5, deadline="2023-12-31"
+26. UPDATE project SET status="in progress" WHERE name="Mobile App Development"
+27. DELETE project WHERE name="Mobile App Development"
+28. GET project WHERE name="Mobile App Development"
+29. ADD pet with name="Charlie", species="dog", breed="Golden Retriever", age=2
+30. UPDATE pet SET vaccination\_status="required" WHERE name="Charlie"
+31. DELETE pet WHERE name="Charlie"
+32. GET pet WHERE name="Charlie"
+33. ADD event with title="Product Launch", date="2023-07-01", location="San Francisco"
+34. UPDATE event SET description="Join us for the unveiling of our latest product!" WHERE title="Product Launch"
+35. DELETE event WHERE title="Product Launch"
+36. GET event WHERE title="Product Launch"
+37. ADD account with username="jane\_doe", email="[jane.doe@example.com](mailto:jane.doe@example.com)", password="password321"
+38. UPDATE account SET email="new.email@example.com" WHERE username="jane\_doe"
+39. DELETE account WHERE username="jane\_doe"
+40. GET account WHERE username="jane\_doe"
+41. ADD order with order\_number="54321", customer\_name="Jim Brown", total=200, status="pending"
+42. UPDATE order SET delivery\_address="456 Elm Street" WHERE order\_number="54321"
+43. DELETE order WHERE order\_number="54321"
+44. GET order WHERE order\_number="54321"
+45. ADD ingredient with name="salt", category="spices", unit\_price=1
+46. UPDATE ingredient SET quantity\_in\_stock=100 WHERE name="salt"
+47. DELETE ingredient WHERE name="salt"
+48. GET ingredient WHERE name="salt"
+49. ADD recipe with title="Chocolate Chip Cookies", serving\_size=24, ingredients="flour, sugar, butter, chocolate chips, salt, eggs, baking soda"
+50. UPDATE recipe SET preparation\_time="20 minutes" WHERE title="Chocolate Chip Cookies"
+51. DELETE recipe WHERE title="Chocolate Chip Cookies"
+52. GET recipe WHERE title="Chocolate Chip Cookies"
+53. ADD room with number=201, capacity=20, type="conference room", building="Annex Building"
+54. UPDATE room SET availability="booked" WHERE number=201
+55. DELETE room WHERE number=201
+56. GET room WHERE number=201
+57. ADD employee with first\_name="Jane", last\_name="Smith", department="Marketing", position="Marketing Manager"
+58. UPDATE employee SET email="[jane@example.com](mailto:jane@example.com)" WHERE first\_name="Jane" AND last\_name="Smith"
+59. DELETE employee WHERE first\_name="Jane" AND last\_name="Smith"
+60. GET employee WHERE first\_name="Jane" AND last\_name="Smith"
+61. ADD computer with name="MacBook Pro", manufacturer="Apple", price=2500, processor="M1 Pro"
+62. UPDATE computer SET color="space grey" WHERE name="MacBook Pro"
+63. DELETE computer WHERE name="MacBook Pro"
+64. GET computer WHERE name="MacBook Pro"
+65. ADD furniture with name="Executive Desk", category="office furniture", price=1000, material="wood"
+66. UPDATE furniture SET dimensions="72x36x30 inches" WHERE name="Executive Desk"
+67. DELETE furniture WHERE name="Executive Desk"
+68. GET furniture WHERE name="Executive Desk"
+69. ADD vehicle with name="Ford Mustang", type="car", model\_year=2023, color="red"
+70. UPDATE vehicle SET price=45000 WHERE name="Ford Mustang"
+71. DELETE vehicle WHERE name="Ford Mustang"
+72. GET vehicle WHERE name="Ford Mustang"
+73. ADD kitchenware with name="Cast Iron Skillet", category="cookware", price=50, material="cast iron"
+74. UPDATE kitchenware SET weight="8 lbs" WHERE name="Cast Iron Skillet"
+75. DELETE kitchenware WHERE name="Cast Iron Skillet"
+76. GET kitchenware WHERE name="Cast Iron Skillet"
+77. ADD tool with name="Power Drill", category="hardware", price=100, brand="Bosch"
+78. UPDATE tool SET power\_source="cordless" WHERE name="Power Drill"
+79. DELETE tool WHERE name="Power Drill"
+80. GET tool WHERE name="Power Drill"
+81. ADD game with name="Chess", category="board games", players=2, age\_restriction=0
+82. UPDATE game SET playing\_time="60 minutes" WHERE name="Chess"
+83. DELETE game WHERE name="Chess"
+84. GET game WHERE name="Chess"
+85. ADD meal with name="Chicken Alfredo", category="pasta", price=15, ingredients="chicken, pasta, cream, garlic, parmesan cheese"
+86. UPDATE meal SET preparation\_time="30 minutes" WHERE name="Chicken Alfredo"
+87. DELETE meal WHERE name="Chicken Alfredo"
+88. GET meal WHERE name="Chicken Alfredo"
+89. ADD device with name="iPhone 13", manufacturer="Apple", price=1000, screen\_size="6.1 inches"
+90. UPDATE device SET storage="256 GB" WHERE name="iPhone 13"
+91. DELETE device WHERE name="iPhone 13"
+92. GET device WHERE name="iPhone 13"
+93. ADD gadget with name="Smartwatch", category="wearables", price=300, brand="Samsung"
+94. UPDATE gadget SET battery\_life="72 hours" WHERE name="Smartwatch"
+95. DELETE gadget WHERE name="Smartwatch"
+96. GET gadget WHERE name="Smartwatch"
+97. ADD toy with name="Teddy Bear", category="stuffed animals", price=20, material="plush"
+98. UPDATE toy SET size="12 inches" WHERE name="Teddy Bear"
+99. DELETE toy WHERE name="Teddy Bear"
+100. GET toy WHERE name="Teddy Bear"
+101. ADD musical\_instrument with name="Piano", category="keyboard instruments", price=5000, brand="Yamaha"
+102. UPDATE musical\_instrument SET number\_of\_keys=88 WHERE name="Piano"
+103. DELETE musical\_instrument WHERE name="Piano"
+104. GET musical\_instrument WHERE name="Piano"
+105. ADD sport\_equipment with name="Basketball", category="team sports", price=20, brand="Spalding"
+106. UPDATE sport\_equipment SET diameter="9.55 inches" WHERE name="Basketball"
+107. DELETE sport\_equipment WHERE name="Basketball"
+108. GET sport\_equipment WHERE name="Basketball"
+109. ADD appliance with name="Refrigerator", category="kitchen appliances", price=2000, brand="LG"
+110. UPDATE appliance SET capacity="25 cubic feet" WHERE name="Refrigerator"
+111. DELETE appliance WHERE name="Refrigerator"
+112. GET appliance WHERE name="Refrigerator"
+113. ADD furniture with name="Sofa", category="living room furniture", price=1500, material="leather"
+114. UPDATE furniture SET dimensions="84x36x32 inches" WHERE name="Sofa"
+115. DELETE furniture WHERE name="Sofa"
+116. GET furniture WHERE name="Sofa"
+117. ADD electronics with name="Television", category="home electronics", price=1000, screen\_size="55 inches"
+118. UPDATE electronics SET resolution="4K" WHERE name="Television"
+119. DELETE electronics WHERE name="Television"
+120. GET electronics WHERE name="Television"
+121. ADD vehicle with name="Dodge Challenger", type="car", model\_year=2023, color="black"
+122. UPDATE vehicle SET price=45000 WHERE name="Dodge Challenger"
+123. DELETE vehicle WHERE name="Dodge Challenger"
+124. GET vehicle WHERE name="Dodge Challenger"
+125. ADD kitchenware with name="Frying Pan", category="cookware", price=40, material="stainless steel"
+126. UPDATE kitchenware SET diameter="10 inches" WHERE name="Frying Pan"
+127. DELETE kitchenware WHERE name="Frying Pan"
+128. GET kitchenware WHERE name="Frying Pan"
+129. ADD tool with name="Screwdriver", category="hardware", price=10, brand="Stanley"
+130. UPDATE tool SET length="6 inches" WHERE name="Screwdriver"
+131. DELETE tool WHERE name="Screwdriver"
+132. GET tool WHERE name="Screwdriver"
+133. ADD game with name="Scrabble", category="board games", players=2, age\_restriction=3
+134. UPDATE game SET playing\_time="60 minutes" WHERE name="Scrabble"
+135. DELETE game WHERE name="Scrabble"
+136. GET game WHERE name="Scrabble"
+137. ADD meal with name="Beef Stroganoff", category="beef dishes", price=20, ingredients="beef, noodles, mushrooms, sour cream, onions"
+138. UPDATE meal SET preparation\_time="45 minutes" WHERE name="Beef Stroganoff"
+139. DELETE meal WHERE name="Beef Stroganoff"
+140. GET meal WHERE name="Beef Stroganoff"
+141. ADD device with name="Samsung Galaxy S21", manufacturer="Samsung", price=800, screen\_size="6.2 inches"
+142. UPDATE device SET storage="256 GB" WHERE name="Samsung Galaxy S21"
+143. DELETE device WHERE name="Samsung Galaxy S21"
+144. GET device WHERE name="Samsung Galaxy S21"
+145. ADD gadget with name="Fitbit", category="wearables", price=200, brand="Fitbit"
+146. UPDATE gadget SET battery\_life="7 days" WHERE name="Fitbit"
+147. DELETE gadget WHERE name="Fitbit"
+148. GET gadget WHERE name="Fitbit"
+149. ADD toy with name="Remote Control Car", category="toys", price=50, brand="Hot Wheels"
+150. UPDATE toy SET size="7 inches" WHERE name="Remote Control Car"
+151. DELETE toy WHERE name="Remote Control Car"
+152. GET toy WHERE name="Remote Control Car"
+153. ADD musical\_instrument with name="Guitar", category="string instruments", price=400, brand="Fender"
+154. UPDATE musical\_instrument SET number\_of\_strings=6 WHERE name="Guitar"
+155. DELETE musical\_instrument WHERE name="Guitar"
+156. GET musical\_instrument WHERE name="Guitar"
+157. ADD sport\_equipment with name="Soccer Ball", category="team sports", price=20, brand="Adidas"
+158. UPDATE sport\_equipment SET circumference="28 inches" WHERE name="Soccer Ball"
+159. DELETE sport\_equipment WHERE name="Soccer Ball"
+160. GET sport\_equipment WHERE name="Soccer Ball"
+161. ADD appliance with name="Microwave", category="kitchen appliances", price=200, brand="Panasonic"
+162. UPDATE appliance SET capacity="1.5 cubic feet" WHERE name="Microwave"
+163. DELETE appliance WHERE name="Microwave"
+164. GET appliance WHERE name="Microwave"
+165. ADD furniture with name="Bookshelf", category="living room furniture", price=200, material="wood"
+166. UPDATE furniture SET dimensions="36x12x72 inches" WHERE name="Bookshelf"
+167. DELETE furniture WHERE name="Bookshelf"
+168. GET furniture WHERE name="Bookshelf"
+169. ADD electronics with name="Laptop", category="home electronics", price=1500, screen\_size="15.6 inches"
+170. UPDATE electronics SET RAM="16 GB" WHERE name="Laptop"
+171. DELETE electronics WHERE name="Laptop"
+172. GET electronics WHERE name="Laptop"
+173. ADD vehicle with name="Ford F-150", type="truck", model\_year=2023, color="blue"
+174. UPDATE vehicle SET price=40000 WHERE name="Ford F-150"
+175. DELETE vehicle WHERE name="Ford F-150"
+176. GET vehicle WHERE name="Ford F-150"
+177. ADD kitchenware with name="Mixing Bowl", category="cookware", price=20, material="stainless steel"
+178. UPDATE kitchenware SET diameter="10 inches" WHERE name="Mixing Bowl"
+179. DELETE kitchenware WHERE name="Mixing Bowl"
+180. GET kitchenware WHERE name="Mixing Bowl"
+181. ADD tool with name="Hammer", category="hardware", price=20, brand="Estwing"
+182. UPDATE tool SET length="16 inches" WHERE name="Hammer"
+183. DELETE tool WHERE name="Hammer"
+184. GET tool WHERE name="Hammer"
+185. ADD game with name="Monopoly", category="board games", players=2, age\_restriction=8
+186. UPDATE game SET playing\_time="120 minutes" WHERE name="Monopoly"
+187. DELETE game WHERE name="Monopoly"
+188. GET game WHERE name="Monopoly"
+189. ADD meal with name="Chicken Caesar Salad", category="salads", price=15, ingredients="chicken, romaine lettuce, croutons, parmesan cheese, caesar dressing"
+190. UPDATE meal SET preparation\_time="20 minutes" WHERE name="Chicken Caesar Salad"
+191. DELETE meal WHERE name="Chicken Caesar Salad"
+192. GET meal WHERE name="Chicken Caesar Salad"
+193. ADD device with name="Google Pixel 6", manufacturer="Google", price=600, screen\_size="6.4 inches"
+194. UPDATE device SET storage="128 GB" WHERE name="Google Pixel 6"
+195. DELETE device WHERE name="Google Pixel 6"
+196. GET device WHERE name="Google Pixel 6"
+197. ADD gadget with name="Apple Watch", category="wearables", price=400, brand="Apple"
+198. UPDATE gadget SET battery\_life="36 hours" WHERE name="Apple Watch"
+199. DELETE gadget WHERE name="Apple Watch"
+200. GET gadget WHERE name="Apple Watch"
+
+As queries foram salvas em: Results/generated_queries.csv
+
+Execução 3 de generate_queries...
+1. UPDATE user SET name = 'James Bond' WHERE id = 007;
+2. DELETE product FROM products WHERE price > 1000;
+3. INSERT INTO movies (title, director, year) VALUES ('The Godfather', 'Francis Ford Coppola', 1972);
+4. SELECT * FROM books WHERE genre = 'Science Fiction';
+5. CREATE DATABASE new\_database;
+6. ALTER TABLE users MODIFY email VARCHAR(255) NOT NULL;
+7. DROP TABLE old\_table;
+8. SELECT * FROM employees ORDER BY salary DESC LIMIT 10;
+9. INSERT INTO orders (customer\_id, product\_id, quantity) VALUES (1, 3, 50);
+10. UPDATE students SET grade = 90 WHERE last\_name = 'Smith';
+11. SELECT * FROM inventory WHERE quantity < 10;
+12. CREATE INDEX idx\_name ON users (name);
+13. DROP INDEX idx\_email ON users;
+14. TRUNCATE TABLE comments;
+15. SELECT COUNT(*) FROM articles WHERE published = true;
+16. UPDATE posts SET title = 'New Title' WHERE id = 123;
+17. DELETE FROM tags WHERE tag\_name = 'outdated';
+18. INSERT INTO authors (first\_name, last\_name) VALUES ('George', 'Orwell');
+19. SELECT AVG(rating) FROM reviews WHERE product\_id = 456;
+20. CREATE TABLE payments (id INT PRIMARY KEY AUTO\_INCREMENT, user\_id INT, amount DECIMAL(10, 2), date DATETIME);
+21. ALTER TABLE posts ADD category VARCHAR(255);
+22. DROP TABLE IF EXISTS unused\_table;
+23. SELECT * FROM transactions WHERE status = 'completed' ORDER BY created\_at DESC;
+24. INSERT INTO users (first\_name, last\_name, email) VALUES ('John', 'Doe', '[john.doe@example.com](mailto:john.doe@example.com)');
+25. UPDATE subscriptions SET expiration\_date = DATE\_ADD(NOW(), INTERVAL 1 MONTH) WHERE user\_id = 789;
+26. DELETE FROM messages WHERE created\_at < NOW() - INTERVAL 30 DAY;
+27. INSERT INTO products (name, description, price) VALUES ('iPhone 14 Pro', '512GB, Pacific Blue', 1199.99);
+28. SELECT * FROM orders WHERE order\_date BETWEEN '2022-01-01' AND '2022-12-31';
+29. CREATE TABLE sales (id INT PRIMARY KEY AUTO\_INCREMENT, product\_id INT, quantity INT, sale\_date DATETIME);
+30. ALTER TABLE users ADD phone VARCHAR(15) NOT NULL;
+31. DROP TABLE posts;
+32. SELECT * FROM clients WHERE city = 'New York' AND state = 'NY';
+33. INSERT INTO payments (user\_id, amount, payment\_date) VALUES (101, 59.99, '2023-04-15 16:23:45');
+34. UPDATE orders SET shipped = true WHERE id = 78;
+35. DELETE FROM notifications WHERE read\_at IS NOT NULL;
+36. INSERT INTO users (username, password) VALUES ('jane123', '$2y$10$QWxKkL4TtGYmMv6bOoVZHez...');
+37. SELECT * FROM products WHERE stock > 50;
+38. CREATE TABLE users\_roles (user\_id INT, role\_id INT);
+39. ALTER TABLE posts ADD author\_id INT REFERENCES authors(id);
+40. DROP TABLE IF EXISTS comments\_likes;
+41. SELECT * FROM donations WHERE amount BETWEEN 50 AND 200 ORDER BY date DESC;
+42. INSERT INTO articles (title, content, published) VALUES ('Introduction to Machine Learning', 'This article covers the basics of machine learning...', true);
+43. UPDATE books SET rating = 8 WHERE isbn = '978-1-56619-909-2';
+44. DELETE FROM files WHERE size > 10000000;
+45. INSERT INTO users (first\_name, last\_name, email, phone) VALUES ('Emma', 'Watson', '[emmawatson@email.com](mailto:emmawatson@email.com)', '+1 555-555-5555');
+46. SELECT * FROM projects WHERE status IN ('in progress', 'done');
+47. CREATE TABLE tickets (id INT PRIMARY KEY AUTO\_INCREMENT, user\_id INT, title VARCHAR(255), description TEXT);
+48. ALTER TABLE orders ADD tracking\_number CHAR(35) NOT NULL;
+49. DROP TABLE IF EXISTS invoices;
+50. SELECT * FROM payments WHERE amount > 100 AND currency = 'USD' ORDER BY date ASC;
+51. INSERT INTO users (username, email, password) VALUES ('john\_doe', '[johndoe@gmail.com](mailto:johndoe@gmail.com)', '$2a$10$9jZzLjU...');
+52. UPDATE posts SET views = views + 1 WHERE id = 432;
+53. DELETE FROM tasks WHERE due\_date < NOW() - INTERVAL 7 DAY;
+54. SELECT * FROM companies WHERE industry = 'technology';
+55. CREATE TABLE comments (id INT PRIMARY KEY AUTO\_INCREMENT, user\_id INT, post\_id INT, content TEXT);
+56. ALTER TABLE products ADD category\_id INT REFERENCES categories(id);
+57. DROP TABLE IF EXISTS users\_tokens;
+58. SELECT * FROM transactions WHERE status = 'pending' AND amount > 1000;
+59. INSERT INTO users (first\_name, last\_name, email, phone) VALUES ('Robert', 'Downey Jr.', '[robertdowneyjr@email.com](mailto:robertdowneyjr@email.com)', '+1 555-555-5556');
+60. UPDATE orders SET discount = 0.1 WHERE user\_id = 987;
+61. DELETE FROM sessions WHERE last\_activity < NOW() - INTERVAL 30 MINUTE;
+62. SELECT * FROM products WHERE name LIKE '%wireless%';
+63. CREATE TABLE categories (id INT PRIMARY KEY AUTO\_INCREMENT, name VARCHAR(255), parent\_id INT);
+64. ALTER TABLE users ADD address TEXT NOT NULL;
+65. DROP TABLE posts;
+66. SELECT * FROM clients WHERE country = 'Canada';
+67. INSERT INTO payments (user\_id, amount, payment\_date) VALUES (202, 199.99, '2023-04-16 08:35:12');
+68. UPDATE articles SET title = 'Getting Started with Artificial Intelligence' WHERE id = 27;
+69. DELETE FROM notifications WHERE created\_at < NOW() - INTERVAL 1 MONTH;
+70. SELECT * FROM products WHERE price BETWEEN 50 AND 300 ORDER BY rating DESC;
+71. CREATE TABLE users\_sessions (id INT PRIMARY KEY AUTO\_INCREMENT, user\_id INT, session\_id VARCHAR(255));
+72. ALTER TABLE orders ADD shipping\_cost DECIMAL(10, 2);
+73. DROP TABLE IF EXISTS votes;
+74. SELECT * FROM polls WHERE expiration\_date > NOW();
+75. INSERT INTO users (username, email, password) VALUES ('sarah', '[sarah@gmail.com](mailto:sarah@gmail.com)', '$2y$10$dHQ3K...');
+76. UPDATE posts SET excerpt = 'Short summary of the post...' WHERE id = 64;
+77. DELETE FROM messages WHERE recipient\_id = 567;
+78. SELECT * FROM files WHERE format IN ('jpg', 'png', 'jpeg');
+79. CREATE TABLE roles (id INT PRIMARY KEY AUTO\_INCREMENT, name VARCHAR(255), description TEXT);
+80. ALTER TABLE users ADD created\_at TIMESTAMP DEFAULT CURRENT\_TIMESTAMP;
+81. DROP TABLE IF EXISTS comments\_dislikes;
+82. SELECT * FROM donations WHERE amount > 50 AND country = 'United States';
+83. INSERT INTO users (first\_name, last\_name, email) VALUES ('Chris', 'Evans', '[chrisevans@email.com](mailto:chrisevans@email.com)');
+84. UPDATE books SET pages = 256 WHERE title = 'The Catcher in the Rye';
+85. DELETE FROM orders WHERE order\_date < DATE\_SUB(NOW(), INTERVAL 1 YEAR);
+86. SELECT * FROM companies WHERE employees > 1000;
+87. CREATE TABLE comments\_likes (id INT PRIMARY KEY AUTO\_INCREMENT, user\_id INT, comment\_id INT, like BOOLEAN);
+88. ALTER TABLE products ADD weight DECIMAL(10, 2) NOT NULL;
+89. DROP TABLE IF EXISTS sessions\_history;
+90. SELECT * FROM transactions WHERE currency = 'EUR' OR amount BETWEEN 50 AND 500;
+91. INSERT INTO users (username, email, password) VALUES ('mark', '[mark@gmail.com](mailto:mark@gmail.com)', '$2y$10$j9...');
+92. UPDATE articles SET content = CONCAT(content, 'Additional information...') WHERE id = 36;
+93. DELETE FROM notifications WHERE type = 'email';
+94. SELECT * FROM products WHERE brand LIKE 'A%';
+95. CREATE TABLE sessions\_history (id INT PRIMARY KEY AUTO\_INCREMENT, session\_id VARCHAR(255), data JSON);
+96. ALTER TABLE users ADD updated\_at TIMESTAMP DEFAULT CURRENT\_TIMESTAMP ON UPDATE CURRENT\_TIMESTAMP;
+97. DROP TABLE IF EXISTS comments\_flags;
+98. SELECT * FROM donations WHERE created\_at > NOW() - INTERVAL 30 DAY AND amount < 100;
+99. INSERT INTO users (first\_name, last\_name, email) VALUES ('Jeremy', 'Renner', '[jeremyrenner@email.com](mailto:jeremyrenner@email.com)');
+100. UPDATE books SET publication\_date = DATE('1951-07-16') WHERE isbn = '978-0-316-76948-8';

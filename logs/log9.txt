@@ -1,0 +1,201 @@
+1. add product type="electronic"
+   2. get products
+   3. show product id=1
+   4. update product id=1 setting name="iPhone 12 Pro Max"
+   5. show product where name="Galaxy S21 Ultra"
+   6. delete product name="Nokia 3310"
+   7. add author name="J.K. Rowling"
+   8. get authors
+   9. show author id=2
+  10. update author id=2 setting nationality="British"
+  11. delete author name="George Orwell"
+  12. add book title="To Kill a Mockingbird"
+  13. get books
+  14. show book id=4
+  15. update book id=4 setting publication_year=1960
+  16. delete book title="1984"
+  17. add movie title="The Godfather"
+  18. get movies
+  19. show movie id=3
+  20. update movie id=3 setting director="Francis Ford Coppola"
+  21. delete movie name="Pulp Fiction"
+  22. add teacher name="Mr. Smith"
+  23. get teachers
+  24. show teacher id=5
+  25. update teacher id=5 setting subject="Mathematics"
+  26. delete teacher name="Miss Johnson"
+  27. add student name="John Doe"
+  28. get students
+  29. show student id=6
+  30. update student id=6 setting grade="A"
+  31. delete student name="Jane Doe"
+  32. add subject name="English"
+  33. get subjects
+  34. show subject id=7
+  35. update subject id=7 setting teacher="Ms. Brown"
+  36. delete subject name="History"
+  37. add animal type="cat"
+  38. get animals
+  39. show animal id=8
+  40. update animal id=8 setting breed="Persian"
+  41. delete animal name="Dog"
+  42. add software type="antivirus"
+  43. get softwares
+  44. show software id=9
+  45. update software id=9 setting version="2021"
+  46. delete software name="Photoshop"
+  47. add game title="The Witcher 3: Wild Hunt"
+  48. get games
+  49. show game id=10
+  50. update game id=10 setting developer="CD Projekt Red"
+  51. delete game name="Minecraft"
+  52. add member name="Alice"
+  53. get members
+  54. show member id=11
+  55. update member id=11 setting role="Admin"
+  56. delete member name="Bob"
+  57. add vehicle type="car"
+  58. get vehicles
+  59. show vehicle id=12
+  60. update vehicle id=12 setting color="Red"
+  61. delete vehicle name="Motorcycle"
+  62. add event name="Concert"
+  63. get events
+  64. show event id=13
+  65. update event id=13 setting performer="Adele"
+  66. delete event name="Festival"
+  67. add recipe name="Spaghetti Bolognese"
+  68. get recipes
+  69. show recipe id=14
+  70. update recipe id=14 setting preparation_time="30 minutes"
+  71. delete recipe name="Pizza"
+  72. add song title="Bohemian Rhapsody"
+  73. get songs
+  74. show song id=15
+  75. update song id=15 setting artist="Queen"
+  76. delete song name="Despacito"
+  77. add building type="skyscraper"
+  78. get buildings
+  79. show building id=16
+  80. update building id=16 setting location="New York City"
+  81. delete building name="Eiffel Tower"
+  82. add plant type="orchid"
+  83. get plants
+  84. show plant id=17
+  85. update plant id=17 setting species="Vanda Miss Joaquim"
+  86. delete plant name="Rose"
+  87. add app type="social media"
+  88. get apps
+  89. show app id=18
+  90. update app id=18 setting version="3.5"
+  91. delete app name="Facebook"
+  92. add character name="Tony Stark"
+  93. get characters
+  94. show character id=19
+  95. update character id=19 setting actor="Robert Downey Jr."
+  96. delete character name="Luke Skywalker"
+  97. add company name="Apple Inc."
+  98. get companies
+  99. show company id=20
+ 100. update company id=20 setting CEO="Tim Cook"
+ 101. delete company name="Microsoft"
+ 102. add device type="laptop"
+ 103. get devices
+ 104. show device id=21
+ 105. update device id=21 setting brand="Dell"
+ 106. delete device name="iPhone"
+ 107. add tool type="hammer"
+ 108. get tools
+ 109. show tool id=22
+ 110. update tool id=22 setting material="Steel"
+ 111. delete tool name="Screwdriver"
+ 112. add ingredient name="Salt"
+ 113. get ingredients
+ 114. show ingredient id=23
+ 115. update ingredient id=23 setting measurement="1 tsp."
+ 116. delete ingredient name="Pepper"
+ 117. add equipment type="printer"
+ 118. get equipments
+ 119. show equipment id=24
+ 120. update equipment id=24 setting model="HP LaserJet Pro MFP M203dw"
+ 121. delete equipment name="Scanner"
+ 122. add meal type="breakfast"
+ 123. get meals
+ 124. show meal id=25
+ 125. update meal id=25 setting name="Full English Breakfast"
+ 126. delete meal name="Dinner"
+ 127. add pet type="dog"
+ 128. get pets
+ 129. show pet id=26
+ 130. update pet id=26 setting breed="Labrador Retriever"
+ 131. delete pet name="Cat"
+ 132. add course type="programming"
+ 133. get courses
+ 134. show course id=27
+ 135. update course id=27 setting instructor="John Doe"
+ 136. delete course name="Math"
+ 137. add city name="New York City"
+ 138. get cities
+ 139. show city id=28
+ 140. update city id=28 setting country="USA"
+ 141. delete city name="Paris"
+ 142. add user name="Jane Doe"
+ 143. get users
+ 144. show user id=29
+ 145. update user id=29 setting password="password123"
+ 146. delete user name="John Smith"
+ 147. add container type="box"
+ 148. get containers
+ 149. show container id=30
+ 150. update container id=30 setting size="Large"
+ 151. delete container name="Crate"
+ 152. add folder name="Documents"
+ 153. get folders
+ 154. show folder id=31
+ 155. update folder id=31 setting path="/Users/JaneDoe/"
+ 156. delete folder name="Downloads"
+ 157. add user role="Moderator"
+ 158. get roles
+ 159. show role id=32
+ 160. update role id=32 setting permission="Access Forum"
+ 161. delete role name="Admin"
+ 162. add post title="Welcome to the forum!"
+ 163. get posts
+ 164. show post id=33
+ 165. update post id=33 setting author="Jane Doe"
+ 166. delete post name="Rules"
+ 167. add comment content="Nice post!"
+ 168. get comments
+ 169. show comment id=34
+ 170. update comment id=34 setting author="John Doe"
+ 171. delete comment name="Suggestions"
+ 172. add link url="https://www.example.com"
+ 173. get links
+ 174. show link id=35
+ 175. update link id=35 setting title="Example Link"
+ 176. delete link name="Video"
+ 177. add page type="landing"
+ 178. get pages
+ 179. show page id=36
+ 180. update page id=36 setting title="Home Page"
+ 181. delete page name="Contact Us"
+ 182. add user account type="Standard"
+ 183. get accounts
+ 184. show account id=37
+ 185. update account id=37 setting email="jane_doe@example.com"
+ 186. delete account name="admin"
+ 187. add news title="Latest News"
+ 188. get news
+ 189. show news id=38
+ 190. update news id=38 setting source="CNN"
+ 191. delete news name="Sports"
+ 192. add article title="How to Write a Great Article"
+ 193. get articles
+ 194. show article id=39
+ 195. update article id=39 setting author="John Doe"
+ 196. delete article name="Tutorial"
+ 197. add survey title="Customer Satisfaction Survey"
+ 198. get surveys
+ 199. show survey id=40
+ 200. update survey id=40 setting closed_date="2022-05-31"
+ 201. delete survey name="Feedback"

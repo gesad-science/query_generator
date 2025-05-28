@@ -1,0 +1,993 @@
+9,DELETE,subject,{"name": "Data Analysis"}
+  10,ADD,subject,"{'name': 'Artificial Intelligence', 'professor': 'Pedro Silva'}"
+  11,UPDATE,subject,"{'semester': '2023.2'}",{"name": "Artificial Intelligence", "id": 4}
+  12,DELETE,subject,{"name": "Artificial Intelligence"}
+  13,ADD,subject,"{'name': 'Game Development', 'professor': 'Mariana Alves'}"
+  14,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Game Development", "id": 5}
+  15,DELETE,subject,{"name": "Game Development"}
+  16,ADD,subject,"{'name': 'Mobile Apps', 'professor': 'Luiz Oliveira'}"
+  17,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Mobile Apps", "id": 6}
+  18,DELETE,subject,{"name": "Mobile Apps"}
+  19,ADD,subject,"{'name': 'Web Development', 'professor': 'Beatriz Silva'}"
+  20,UPDATE,subject,"{'semester': '2023.2'}",{"name": "Web Development", "id": 7}
+  21,DELETE,subject,{"name": "Web Development"}
+  22,ADD,subject,"{'name': 'Robotics', 'professor': 'Carlos Santos'}"
+  23,UPDATE,subject,"{'semester': '2022.1'}",{"name": "Robotics", "id": 8}
+  24,DELETE,subject,{"name": "Robotics"}
+  25,ADD,subject,"{'name': 'Machine Learning', 'professor': 'Rafael Oliveira'}"
+  26,UPDATE,subject,"{'semester': '2023.2'}",{"name": "Machine Learning", "id": 9}
+  27,DELETE,subject,{"name": "Machine Learning"}
+  28,ADD,subject,"{'name': 'Database Systems', 'professor': 'Laura Silva'}"
+  29,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Database Systems", "id": 10}
+  30,DELETE,subject,{"name": "Database Systems"}
+  31,ADD,subject,"{'name': 'Software Engineering', 'professor': 'Paulo Alves'}"
+  32,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Software Engineering", "id": 11}
+  33,DELETE,subject,{"name": "Software Engineering"}
+  34,ADD,subject,"{'name': 'Business Intelligence', 'professor': 'Cristina Oliveira'}"
+  35,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Business Intelligence", "id": 12}
+  36,DELETE,subject,{"name": "Business Intelligence"}
+  37,ADD,subject,"{'name': 'Data Mining', 'professor': 'João Santos'}"
+  38,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Data Mining", "id": 13}
+  39,DELETE,subject,{"name": "Data Mining"}
+  40,ADD,subject,"{'name': 'Internet of Things', 'professor': 'Marcos Silva'}"
+  41,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Internet of Things", "id": 14}
+  42,DELETE,subject,{"name": "Internet of Things"}
+  43,ADD,subject,"{'name': 'Cloud Computing', 'professor': 'Maria Silva'}"
+  44,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Cloud Computing", "id": 15}
+  45,DELETE,subject,{"name": "Cloud Computing"}
+  46,ADD,subject,"{'name': 'Big Data', 'professor': 'José Santos'}"
+  47,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Big Data", "id": 16}
+  48,DELETE,subject,{"name": "Big Data"}
+  49,ADD,subject,"{'name': 'Mobile Security', 'professor': 'Luiz Oliveira'}"
+  50,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Mobile Security", "id": 17}
+  51,DELETE,subject,{"name": "Mobile Security"}
+  52,ADD,subject,"{'name': 'Systems Analysis', 'professor': 'Beatriz Silva'}"
+  53,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Systems Analysis", "id": 18}
+  54,DELETE,subject,{"name": "Systems Analysis"}
+  55,ADD,subject,"{'name': 'User Interface Design', 'professor': 'Laura Silva'}"
+  56,UPDATE,subject,"{'semester': '2022.2'}",{"name": "User Interface Design", "id": 19}
+  57,DELETE,subject,{"name": "User Interface Design"}
+  58,ADD,subject,"{'name': 'Web Security', 'professor': 'Paulo Alves'}"
+  59,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Web Security", "id": 20}
+  60,DELETE,subject,{"name": "Web Security"}
+  61,ADD,subject,"{'name': 'Cybersecurity', 'professor': 'Cristina Oliveira'}"
+  62,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Cybersecurity", "id": 21}
+  63,DELETE,subject,{"name": "Cybersecurity"}
+  64,ADD,subject,"{'name': 'Blockchain Technology', 'professor': 'João Santos'}"
+  65,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Blockchain Technology", "id": 22}
+  66,DELETE,subject,{"name": "Blockchain Technology"}
+  67,ADD,subject,"{'name': 'Quantum Computing', 'professor': 'Marcos Silva'}"
+  68,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Quantum Computing", "id": 23}
+  69,DELETE,subject,{"name": "Quantum Computing"}
+  70,ADD,subject,"{'name': 'Cognitive Systems', 'professor': 'Maria Silva'}"
+  71,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Cognitive Systems", "id": 24}
+  72,DELETE,subject,{"name": "Cognitive Systems"}
+  73,ADD,subject,"{'name': 'Speech Recognition', 'professor': 'José Santos'}"
+  74,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Speech Recognition", "id": 25}
+  75,DELETE,subject,{"name": "Speech Recognition"}
+  76,ADD,subject,"{'name': 'Virtual Reality', 'professor': 'Luiz Oliveira'}"
+  77,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Virtual Reality", "id": 26}
+  78,DELETE,subject,{"name": "Virtual Reality"}
+  79,ADD,subject,"{'name': 'Natural Language Processing', 'professor': 'Beatriz Silva'}"
+  80,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Natural Language Processing", "id": 27}
+  81,DELETE,subject,{"name": "Natural Language Processing"}
+  82,ADD,subject,"{'name': 'Augmented Reality', 'professor': 'Laura Silva'}"
+  83,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Augmented Reality", "id": 28}
+  84,DELETE,subject,{"name": "Augmented Reality"}
+  85,ADD,subject,"{'name': 'Artificial Neural Networks', 'professor': 'Paulo Alves'}"
+  86,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Artificial Neural Networks", "id": 29}
+  87,DELETE,subject,{"name": "Artificial Neural Networks"}
+  88,ADD,subject,"{'name': 'Deep Learning', 'professor': 'Cristina Oliveira'}"
+  89,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Deep Learning", "id": 30}
+  90,DELETE,subject,{"name": "Deep Learning"}
+  91,ADD,subject,"{'name': 'Genetic Algorithms', 'professor': 'João Santos'}"
+  92,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Genetic Algorithms", "id": 31}
+  93,DELETE,subject,{"name": "Genetic Algorithms"}
+  94,ADD,subject,"{'name': 'Reinforcement Learning', 'professor': 'Marcos Silva'}"
+  95,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Reinforcement Learning", "id": 32}
+  96,DELETE,subject,{"name": "Reinforcement Learning"}
+  97,ADD,subject,"{'name': 'Fuzzy Logic', 'professor': 'Maria Silva'}"
+  98,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Fuzzy Logic", "id": 33}
+  99,DELETE,subject,{"name": "Fuzzy Logic"}
+  100,ADD,subject,"{'name': 'Genetic Programming', 'professor': 'José Santos'}"
+  101,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Genetic Programming", "id": 34}
+  102,DELETE,subject,{"name": "Genetic Programming"}
+  103,ADD,subject,"{'name': 'Swarm Intelligence', 'professor': 'Luiz Oliveira'}"
+  104,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Swarm Intelligence", "id": 35}
+  105,DELETE,subject,{"name": "Swarm Intelligence"}
+  106,ADD,subject,"{'name': 'Particle Swarm Optimization', 'professor': 'Beatriz Silva'}"
+  107,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Particle Swarm Optimization", "id": 36}
+  108,DELETE,subject,{"name": "Particle Swarm Optimization"}
+  109,ADD,subject,"{'name': 'Ant Colony Optimization', 'professor': 'Laura Silva'}"
+  110,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Ant Colony Optimization", "id": 37}
+  111,DELETE,subject,{"name": "Ant Colony Optimization"}
+  112,ADD,subject,"{'name': 'Simulated Annealing', 'professor': 'Paulo Alves'}"
+  113,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Simulated Annealing", "id": 38}
+  114,DELETE,subject,{"name": "Simulated Annealing"}
+  115,ADD,subject,"{'name': 'Tabu Search', 'professor': 'Cristina Oliveira'}"
+  116,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Tabu Search", "id": 39}
+  117,DELETE,subject,{"name": "Tabu Search"}
+  118,ADD,subject,"{'name': 'Iterated Local Search', 'professor': 'João Santos'}"
+  119,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Iterated Local Search", "id": 40}
+  120,DELETE,subject,{"name": "Iterated Local Search"}
+  121,ADD,subject,"{'name': 'Graph Theory', 'professor': 'Marcos Silva'}"
+  122,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Graph Theory", "id": 41}
+  123,DELETE,subject,{"name": "Graph Theory"}
+  124,ADD,subject,"{'name': 'Combinatorics', 'professor': 'Maria Silva'}"
+  125,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Combinatorics", "id": 42}
+  126,DELETE,subject,{"name": "Combinatorics"}
+  127,ADD,subject,"{'name': 'Probability Theory', 'professor': 'José Santos'}"
+  128,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Probability Theory", "id": 43}
+  129,DELETE,subject,{"name": "Probability Theory"}
+  130,ADD,subject,"{'name': 'Stochastic Processes', 'professor': 'Luiz Oliveira'}"
+  131,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Stochastic Processes", "id": 44}
+  132,DELETE,subject,{"name": "Stochastic Processes"}
+  133,ADD,subject,"{'name': 'Statistical Learning', 'professor': 'Beatriz Silva'}"
+  134,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Statistical Learning", "id": 45}
+  135,DELETE,subject,{"name": "Statistical Learning"}
+  136,ADD,subject,"{'name': 'Machine Learning Algorithms', 'professor': 'Laura Silva'}"
+  137,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Machine Learning Algorithms", "id": 46}
+  138,DELETE,subject,{"name": "Machine Learning Algorithms"}
+  139,ADD,subject,"{'name': 'Decision Trees', 'professor': 'Paulo Alves'}"
+  140,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Decision Trees", "id": 47}
+  141,DELETE,subject,{"name": "Decision Trees"}
+  142,ADD,subject,"{'name': 'Naive Bayes', 'professor': 'Cristina Oliveira'}"
+  143,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Naive Bayes", "id": 48}
+  144,DELETE,subject,{"name": "Naive Bayes"}
+  145,ADD,subject,"{'name': 'Neural Networks', 'professor': 'João Santos'}"
+  146,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Neural Networks", "id": 49}
+  147,DELETE,subject,{"name": "Neural Networks"}
+  148,ADD,subject,"{'name': 'Support Vector Machines', 'professor': 'Marcos Silva'}"
+  149,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Support Vector Machines", "id": 50}
+  150,DELETE,subject,{"name": "Support Vector Machines"}
+  151,ADD,subject,"{'name': 'Random Forests', 'professor': 'Maria Silva'}"
+  152,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Random Forests", "id": 51}
+  153,DELETE,subject,{"name": "Random Forests"}
+  154,ADD,subject,"{'name': 'Gradient Boosting', 'professor': 'José Santos'}"
+  155,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Gradient Boosting", "id": 52}
+  156,DELETE,subject,{"name": "Gradient Boosting"}
+  157,ADD,subject,"{'name': 'K-Nearest Neighbors', 'professor': 'Luiz Oliveira'}"
+  158,UPDATE,subject,"{'semester': '2022.2'}",{"name": "K-Nearest Neighbors", "id": 53}
+  159,DELETE,subject,{"name": "K-Nearest Neighbors"}
+  160,ADD,subject,"{'name': 'Principal Component Analysis', 'professor': 'Beatriz Silva'}"
+  161,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Principal Component Analysis", "id": 54}
+  162,DELETE,subject,{"name": "Principal Component Analysis"}
+  163,ADD,subject,"{'name': 'Clustering', 'professor': 'Laura Silva'}"
+  164,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Clustering", "id": 55}
+  165,DELETE,subject,{"name": "Clustering"}
+  166,ADD,subject,"{'name': 'Data Mining', 'professor': 'Paulo Alves'}"
+  167,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Mining", "id": 56}
+  168,DELETE,subject,{"name": "Data Mining"}
+  169,ADD,subject,"{'name': 'Text Mining', 'professor': 'Cristina Oliveira'}"
+  170,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Text Mining", "id": 57}
+  171,DELETE,subject,{"name": "Text Mining"}
+  172,ADD,subject,"{'name': 'Data Visualization', 'professor': 'João Santos'}"
+  173,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Visualization", "id": 58}
+  174,DELETE,subject,{"name": "Data Visualization"}
+  175,ADD,subject,"{'name': 'Big Data', 'professor': 'Marcos Silva'}"
+  176,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Big Data", "id": 59}
+  177,DELETE,subject,{"name": "Big Data"}
+  178,ADD,subject,"{'name': 'Data Privacy', 'professor': 'Maria Silva'}"
+  179,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Privacy", "id": 60}
+  180,DELETE,subject,{"name": "Data Privacy"}
+  181,ADD,subject,"{'name': 'Cloud Computing', 'professor': 'José Santos'}"
+  182,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Cloud Computing", "id": 61}
+  183,DELETE,subject,{"name": "Cloud Computing"}
+  184,ADD,subject,"{'name': 'Data Security', 'professor': 'Luiz Oliveira'}"
+  185,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Security", "id": 62}
+  186,DELETE,subject,{"name": "Data Security"}
+  187,ADD,subject,"{'name': 'Data Analysis', 'professor': 'Beatriz Silva'}"
+  188,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Data Analysis", "id": 63}
+  189,DELETE,subject,{"name": "Data Analysis"}
+  190,ADD,subject,"{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  191,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Modeling", "id": 64}
+  192,DELETE,subject,{"name": "Data Modeling"}
+  193,ADD,subject,"{'name': 'Database Design', 'professor': 'Paulo Alves'}"
+  194,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Database Design", "id": 65}
+  195,DELETE,subject,{"name": "Database Design"}
+  196,ADD,subject,"{'name': 'SQL', 'professor': 'Cristina Oliveira'}"
+  197,UPDATE,subject,"{'semester': '2023.1'}",{"name": "SQL", "id": 66}
+  198,DELETE,subject,{"name": "SQL"}
+  199,ADD,subject,"{'name': 'NoSQL', 'professor': 'João Santos'}"
+  200,UPDATE,subject,"{'semester': '2022.2'}",{"name": "NoSQL", "id": 67}
+  201,DELETE,subject,{"name": "NoSQL"}
+  202,ADD,subject,"{'name': 'Java for Data Science', 'professor': 'Marcos Silva'}"
+  203,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Java for Data Science", "id": 68}
+  204,DELETE,subject,{"name": "Java for Data Science"}
+  205,ADD,subject,"{'name': 'Python for Data Science', 'professor': 'Maria Silva'}"
+  206,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Python for Data Science", "id": 69}
+  207,DELETE,subject,{"name": "Python for Data Science"}
+  208,ADD,subject,"{'name': 'R for Data Science', 'professor': 'José Santos'}"
+  209,UPDATE,subject,"{'semester': '2023.1'}",{"name": "R for Data Science", "id": 70}
+  210,DELETE,subject,{"name": "R for Data Science"}
+  211,ADD,subject,"{'name': 'MATLAB for Data Science', 'professor': 'Luiz Oliveira'}"
+  212,UPDATE,subject,"{'semester': '2022.2'}",{"name": "MATLAB for Data Science", "id": 71}
+  213,DELETE,subject,{"name": "MATLAB for Data Science"}
+  214,ADD,subject,"{'name': 'Tableau', 'professor': 'Beatriz Silva'}"
+  215,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Tableau", "id": 72}
+  216,DELETE,subject,{"name": "Tableau"}
+  217,ADD,subject,"{'name': 'Excel for Data Analysis', 'professor': 'Laura Silva'}"
+  218,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Excel for Data Analysis", "id": 73}
+  219,DELETE,subject,{"name": "Excel for Data Analysis"}
+  220,ADD,subject,"{'name': 'Power BI', 'professor': 'Paulo Alves'}"
+  221,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Power BI", "id": 74}
+  222,DELETE,subject,{"name": "Power BI"}
+  223,ADD,subject,"{'name': 'Data Warehousing', 'professor': 'Cristina Oliveira'}"
+  224,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Data Warehousing", "id": 75}
+  225,DELETE,subject,{"name": "Data Warehousing"}
+  226,ADD,subject,"{'name': 'Data Integration', 'professor': 'João Santos'}"
+  227,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Integration", "id": 76}
+  228,DELETE,subject,{"name": "Data Integration"}
+  229,ADD,subject,"{'name': 'ETL Processing', 'professor': 'Marcos Silva'}"
+  230,UPDATE,subject,"{'semester': '2022.2'}",{"name": "ETL Processing", "id": 77}
+  231,DELETE,subject,{"name": "ETL Processing"}
+  232,ADD,subject,"{'name': 'Data Migration', 'professor': 'Maria Silva'}"
+  233,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Migration", "id": 78}
+  234,DELETE,subject,{"name": "Data Migration"}
+  235,ADD,subject,"{'name': 'Data Governance', 'professor': 'José Santos'}"
+  236,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Data Governance", "id": 79}
+  237,DELETE,subject,{"name": "Data Governance"}
+  238,ADD,subject,"{'name': 'Data Quality', 'professor': 'Luiz Oliveira'}"
+  239,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Quality", "id": 80}
+  240,DELETE,subject,{"name": "Data Quality"}
+  241,ADD,subject,"{'name': 'Metadata Management', 'professor': 'Beatriz Silva'}"
+  242,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Metadata Management", "id": 81}
+  243,DELETE,subject,{"name": "Metadata Management"}
+  244,ADD,subject,"{'name': 'Data Lifecycle', 'professor': 'Laura Silva'}"
+  245,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Lifecycle", "id": 82}
+  246,DELETE,subject,{"name": "Data Lifecycle"}
+  247,ADD,subject,"{'name': 'Data Lineage', 'professor': 'Paulo Alves'}"
+  248,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Data Lineage", "id": 83}
+  249,DELETE,subject,{"name": "Data Lineage"}
+  250,ADD,subject,"{'name': 'Big Data Tools', 'professor': 'Cristina Oliveira'}"
+  251,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Big Data Tools", "id": 84}
+  252,DELETE,subject,{"name": "Big Data Tools"}
+  253,ADD,subject,"{'name': 'Hadoop', 'professor': 'João Santos'}"
+  254,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Hadoop", "id": 85}
+  255,DELETE,subject,{"name": "Hadoop"}
+  256,ADD,subject,"{'name': 'Spark', 'professor': 'Marcos Silva'}"
+  257,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Spark", "id": 86}
+  258,DELETE,subject,{"name": "Spark"}
+  259,ADD,subject,"{'name': 'Kafka', 'professor': 'Maria Silva'}"
+  260,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Kafka", "id": 87}
+  261,DELETE,subject,{"name": "Kafka"}
+  262,ADD,subject,"{'name': 'Storm', 'professor': 'José Santos'}"
+  263,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Storm", "id": 88}
+  264,DELETE,subject,{"name": "Storm"}
+  265,ADD,subject,"{'name': 'Flink', 'professor': 'Luiz Oliveira'}"
+  266,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Flink", "id": 89}
+  267,DELETE,subject,{"name": "Flink"}
+  268,ADD,subject,"{'name': 'Data Streaming', 'professor': 'Beatriz Silva'}"
+  269,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Streaming", "id": 90}
+  270,DELETE,subject,{"name": "Data Streaming"}
+  271,ADD,subject,"{'name': 'Real-Time Data Processing', 'professor': 'Laura Silva'}"
+  272,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Real-Time Data Processing", "id": 91}
+  273,DELETE,subject,{"name": "Real-Time Data Processing"}
+  274,ADD,subject,"{'name': 'Data Stream Management Systems', 'professor': 'Paulo Alves'}"
+  275,UPDATE,subject,"{'semester': '2023.1'}",{"name": "Data Stream Management Systems", "id": 92}
+  276,DELETE,subject,{"name": "Data Stream Management Systems"}
+  277,ADD,subject,"{'name': 'Time-series Data Analysis', 'professor': 'Cristina Oliveira'}"
+  278,UPDATE,subject,"{'semester': '2022.2'}",{"name": "Time-series Data Analysis", "id": 93}
+  279,DELETE,subject,{"name": "Time-series Data Analysis"}
+  280,ADD,subject,"{'name': 'IoT Analytics', 'professor': 'João Santos'}"
+  281,UPDATE,subject,"{'semester': '2023.1'}",{"name": "IoT Analytics", "id": 94}
+  282,DELETE,subject,{"name": "IoT Analytics"}
+  283,ADD,subject="{'name': 'Data Mining', 'professor': 'Marcos Silva'}"
+  284,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Mining", "id": 95}
+  285,DELETE,subject,{"name": "Data Mining"}
+  286,ADD,subject="{'name': 'Machine Learning', 'professor': 'Maria Silva'}"
+  287,UPDATE,subject="{'semester': '2023.1'}",{"name": "Machine Learning", "id": 96}
+  288,DELETE,subject,{"name": "Machine Learning"}
+  289,ADD,subject="{'name': 'Data Science', 'professor': 'José Santos'}"
+  290,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Science", "id": 97}
+  291,DELETE,subject,{"name": "Data Science"}
+  292,ADD,subject="{'name': 'Predictive Analytics', 'professor': 'Luiz Oliveira'}"
+  293,UPDATE,subject="{'semester': '2023.1'}",{"name": "Predictive Analytics", "id": 98}
+  294,DELETE,subject,{"name": "Predictive Analytics"}
+  295,ADD,subject="{'name': 'Data Visualization', 'professor': 'Beatriz Silva'}"
+  296,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Visualization", "id": 99}
+  297,DELETE,subject,{"name": "Data Visualization"}
+  298,ADD,subject="{'name': 'Data Storytelling', 'professor': 'Laura Silva'}"
+  299,UPDATE,subject="{'semester': '2023.1'}",{"name": "Data Storytelling", "id": 100}
+  300,DELETE,subject,{"name": "Data Storytelling"}
+  301,ADD,subject="{'name': 'Data Journalism', 'professor': 'Paulo Alves'}"
+  302,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Journalism", "id": 101}
+  303,DELETE,subject,{"name": "Data Journalism"}
+  304,ADD,subject="{'name': 'Data Security', 'professor': 'Cristina Oliveira'}"
+  305,UPDATE,subject="{'semester': '2023.1'}",{"name": "Data Security", "id": 102}
+  306,DELETE,subject,{"name": "Data Security"}
+  307,ADD,subject="{'name': 'Data Privacy', 'professor': 'João Santos'}"
+  308,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Privacy", "id": 103}
+  309,DELETE,subject,{"name": "Data Privacy"}
+  310,ADD,subject="{'name': 'Data Ethics', 'professor': 'Marcos Silva'}"
+  311,UPDATE,subject="{'semester': '2023.1'}",{"name": "Data Ethics", "id": 104}
+  312,DELETE,subject,{"name": "Data Ethics"}
+  313,ADD,subject="{'name': 'Big Data Ethics', 'professor': 'Maria Silva'}"
+  314,UPDATE,subject="{'semester': '2022.2'}",{"name": "Big Data Ethics", "id": 105}
+  315,DELETE,subject,{"name": "Big Data Ethics"}
+  316,ADD,subject="{'name': 'Data Regulation', 'professor': 'José Santos'}"
+  317,UPDATE,subject="{'semester': '2023.1'}",{"name": "Data Regulation", "id": 106}
+  318,DELETE,subject,{"name": "Data Regulation"}
+  319,ADD,subject="{'name': 'Data Law', 'professor': 'Luiz Oliveira'}"
+  320,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Law", "id": 107}
+  321,DELETE,subject,{"name": "Data Law"}
+  322,ADD,subject="{'name': 'Data Policy', 'professor': 'Beatriz Silva'}"
+  323,UPDATE,subject="{'semester': '2023.1'}",{"name": "Data Policy", "id": 108}
+  324,DELETE,subject,{"name": "Data Policy"}
+  325,ADD,subject="{'name': 'Data Strategy', 'professor': 'Laura Silva'}"
+  326,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Strategy", "id": 109}
+  327,DELETE,subject,{"name": "Data Strategy"}
+  328,ADD,subject="{'name': 'Big Data Strategy', 'professor': 'Paulo Alves'}"
+  329,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Strategy", "id": 110}
+  330,DELETE,subject,{"name": "Big Data Strategy"}
+  331,ADD,subject="{'name': 'Data Innovation', 'professor': 'Cristina Oliveira'}"
+  332,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Innovation", "id": 111}
+  333,DELETE,subject,{"name": "Data Innovation"}
+  334,ADD,subject="{'name': 'Innovation Strategy', 'professor': 'João Santos'}"
+  335,UPDATE,subject="{'semester': '2023.1'}",{"name": "Innovation Strategy", "id": 112}
+  336,DELETE,subject,{"name": "Innovation Strategy"}
+  337,ADD,subject="{'name': 'Big Data Innovation', 'professor': 'Marcos Silva'}"
+  338,UPDATE,subject="{'semester': '2022.2'}",{"name": "Big Data Innovation", "id": 113}
+  339,DELETE,subject,{"name": "Big Data Innovation"}
+  340,ADD,subject="{'name': 'Data Ecosystem', 'professor': 'Maria Silva'}"
+  341,UPDATE,subject="{'semester': '2023.1'}",{"name": "Data Ecosystem", "id": 114}
+  342,DELETE,subject,{"name": "Data Ecosystem"}
+  343,ADD,subject="{'name': 'Data Partnerships', 'professor': 'José Santos'}"
+  344,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Partnerships", "id": 115}
+  345,DELETE,subject,{"name": "Data Partnerships"}
+  346,ADD,subject="{'name': 'Big Data Partnerships', 'professor': 'Luiz Oliveira'}"
+  347,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Partnerships", "id": 116}
+  348,DELETE,subject,{"name": "Big Data Partnerships"}
+  349,ADD,subject="{'name': 'Data Monetization', 'professor': 'Beatriz Silva'}"
+  350,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Monetization", "id": 117}
+  351,DELETE,subject,{"name": "Data Monetization"}
+  352,ADD,subject="{'name': 'Data Economics', 'professor': 'Laura Silva'}"
+  353,UPDATE,subject="{'semester': '2023.1'}",{"name": "Data Economics", "id": 118}
+  354,DELETE,subject,{"name": "Data Economics"}
+  355,ADD,subject="{'name': 'Big Data Economics', 'professor': 'Paulo Alves'}"
+  356,UPDATE,subject="{'semester': '2022.2'}",{"name": "Big Data Economics", "id": 119}
+  357,DELETE,subject,{"name": "Big Data Economics"}
+  358,ADD,subject="{'name': 'Data Markets', 'professor': 'Cristina Oliveira'}"
+  359,UPDATE,subject="{'semester': '2023.1'}",{"name": "Data Markets", "id": 120}
+  360,DELETE,subject,{"name": "Data Markets"}
+  361,ADD,subject="{'name': 'Big Data Markets', 'professor': 'João Santos'}"
+  362,UPDATE,subject="{'semester': '2022.2'}",{"name": "Big Data Markets", "id": 121}
+  363,DELETE,subject,{"name": "Big Data Markets"}
+  364,ADD,subject="{'name': 'Data Trading', 'professor': 'Marcos Silva'}"
+  365,UPDATE,subject="{'semester': '2023.1'}",{"name": "Data Trading", "id": 122}
+  366,DELETE,subject,{"name": "Data Trading"}
+  367,ADD,subject="{'name': 'Data Governance', 'professor': 'Maria Silva'}"
+  368,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Governance", "id": 123}
+  369,DELETE,subject,{"name": "Data Governance"}
+  370,ADD,subject="{'name': 'Big Data Governance', 'professor': 'José Santos'}"
+  371,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Governance", "id": 124}
+  372,DELETE,subject,{"name": "Big Data Governance"}
+  373,ADD,subject="{'name': 'Data Stewardship', 'professor': 'Luiz Oliveira'}"
+  374,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Stewardship", "id": 125}
+  375,DELETE,subject,{"name": "Data Stewardship"}
+  376,ADD,subject="{'name': 'Big Data Stewardship', 'professor': 'Beatriz Silva'}"
+  377,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Stewardship", "id": 126}
+  378,DELETE,subject,{"name": "Big Data Stewardship"}
+  379,ADD,subject="{'name': 'Data Quality', 'professor': 'Laura Silva'}"
+  380,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Quality", "id": 127}
+  381,DELETE,subject,{"name": "Data Quality"}
+  382,ADD,subject="{'name': 'Big Data Quality', 'professor': 'Paulo Alves'}"
+  383,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Quality", "id": 128}
+  384,DELETE,subject,{"name": "Big Data Quality"}
+  385,ADD,subject="{'name': 'Data Warehousing', 'professor': 'Cristina Oliveira'}"
+  386,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Warehousing", "id": 129}
+  387,DELETE,subject,{"name": "Data Warehousing"}
+  388,ADD,subject="{'name': 'Big Data Warehousing', 'professor': 'João Santos'}"
+  389,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Warehousing", "id": 130}
+  390,DELETE,subject,{"name": "Big Data Warehousing"}
+  391,ADD,subject="{'name': 'Data Architecture', 'professor': 'Marcos Silva'}"
+  392,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 131}
+  393,DELETE,subject,{"name": "Data Architecture"}
+  394,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'Maria Silva'}"
+  395,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 132}
+  396,DELETE,subject,{"name": "Big Data Architecture"}
+  397,ADD,subject="{'name': 'Data Integration', 'professor': 'José Santos'}"
+  398,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 133}
+  399,DELETE,subject,{"name": "Data Integration"}
+  400,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Luiz Oliveira'}"
+  401,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 134}
+  402,DELETE,subject,{"name": "Big Data Integration"}
+  403,ADD,subject="{'name': 'Data Modeling', 'professor': 'Beatriz Silva'}"
+  404,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 135}
+  405,DELETE,subject,{"name": "Data Modeling"}
+  406,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Laura Silva'}"
+  407,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 136}
+  408,DELETE,subject,{"name": "Big Data Modeling"}
+  409,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Paulo Alves'}"
+  410,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 137}
+  411,DELETE,subject,{"name": "Data Pipelines"}
+  412,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  413,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 138}
+  414,DELETE,subject,{"name": "Big Data Pipelines"}
+  415,ADD,subject="{'name': 'Data Engineering', 'professor': 'João Santos'}"
+  416,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 139}
+  417,DELETE,subject,{"name": "Data Engineering"}
+  418,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Marcos Silva'}"
+  419,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 140}
+  420,DELETE,subject,{"name": "Big Data Engineering"}
+  421,ADD,subject="{'name': 'Data Streaming', 'professor': 'Maria Silva'}"
+  422,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Streaming", "id": 141}
+  423,DELETE,subject,{"name": "Data Streaming"}
+  424,ADD,subject="{'name': 'Big Data Streaming', 'professor': 'José Santos'}"
+  425,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Streaming", "id": 142}
+  426,DELETE,subject,{"name": "Big Data Streaming"}
+  427,ADD,subject="{'name': 'Data Processing', 'professor': 'Luiz Oliveira'}"
+  428,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Processing", "id": 143}
+  429,DELETE,subject,{"name": "Data Processing"}
+  430,ADD,subject="{'name': 'Big Data Processing', 'professor': 'Beatriz Silva'}"
+  431,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Processing", "id": 144}
+  432,DELETE,subject,{"name": "Big Data Processing"}
+  433,ADD,subject="{'name': 'Data Analytics', 'professor': 'Laura Silva'}"
+  434,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Analytics", "id": 145}
+  435,DELETE,subject,{"name": "Data Analytics"}
+  436,ADD,subject="{'name': 'Big Data Analytics', 'professor': 'Paulo Alves'}"
+  437,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Analytics", "id": 146}
+  438,DELETE,subject,{"name": "Big Data Analytics"}
+  439,ADD,subject="{'name': 'Data Visualization', 'professor': 'Cristina Oliveira'}"
+  440,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Visualization", "id": 147}
+  441,DELETE,subject,{"name": "Data Visualization"}
+  442,ADD,subject="{'name': 'Big Data Visualization', 'professor': 'João Santos'}"
+  443,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Visualization", "id": 148}
+  444,DELETE,subject,{"name": "Big Data Visualization"}
+  445,ADD,subject="{'name': 'Data Science', 'professor': 'Marcos Silva'}"
+  446,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Science", "id": 149}
+  447,DELETE,subject,{"name": "Data Science"}
+  448,ADD,subject="{'name': 'Big Data Science', 'professor': 'Maria Silva'}"
+  449,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Science", "id": 150}
+  450,DELETE,subject,{"name": "Big Data Science"}
+  451,ADD,subject="{'name': 'Data Machine Learning', 'professor': 'José Santos'}"
+  452,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Machine Learning", "id": 151}
+  453,DELETE,subject,{"name": "Data Machine Learning"}
+  454,ADD,subject="{'name': 'Big Data Machine Learning', 'professor': 'Luiz Oliveira'}"
+  455,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Machine Learning", "id": 152}
+  456,DELETE,subject,{"name": "Big Data Machine Learning"}
+  457,ADD,subject="{'name': 'Data Engineering', 'professor': 'Beatriz Silva'}"
+  458,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 153}
+  459,DELETE,subject,{"name": "Data Engineering"}
+  460,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Laura Silva'}"
+  461,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 154}
+  462,DELETE,subject,{"name": "Big Data Engineering"}
+  463,ADD,subject="{'name': 'Data Architecture', 'professor': 'Paulo Alves'}"
+  464,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 155}
+  465,DELETE,subject,{"name": "Data Architecture"}
+  466,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'Cristina Oliveira'}"
+  467,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 156}
+  468,DELETE,subject,{"name": "Big Data Architecture"}
+  469,ADD,subject="{'name': 'Data Integration', 'professor': 'João Santos'}"
+  470,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 157}
+  471,DELETE,subject,{"name": "Data Integration"}
+  472,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Marcos Silva'}"
+  473,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 158}
+  474,DELETE,subject,{"name": "Big Data Integration"}
+  475,ADD,subject="{'name': 'Data Modeling', 'professor': 'Maria Silva'}"
+  476,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 159}
+  477,DELETE,subject,{"name": "Data Modeling"}
+  478,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'José Santos'}"
+  479,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 160}
+  480,DELETE,subject,{"name": "Big Data Modeling"}
+  481,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Luiz Oliveira'}"
+  482,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 161}
+  483,DELETE,subject,{"name": "Data Pipelines"}
+  484,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'Beatriz Silva'}"
+  485,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 162}
+  486,DELETE,subject,{"name": "Big Data Pipelines"}
+  487,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  488,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 163}
+  489,DELETE,subject,{"name": "Data Engineering"}
+  490,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  491,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 164}
+  492,DELETE,subject,{"name": "Big Data Engineering"}
+  493,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  494,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 165}
+  495,DELETE,subject,{"name": "Data Architecture"}
+  496,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  497,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 166}
+  498,DELETE,subject,{"name": "Big Data Architecture"}
+  499,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  500,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 167}
+  501,DELETE,subject,{"name": "Data Integration"}
+  502,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  503,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 168}
+  504,DELETE,subject,{"name": "Big Data Integration"}
+  505,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  506,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 169}
+  507,DELETE,subject,{"name": "Data Modeling"}
+  508,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  509,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 170}
+  510,DELETE,subject,{"name": "Big Data Modeling"}
+  511,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  512,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 171}
+  513,DELETE,subject,{"name": "Data Pipelines"}
+  514,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  515,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 172}
+  516,DELETE,subject,{"name": "Big Data Pipelines"}
+  517,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  518,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 173}
+  519,DELETE,subject,{"name": "Data Engineering"}
+  520,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  521,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 174}
+  522,DELETE,subject,{"name": "Big Data Engineering"}
+  523,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  524,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 175}
+  525,DELETE,subject,{"name": "Data Architecture"}
+  526,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  527,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 176}
+  528,DELETE,subject,{"name": "Big Data Architecture"}
+  529,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  530,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 177}
+  531,DELETE,subject,{"name": "Data Integration"}
+  532,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  533,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 178}
+  534,DELETE,subject,{"name": "Big Data Integration"}
+  535,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  536,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 179}
+  537,DELETE,subject,{"name": "Data Modeling"}
+  538,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  539,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 180}
+  540,DELETE,subject,{"name": "Big Data Modeling"}
+  541,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  542,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 181}
+  543,DELETE,subject,{"name": "Data Pipelines"}
+  544,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  545,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 182}
+  546,DELETE,subject,{"name": "Big Data Pipelines"}
+  547,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  548,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 183}
+  549,DELETE,subject,{"name": "Data Engineering"}
+  550,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  551,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 184}
+  552,DELETE,subject,{"name": "Big Data Engineering"}
+  553,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  554,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 185}
+  555,DELETE,subject,{"name": "Data Architecture"}
+  556,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  557,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 186}
+  558,DELETE,subject,{"name": "Big Data Architecture"}
+  559,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  560,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 187}
+  561,DELETE,subject,{"name": "Data Integration"}
+  562,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  563,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 188}
+  564,DELETE,subject,{"name": "Big Data Integration"}
+  565,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  566,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 189}
+  567,DELETE,subject,{"name": "Data Modeling"}
+  568,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  569,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 190}
+  570,DELETE,subject,{"name": "Big Data Modeling"}
+  571,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  572,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 191}
+  573,DELETE,subject,{"name": "Data Pipelines"}
+  574,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  575,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 192}
+  576,DELETE,subject,{"name": "Big Data Pipelines"}
+  577,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  578,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 193}
+  579,DELETE,subject,{"name": "Data Engineering"}
+  580,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  581,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 194}
+  582,DELETE,subject,{"name": "Big Data Engineering"}
+  583,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  584,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 195}
+  585,DELETE,subject,{"name": "Data Architecture"}
+  586,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  587,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 196}
+  588,DELETE,subject,{"name": "Big Data Architecture"}
+  589,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  590,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 197}
+  591,DELETE,subject,{"name": "Data Integration"}
+  592,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  593,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 198}
+  594,DELETE,subject,{"name": "Big Data Integration"}
+  595,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  596,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 199}
+  597,DELETE,subject,{"name": "Data Modeling"}
+  598,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  599,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 200}
+  600,DELETE,subject,{"name": "Big Data Modeling"}
+  601,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  602,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 201}
+  603,DELETE,subject,{"name": "Data Pipelines"}
+  604,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  605,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 202}
+  606,DELETE,subject,{"name": "Big Data Pipelines"}
+  607,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  608,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 203}
+  609,DELETE,subject,{"name": "Data Engineering"}
+  610,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  611,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 204}
+  612,DELETE,subject,{"name": "Big Data Engineering"}
+  613,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  614,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 205}
+  615,DELETE,subject,{"name": "Data Architecture"}
+  616,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  617,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 206}
+  618,DELETE,subject,{"name": "Big Data Architecture"}
+  619,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  620,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 207}
+  621,DELETE,subject,{"name": "Data Integration"}
+  622,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  623,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 208}
+  624,DELETE,subject,{"name": "Big Data Integration"}
+  625,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  626,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 209}
+  627,DELETE,subject,{"name": "Data Modeling"}
+  628,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  629,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 210}
+  630,DELETE,subject,{"name": "Big Data Modeling"}
+  631,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  632,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 211}
+  633,DELETE,subject,{"name": "Data Pipelines"}
+  634,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  635,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 212}
+  636,DELETE,subject,{"name": "Big Data Pipelines"}
+  637,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  638,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 213}
+  639,DELETE,subject,{"name": "Data Engineering"}
+  640,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  641,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 214}
+  642,DELETE,subject,{"name": "Big Data Engineering"}
+  643,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  644,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 215}
+  645,DELETE,subject,{"name": "Data Architecture"}
+  646,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  647,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 216}
+  648,DELETE,subject,{"name": "Big Data Architecture"}
+  649,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  650,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 217}
+  651,DELETE,subject,{"name": "Data Integration"}
+  652,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  653,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 218}
+  654,DELETE,subject,{"name": "Big Data Integration"}
+  655,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  656,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 219}
+  657,DELETE,subject,{"name": "Data Modeling"}
+  658,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  659,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 220}
+  660,DELETE,subject,{"name": "Big Data Modeling"}
+  661,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  662,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 221}
+  663,DELETE,subject,{"name": "Data Pipelines"}
+  664,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  665,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 222}
+  666,DELETE,subject,{"name": "Big Data Pipelines"}
+  667,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  668,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 223}
+  669,DELETE,subject,{"name": "Data Engineering"}
+  670,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  671,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 224}
+  672,DELETE,subject,{"name": "Big Data Engineering"}
+  673,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  674,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 225}
+  675,DELETE,subject,{"name": "Data Architecture"}
+  676,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  677,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 226}
+  678,DELETE,subject,{"name": "Big Data Architecture"}
+  679,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  680,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 227}
+  681,DELETE,subject,{"name": "Data Integration"}
+  682,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  683,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 228}
+  684,DELETE,subject,{"name": "Big Data Integration"}
+  685,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  686,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 229}
+  687,DELETE,subject,{"name": "Data Modeling"}
+  688,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  689,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 230}
+  690,DELETE,subject,{"name": "Big Data Modeling"}
+  691,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  692,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 231}
+  693,DELETE,subject,{"name": "Data Pipelines"}
+  694,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  695,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 232}
+  696,DELETE,subject,{"name": "Big Data Pipelines"}
+  697,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  698,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 233}
+  699,DELETE,subject,{"name": "Data Engineering"}
+  700,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  701,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 234}
+  702,DELETE,subject,{"name": "Big Data Engineering"}
+  703,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  704,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 235}
+  705,DELETE,subject,{"name": "Data Architecture"}
+  706,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  707,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 236}
+  708,DELETE,subject,{"name": "Big Data Architecture"}
+  709,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  710,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 237}
+  711,DELETE,subject,{"name": "Data Integration"}
+  712,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  713,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 238}
+  714,DELETE,subject,{"name": "Big Data Integration"}
+  715,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  716,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 239}
+  717,DELETE,subject,{"name": "Data Modeling"}
+  718,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  719,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 240}
+  720,DELETE,subject,{"name": "Big Data Modeling"}
+  721,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  722,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 241}
+  723,DELETE,subject,{"name": "Data Pipelines"}
+  724,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  725,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 242}
+  726,DELETE,subject,{"name": "Big Data Pipelines"}
+  727,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  728,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 243}
+  729,DELETE,subject,{"name": "Data Engineering"}
+  730,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  731,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 244}
+  732,DELETE,subject,{"name": "Big Data Engineering"}
+  733,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  734,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 245}
+  735,DELETE,subject,{"name": "Data Architecture"}
+  736,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  737,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 246}
+  738,DELETE,subject,{"name": "Big Data Architecture"}
+  739,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  740,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 247}
+  741,DELETE,subject,{"name": "Data Integration"}
+  742,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  743,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 248}
+  744,DELETE,subject,{"name": "Big Data Integration"}
+  745,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  746,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 249}
+  747,DELETE,subject,{"name": "Data Modeling"}
+  748,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  749,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 250}
+  750,DELETE,subject,{"name": "Big Data Modeling"}
+  751,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  752,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 251}
+  753,DELETE,subject,{"name": "Data Pipelines"}
+  754,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  755,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 252}
+  756,DELETE,subject,{"name": "Big Data Pipelines"}
+  757,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  758,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 253}
+  759,DELETE,subject,{"name": "Data Engineering"}
+  760,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  761,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 254}
+  762,DELETE,subject,{"name": "Big Data Engineering"}
+  763,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  764,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 255}
+  765,DELETE,subject,{"name": "Data Architecture"}
+  766,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  767,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 256}
+  768,DELETE,subject,{"name": "Big Data Architecture"}
+  769,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  770,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 257}
+  771,DELETE,subject,{"name": "Data Integration"}
+  772,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  773,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 258}
+  774,DELETE,subject,{"name": "Big Data Integration"}
+  775,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  776,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 259}
+  777,DELETE,subject,{"name": "Data Modeling"}
+  778,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  779,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 260}
+  780,DELETE,subject,{"name": "Big Data Modeling"}
+  781,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  782,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 261}
+  783,DELETE,subject,{"name": "Data Pipelines"}
+  784,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  785,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 262}
+  786,DELETE,subject,{"name": "Big Data Pipelines"}
+  787,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  788,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 263}
+  789,DELETE,subject,{"name": "Data Engineering"}
+  790,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  791,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 264}
+  792,DELETE,subject,{"name": "Big Data Engineering"}
+  793,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  794,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 265}
+  795,DELETE,subject,{"name": "Data Architecture"}
+  796,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  797,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 266}
+  798,DELETE,subject,{"name": "Big Data Architecture"}
+  799,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  800,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 267}
+  801,DELETE,subject,{"name": "Data Integration"}
+  802,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  803,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 268}
+  804,DELETE,subject,{"name": "Big Data Integration"}
+  805,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  806,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 269}
+  807,DELETE,subject,{"name": "Data Modeling"}
+  808,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  809,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 270}
+  810,DELETE,subject,{"name": "Big Data Modeling"}
+  811,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  812,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 271}
+  813,DELETE,subject,{"name": "Data Pipelines"}
+  814,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  815,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 272}
+  816,DELETE,subject,{"name": "Big Data Pipelines"}
+  817,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  818,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 273}
+  819,DELETE,subject,{"name": "Data Engineering"}
+  820,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  821,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 274}
+  822,DELETE,subject,{"name": "Big Data Engineering"}
+  823,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  824,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 275}
+  825,DELETE,subject,{"name": "Data Architecture"}
+  826,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  827,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 276}
+  828,DELETE,subject,{"name": "Big Data Architecture"}
+  829,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  830,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 277}
+  831,DELETE,subject,{"name": "Data Integration"}
+  832,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  833,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 278}
+  834,DELETE,subject,{"name": "Big Data Integration"}
+  835,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  836,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 279}
+  837,DELETE,subject,{"name": "Data Modeling"}
+  838,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  839,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 280}
+  840,DELETE,subject,{"name": "Big Data Modeling"}
+  841,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  842,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 281}
+  843,DELETE,subject,{"name": "Data Pipelines"}
+  844,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  845,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 282}
+  846,DELETE,subject,{"name": "Big Data Pipelines"}
+  847,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  848,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 283}
+  849,DELETE,subject,{"name": "Data Engineering"}
+  850,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  851,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 284}
+  852,DELETE,subject,{"name": "Big Data Engineering"}
+  853,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  854,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 285}
+  855,DELETE,subject,{"name": "Data Architecture"}
+  856,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  857,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 286}
+  858,DELETE,subject,{"name": "Big Data Architecture"}
+  859,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  860,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 287}
+  861,DELETE,subject,{"name": "Data Integration"}
+  862,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  863,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 288}
+  864,DELETE,subject,{"name": "Big Data Integration"}
+  865,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  866,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 289}
+  867,DELETE,subject,{"name": "Data Modeling"}
+  868,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  869,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 290}
+  870,DELETE,subject,{"name": "Big Data Modeling"}
+  871,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  872,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 291}
+  873,DELETE,subject,{"name": "Data Pipelines"}
+  874,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  875,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 292}
+  876,DELETE,subject,{"name": "Big Data Pipelines"}
+  877,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  878,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 293}
+  879,DELETE,subject,{"name": "Data Engineering"}
+  880,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  881,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 294}
+  882,DELETE,subject,{"name": "Big Data Engineering"}
+  883,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  884,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 295}
+  885,DELETE,subject,{"name": "Data Architecture"}
+  886,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  887,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 296}
+  888,DELETE,subject,{"name": "Big Data Architecture"}
+  889,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  890,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 297}
+  891,DELETE,subject,{"name": "Data Integration"}
+  892,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  893,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 298}
+  894,DELETE,subject,{"name": "Big Data Integration"}
+  895,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  896,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 299}
+  897,DELETE,subject,{"name": "Data Modeling"}
+  898,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  899,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 300}
+  900,DELETE,subject,{"name": "Big Data Modeling"}
+  901,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  902,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 301}
+  903,DELETE,subject,{"name": "Data Pipelines"}
+  904,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  905,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 302}
+  906,DELETE,subject,{"name": "Big Data Pipelines"}
+  907,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  908,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 303}
+  909,DELETE,subject,{"name": "Data Engineering"}
+  910,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  911,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 304}
+  912,DELETE,subject,{"name": "Big Data Engineering"}
+  913,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  914,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 305}
+  915,DELETE,subject,{"name": "Data Architecture"}
+  916,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  917,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 306}
+  918,DELETE,subject,{"name": "Big Data Architecture"}
+  919,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  920,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 307}
+  921,DELETE,subject,{"name": "Data Integration"}
+  922,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  923,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 308}
+  924,DELETE,subject,{"name": "Big Data Integration"}
+  925,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  926,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 309}
+  927,DELETE,subject,{"name": "Data Modeling"}
+  928,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  929,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 310}
+  930,DELETE,subject,{"name": "Big Data Modeling"}
+  931,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  932,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 311}
+  933,DELETE,subject,{"name": "Data Pipelines"}
+  934,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  935,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 312}
+  936,DELETE,subject,{"name": "Big Data Pipelines"}
+  937,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  938,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 313}
+  939,DELETE,subject,{"name": "Data Engineering"}
+  940,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  941,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 314}
+  942,DELETE,subject,{"name": "Big Data Engineering"}
+  943,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  944,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 315}
+  945,DELETE,subject,{"name": "Data Architecture"}
+  946,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  947,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 316}
+  948,DELETE,subject,{"name": "Big Data Architecture"}
+  949,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  950,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 317}
+  951,DELETE,subject,{"name": "Data Integration"}
+  952,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  953,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 318}
+  954,DELETE,subject,{"name": "Big Data Integration"}
+  955,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  956,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 319}
+  957,DELETE,subject,{"name": "Data Modeling"}
+  958,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  959,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 320}
+  960,DELETE,subject,{"name": "Big Data Modeling"}
+  961,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  962,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 321}
+  963,DELETE,subject,{"name": "Data Pipelines"}
+  964,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  965,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 322}
+  966,DELETE,subject,{"name": "Big Data Pipelines"}
+  967,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  968,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 323}
+  969,DELETE,subject,{"name": "Data Engineering"}
+  970,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  971,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 324}
+  972,DELETE,subject,{"name": "Big Data Engineering"}
+  973,ADD,subject="{'name': 'Data Architecture', 'professor': 'Cristina Oliveira'}"
+  974,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Architecture", "id": 325}
+  975,DELETE,subject,{"name": "Data Architecture"}
+  976,ADD,subject="{'name': 'Big Data Architecture', 'professor': 'João Santos'}"
+  977,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Architecture", "id": 326}
+  978,DELETE,subject,{"name": "Big Data Architecture"}
+  979,ADD,subject="{'name': 'Data Integration', 'professor': 'Luiz Oliveira'}"
+  980,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Integration", "id": 327}
+  981,DELETE,subject,{"name": "Data Integration"}
+  982,ADD,subject="{'name': 'Big Data Integration', 'professor': 'Beatriz Silva'}"
+  983,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Integration", "id": 328}
+  984,DELETE,subject,{"name": "Big Data Integration"}
+  985,ADD,subject="{'name': 'Data Modeling', 'professor': 'Laura Silva'}"
+  986,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Modeling", "id": 329}
+  987,DELETE,subject,{"name": "Data Modeling"}
+  988,ADD,subject="{'name': 'Big Data Modeling', 'professor': 'Paulo Alves'}"
+  989,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Modeling", "id": 330}
+  990,DELETE,subject,{"name": "Big Data Modeling"}
+  991,ADD,subject="{'name': 'Data Pipelines', 'professor': 'Cristina Oliveira'}"
+  992,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Pipelines", "id": 331}
+  993,DELETE,subject,{"name": "Data Pipelines"}
+  994,ADD,subject="{'name': 'Big Data Pipelines', 'professor': 'João Santos'}"
+  995,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Pipelines", "id": 332}
+  996,DELETE,subject,{"name": "Big Data Pipelines"}
+  997,ADD,subject="{'name': 'Data Engineering', 'professor': 'Laura Silva'}"
+  998,UPDATE,subject="{'semester': '2022.2'}",{"name": "Data Engineering", "id": 333}
+  999,DELETE,subject,{"name": "Data Engineering"}
+  1000,ADD,subject="{'name': 'Big Data Engineering', 'professor': 'Paulo Alves'}"
+  None,UPDATE,subject="{'semester': '2023.1'}",{"name": "Big Data Engineering", "id": 334}
