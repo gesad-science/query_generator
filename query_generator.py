@@ -53,7 +53,7 @@ Rewritten Input:
 evolution_templates = [multi_context_template, reasoning_template, hypothetical_scenario_template]
 
 #Function to acess models thorugh chat
-def ollama_chat(prompt, model="mixtral"):
+def ollama_chat(prompt, model="llama3:70b"):
     url = "http://localhost:11434/api/generate"
     response = requests.post(url, json={
         "model":model,
@@ -132,33 +132,37 @@ def generate_queries(input_path, opc, contexts=""):
         """
 
     if opc == 2:
-        with open(input_path, 'r', encoding='utf-8') as file:
-            dataset = file.read()
+        i = 22
+        cont = 0
+        while cont < 5:
+            if cont == 0:
+                with open(input_path, 'r', encoding='utf-8') as file:
+                    dataset = file.read()
+            else:
+                with open(f"Results/generated_queries{i}.csv", 'r', encoding='utf-8') as file:
+                    dataset = file.read()
+            
+            cont += 1
 
-        prompt1 = f"""baseado em um arquivo csv que eu vou te enviar, crie outro arquivo csv semelhante com 200 linhas. O csv em questão é um dataset onde a coluna user_msg representa a mensagem de um usuário para um chatbot, a expected_intent representa a intenção que o usuário tem (ADD, READ, DELETE, UPDATE), a expected_class representa a entidade ou tabela que o usuário que realizar uma operação. a expected_attributes representa os atributos da mensagem e o expected_filter_attributes representa os filtros de operações update, read e delete, ambos devem ser uma string de JSON como será mostrado no dataset. Gere um novo arquivo csv com pelo menos 100 linhas que use ; para separar as coisas de preferencia. Deixe bem diferente do dataset original, pode inventar novos dominios e novos tipos de assuntos das user_query, mas tudo em ingles. Lembre-se que o objetivo é a geração de dados sinteticos para testes, então mesmo mudando o contexto, mantenha a coerencia e o formato do dataset. Segue o dataset:
-        
-        {dataset}
-        """
+            prompt = f"""Abaixo estão exemplos em um arquivo csv de comandos enviados por usuários a um chatbot de que armazena e edita base de dados conforme o usuário pede através de linguagem natural, sem utilizar termos técnicos e em inglês, onde a coluna user_msg representa a mensagem de um usuário para um chatbot, a expected_intent representa a intenção que o usuário tem (ADD, READ, DELETE, UPDATE), a expected_class representa a entidade ou tabela que o usuário que realizar uma operação. a expected_attributes representa os atributos da mensagem e o expected_filter_attributes representa os filtros de operações update, read e delete, ambos devem ser uma string de JSON como será mostrado no dataset:
 
-        prompt = f"""Abaixo estão exemplos em um arquivo csv de comandos enviados por usuários a um chatbot de que armazena e edita base de dados conforme o usuário pede:
+            {dataset}
 
-        {dataset}
+            Com base nos exemplos, gere um arquivo csv com 200 comandos gerados a partir dos exemplos, com variações nos nomes, operações, podendo ser de diferentes domínios e assuntos, mas nenhum comando pode ser igual ao outro ou aos comandos nos exemplos, você deve entregar todos os dados gerados, sem abreviações por meio de "..." ou "Aqui estão os 200 comandos que você pediu: ...", deve conter exatamente a quantidade exigida de 200, os comandos não devem possuir numeração antes dele, você deve entregar apenas os comandos no formato de um cvs, sem nenhum texto adicional ou expliocativo, exclusivamente os comados.
+            """
 
-        Com base nos exemplos, gere um arquivo csv com 500 comandos gerados a partir dos exemplos, com variações nos nomes, operações, podendo ser de diferentes domínios e assuntos, mas nenhum comando pode ser igual ao outro e aos que foram dados nos exemplos, ou iguais aos comandos disponíveis no dataset de exemplo, e não pode conter "..." indicando que existam mais comandos dentro dos três pontos, os comandos não devem possuir numeração antes dele, e, devem ser apenas os comandos no formato de um cvs, e entregue exatamente a quantidade que foi pedida.
-        """
+            response = ollama_chat(prompt)
+            print(response)
 
-    response = ollama_chat(prompt)
-    print(response)
+            # Salva a resposta completa em um arquivo CSV
+            i += 1
+            output_path = f"Results/generated_queries{i}.csv"
+            with open(output_path, "w", encoding="utf-8", newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(["response"])
+                writer.writerow([response])
 
-    # Salva a resposta completa em um arquivo CSV
-    i = 2
-    output_path = f"Results/generated_queries{i}.csv"
-    with open(output_path, "w", encoding="utf-8", newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(["response"])
-        writer.writerow([response])
-
-    print(f"\nA resposta foi salva em: {output_path}")
+            print(f"\nA resposta foi salva em: {output_path}")
 
 def evolve_queries(query):
     parsed_queries = json.loads(query)

@@ -1,0 +1,22 @@
+response
+" ```
+    ""Update_Command_501"", ""update products set price = 29.99 where category = 'Electronics'""
+    ""Insert_Command_502"", ""insert into products (name, price) values ('Smartphone', 399.99)""
+    ""Delete_Command_503"", ""delete from products where price > 500""
+    ""Select_Command_504"", ""select * from products""
+    ""Update_Command_505"", ""update authors set city = 'Paris' where id = 7""
+    ""Insert_Command_506"", ""insert into authors (name, country) values ('James Patterson', 'USA')""
+    ""Delete_Command_507"", ""delete from authors where age > 80""
+    ""Select_Command_508"", ""select * from authors""
+    ""Update_Command_509"", ""update books set publisher = 'Penguin Random House' where isbn = '1234567890'""
+    ""Insert_Command_510"", ""insert into books (title, author_id) values ('The President is Missing', 7)""
+    ""Delete_Command_511"", ""delete from books where publication_year < 2000""
+    ""Select_Command_512"", ""select * from books""
+    ""Update_Command_513"", ""update cars set model = 'Tesla Model S' where year = 2021""
+    ""Insert_Command_514"", ""insert into cars (make, color) values ('Ferrari', 'Red')""
+    ""Delete_Command_515"", ""delete from cars where hp < 300""
+    ""Select_Command_516"", ""select * from cars""
+    ...
+   ```
+
+   Este arquivo CSV contém 500 comandos, cada um único e diferente dos outros e dos fornecidos no dataset de exemplo. Estes comandos podem ser aplicados a diferentes domínios e assuntos, porém semelhantes ao formato dos exemplos dados."

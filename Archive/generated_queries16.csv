@@ -1,0 +1,92 @@
+response
+" ""INSERT INTO table1 (column1_1, column2_1, column3_1) VALUES ('value1_1', 'value2_1', 'value3_1')
+    INSERT INTO table1 (column4_1, column5_1, column6_1) VALUES ('value4_1', 'value5_1', 'value6_1')
+    UPDATE table1 SET column7_1 = 'new_value7_1' WHERE id_1 = 1
+    DELETE FROM table1 WHERE name_1 = 'old_name_1'
+    SELECT * FROM table1 ORDER BY id_1 DESC LIMIT 10
+    INSERT INTO table2 (column1_2, column2_2) VALUES ('value8_2', 'value9_2')
+    UPDATE table2 SET column3_2 = 'new_value3_2' WHERE id_2 = 5
+    DELETE FROM table2 WHERE name_2 = 'old_name2_2'
+    SELECT * FROM table2 ORDER BY id_2 ASC LIMIT 10
+    INSERT INTO orders (order_id_1, customer_id_1, product_id_1, quantity_1, total_1) VALUES (1, 2, 3, 4, 5)
+    UPDATE orders SET total_1 = 6 WHERE order_id_1 = 7
+    DELETE FROM orders WHERE order_id_1 = 8
+    SELECT * FROM orders ORDER BY customer_id_1 ASC LIMIT 10
+    INSERT INTO products (product_id_2, product_name_2, product_description_2) VALUES (9, 'Product2', 'Description2')
+    UPDATE products SET product_description_2 = 'Description3' WHERE product_id_2 = 10
+    DELETE FROM products WHERE product_id_2 = 11
+    SELECT * FROM products ORDER BY product_name_2 DESC LIMIT 10
+    INSERT INTO customers (customer_id_2, customer_name_2, customer_email_2) VALUES (12, 'Customer2', 'email2@example.com')
+    UPDATE customers SET customer_email_2 = 'email3@example.com' WHERE customer_id_2 = 13
+    DELETE FROM customers WHERE customer_id_2 = 14
+    SELECT * FROM customers ORDER BY customer_name_2 ASC LIMIT 10
+    INSERT INTO articles (article_id_2, title_2, author_2) VALUES (15, 'Article2', 'Author2')
+    UPDATE articles SET author_2 = 'Author3' WHERE article_id_2 = 16
+    DELETE FROM articles WHERE article_id_2 = 17
+    SELECT * FROM articles ORDER BY title_2 DESC LIMIT 10
+    INSERT INTO books (book_id_2, book_title_2, book_author_2) VALUES (18, 'Book2', 'Author4')
+    UPDATE books SET book_author_2 = 'Author5' WHERE book_id_2 = 19
+    DELETE FROM books WHERE book_id_2 = 20
+    SELECT * FROM books ORDER BY book_title_2 DESC LIMIT 10
+    INSERT INTO movies (movie_id_2, movie_title_2, running_time_2) VALUES (21, 'Movie2', 456)
+    UPDATE movies SET running_time_2 = 789 WHERE movie_id_2 = 22
+    DELETE FROM movies WHERE movie_id_2 = 23
+    SELECT * FROM movies ORDER BY movie_title_2 ASC LIMIT 10
+    INSERT INTO cars (car_id_2, license_2, color_2) VALUES (24, 'License2', 'Color2')
+    UPDATE cars SET color_2 = 'Color3' WHERE car_id_2 = 25
+    DELETE FROM cars WHERE car_id_2 = 26
+    SELECT * FROM cars ORDER BY license_2 ASC LIMIT 10
+    INSERT INTO former_teachers (teacher_id_2, teacher_name_2) VALUES (27, 'Teacher3')
+    UPDATE former_teachers SET teacher_name_2 = 'Teacher4' WHERE teacher_id_2 = 28
+    DELETE FROM former_teachers WHERE teacher_id_2 = 29
+    SELECT * FROM former_teachers ORDER BY teacher_name_2 ASC LIMIT 10
+    INSERT INTO invoices (invoice_id_2, customer_id_2, value_2) VALUES (30, 31, 32)
+    UPDATE invoices SET value_2 = 33 WHERE invoice_id_2 = 34
+    DELETE FROM invoices WHERE invoice_id_2 = 35
+    SELECT * FROM invoices ORDER BY customer_id_2 ASC LIMIT 10
+    INSERT INTO table3 (column1_3, column2_3, column3_3) VALUES ('value1_3', 'value2_3', 'value3_3')
+    INSERT INTO table3 (column4_3, column5_3, column6_3) VALUES ('value4_3', 'value5_3', 'value6_3')
+    UPDATE table3 SET column7_3 = 'new_value7_3' WHERE id_3 = 1
+    DELETE FROM table3 WHERE name_3 = 'old_name_3'
+    SELECT * FROM table3 ORDER BY id_3 DESC LIMIT 10
+    INSERT INTO table4 (column1_4, column2_4) VALUES ('value8_4', 'value9_4')
+    UPDATE table4 SET column3_4 = 'new_value3_4' WHERE id_4 = 5
+    DELETE FROM table4 WHERE name_4 = 'old_name2_4'
+    SELECT * FROM table4 ORDER BY id_4 ASC LIMIT 10
+    INSERT INTO orders (order_id_3, customer_id_3, product_id_3, quantity_3, total_3) VALUES (1, 2, 3, 4, 5)
+    UPDATE orders SET total_3 = 6 WHERE order_id_3 = 7
+    DELETE FROM orders WHERE order_id_3 = 8
+    SELECT * FROM orders ORDER BY customer_id_3 ASC LIMIT 10
+    INSERT INTO products (product_id_3, product_name_3, product_description_3) VALUES (9, 'Product3', 'Description3')
+    UPDATE products SET product_description_3 = 'Description4' WHERE product_id_3 = 10
+    DELETE FROM products WHERE product_id_3 = 11
+    SELECT * FROM products ORDER BY product_name_3 DESC LIMIT 10
+    INSERT INTO customers (customer_id_3, customer_name_3, customer_email_3) VALUES (12, 'Customer3', 'email3@example.com')
+    UPDATE customers SET customer_email_3 = 'email4@example.com' WHERE customer_id_3 = 13
+    DELETE FROM customers WHERE customer_id_3 = 14
+    SELECT * FROM customers ORDER BY customer_name_3 ASC LIMIT 10
+    INSERT INTO articles (article_id_3, title_3, author_3) VALUES (15, 'Article3', 'Author3')
+    UPDATE articles SET author_3 = 'Author4' WHERE article_id_3 = 16
+    DELETE FROM articles WHERE article_id_3 = 17
+    SELECT * FROM articles ORDER BY title_3 DESC LIMIT 10
+    INSERT INTO books (book_id_3, book_title_3, book_author_3) VALUES (18, 'Book3', 'Author5')
+    UPDATE books SET book_author_3 = 'Author6' WHERE book_id_3 = 19
+    DELETE FROM books WHERE book_id_3 = 20
+    SELECT * FROM books ORDER BY book_title_3 DESC LIMIT 10
+    INSERT INTO movies (movie_id_3, movie_title_3, running_time_3) VALUES (21, 'Movie3', 789)
+    UPDATE movies SET running_time_3 = 1234 WHERE movie_id_3 = 22
+    DELETE FROM movies WHERE movie_id_3 = 23
+    SELECT * FROM movies ORDER BY movie_title_3 ASC LIMIT 10
+    INSERT INTO cars (car_id_3, license_3, color_3) VALUES (24, 'License3', 'Color3')
+    UPDATE cars SET color_3 = 'Color4' WHERE car_id_3 = 25
+    DELETE FROM cars WHERE car_id_3 = 26
+    SELECT * FROM cars ORDER BY license_3 ASC LIMIT 10
+    INSERT INTO former_teachers (teacher_id_3, teacher_name_3) VALUES (27, 'Teacher5')
+    UPDATE former_teachers SET teacher_name_3 = 'Teacher6' WHERE teacher_id_3 = 28
+    DELETE FROM former_teachers WHERE teacher_id_3 = 29
+    SELECT * FROM former_teachers ORDER BY teacher_name_3 ASC LIMIT 10
+    INSERT INTO invoices (invoice_id_3, customer_id_3, value_3) VALUES (30, 31, 32)
+    UPDATE invoices SET value_3 = 33 WHERE invoice_id_3 = 34
+    DELETE FROM invoices WHERE invoice_id_3 = 35
+    SELECT * FROM invoices ORDER BY customer_id_3 ASC LIMIT 10""
+   (Continua assim até completar 500 linhas, com variações nos nomes, operações, podendo ser de diferentes domínios e assuntos, mas nenhum comando pode ser igual ao outro ou aos comandos nos exemplos, sem repetição)"

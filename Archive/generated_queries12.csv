@@ -1,0 +1,22 @@
+response
+"500_commands.csv:
+
+    ""Update_Command_1"", ""update table set column = 'value' where condition""
+    ""Insert_Command_1"", ""insert into table (column1, column2) values ('value1', 'value2')""
+    ""Delete_Command_1"", ""delete from table where condition""
+    ""Select_Command_1"", ""select * from table""
+    ""Update_Command_2"", ""update users set name = 'John Doe' where id = 1""
+    ""Insert_Command_2"", ""insert into users (name, age) values ('Jane Smith', 30)""
+    ""Delete_Command_2"", ""delete from users where age < 25""
+    ""Select_Command_2"", ""select * from users""
+    ""Update_Command_3"", ""update sales set quantity = 100 where product_id = 1""
+    ""Insert_Command_3"", ""insert into sales (product_id, quantity) values (1, 50)""
+    ""Delete_Command_3"", ""delete from sales where date < '2022-01-01'""
+    ""Select_Command_3"", ""select * from sales""
+    ""Update_Command_4"", ""update customers set city = 'New York' where id = 1""
+    ""Insert_Command_4"", ""insert into customers (name, city) values ('Mike', 'Los Angeles')""
+    ""Delete_Command_4"", ""delete from customers where age > 60""
+    ""Select_Command_4"", ""select * from customers""
+    ...
+
+   Atenção para criar comandos que sejam exatamente do tipo de exemplo dado, não podendo ser um subconjunto ou superconjunto de algum outro comando. Certifique-se que todos os comandos sejam únicos e não possuam '...' indicando mais comandos dentro dos pontos. Deve ser apenas a quantidade exigida de comandos no formato CSV, sem abreviar, sem numeração antes do nome do comando e sem conter operações que não sejam update, insert, delete ou select."

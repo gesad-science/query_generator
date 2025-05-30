@@ -1,0 +1,187 @@
+response
+"1. Adicionar produto, nome: Produto A, preço: 100, categoria: Eletrônicos
+2. Excluir produto, id: 1
+3. Atualizar produto, id: 2, nome: Produto B, preço: 200
+4. Adicionar categoria, nome: Categoria X
+5. Excluir categoria, id: 3
+6. Atualizar categoria, id: 4, nome: Categoria Y
+7. Adicionar fornecedor, nome: Fornecedor A, contato: contato@fornecedora.com.br
+8. Excluir fornecedor, id: 5
+9. Atualizar fornecedor, id: 6, contato: novocontato@fornecedora.com.br
+10. Adicionar funcionário, nome: Funcionario I, salário: 21000.00, cargo: Gerente
+11. Excluir funcionário, id: 7
+12. Atualizar funcionário, id: 8, nome: Funcionario J, salário: 22000.00
+13. Adicionar departamento, nome: Departamento Z
+14. Excluir departamento, id: 9
+15. Atualizar departamento, id: 10, nome: Departamento W
+16. Adicionar venda, cliente: Cliente A, produto: Produto B, quantidade: 3, data: 2022-01-01
+17. Excluir venda, id: 11
+18. Atualizar venda, id: 12, cliente: Cliente B, produto: Produto A, quantidade: 5, data: 2022-02-01
+19. Adicionar cliente, nome: Cliente C, contato: contato@clientec.com.br
+20. Excluir cliente, id: 13
+21. Atualizar cliente, id: 14, contato: novocontato@clientec.com.br
+22. Adicionar produto, nome: Produto C, preço: 300, categoria: Moda
+23. Excluir produto, id: 15
+24. Atualizar produto, id: 16, nome: Produto D, preço: 400, categoria: Brinquedos
+25. Adicionar categoria, nome: Categoria Z
+26. Excluir categoria, id: 17
+27. Atualizar categoria, id: 18, nome: Categoria Q
+28. Adicionar fornecedor, nome: Fornecedor B, contato: contato@fornecedorb.com.br
+29. Excluir fornecedor, id: 19
+30. Atualizar fornecedor, id: 20, contato: novocontato@fornecedorb.com.br
+31. Adicionar funcionário, nome: Funcionario K, salário: 23000.00, cargo: Analista
+32. Excluir funcionário, id: 21
+33. Atualizar funcionário, id: 22, nome: Funcionario L, salário: 24000.00
+34. Adicionar departamento, nome: Departamento X
+35. Excluir departamento, id: 23
+36. Atualizar departamento, id: 24, nome: Departamento Y
+37. Adicionar venda, cliente: Cliente D, produto: Produto C, quantidade: 2, data: 2022-03-01
+38. Excluir venda, id: 25
+39. Atualizar venda, id: 26, cliente: Cliente E, produto: Produto D, quantidade: 4, data: 2022-04-01
+40. Adicionar cliente, nome: Cliente F, contato: contato@clientef.com.br
+41. Excluir cliente, id: 27
+42. Atualizar cliente, id: 28, contato: novocontato@clientef.com.br
+43. Adicionar produto, nome: Produto E, preço: 500, categoria: Utilidades Domésticas
+44. Excluir produto, id: 29
+45. Atualizar produto, id: 30, nome: Produto F, preço: 600, categoria: Ferramentas
+46. Adicionar categoria, nome: Categoria J
+47. Excluir categoria, id: 31
+48. Atualizar categoria, id: 32, nome: Categoria P
+49. Adicionar fornecedor, nome: Fornecedor C, contato: contato@fornecedorc.com.br
+50. Excluir fornecedor, id: 33
+51. Atualizar fornecedor, id: 34, contato: novocontato@fornecedorc.com.br
+52. Adicionar funcionário, nome: Funcionario M, salário: 25000.00, cargo: Programador
+53. Excluir funcionário, id: 35
+54. Atualizar funcionário, id: 36, nome: Funcionario N, salário: 26000.00
+55. Adicionar departamento, nome: Departamento T
+56. Excluir departamento, id: 37
+57. Atualizar departamento, id: 38, nome: Departamento U
+58. Adicionar venda, cliente: Cliente G, produto: Produto E, quantidade: 1, data: 2022-05-01
+59. Excluir venda, id: 39
+60. Atualizar venda, id: 40, cliente: Cliente H, produto: Produto F, quantidade: 3, data: 2022-06-01
+61. Adicionar cliente, nome: Cliente I, contato: contato@clientei.com.br
+62. Excluir cliente, id: 41
+63. Atualizar cliente, id: 42, contato: novocontato@clientei.com.br
+64. Adicionar produto, nome: Produto G, preço: 700, categoria: Esportes
+65. Excluir produto, id: 43
+66. Atualizar produto, id: 44, nome: Produto H, preço: 800, categoria: Jardinagem
+67. Adicionar categoria, nome: Categoria K
+68. Excluir categoria, id: 45
+69. Atualizar categoria, id: 46, nome: Categoria O
+70. Adicionar fornecedor, nome: Fornecedor D, contato: contato@fornecedord.com.br
+71. Excluir fornecedor, id: 47
+72. Atualizar fornecedor, id: 48, contato: novocontato@fornecedord.com.br
+73. Adicionar funcionário, nome: Funcionario O, salário: 27000.00, cargo: Designer
+74. Excluir funcionário, id: 49
+75. Atualizar funcionário, id: 50, nome: Funcionario P, salário: 28000.00
+76. Adicionar departamento, nome: Departamento I
+77. Excluir departamento, id: 51
+78. Atualizar departamento, id: 52, nome: Departamento J
+79. Adicionar venda, cliente: Cliente J, produto: Produto G, quantidade: 2, data: 2022-07-01
+80. Excluir venda, id: 53
+81. Atualizar venda, id: 54, cliente: Cliente K, produto: Produto H, quantidade: 4, data: 2022-08-01
+82. Adicionar cliente, nome: Cliente L, contato: contato@clientel.com.br
+83. Excluir cliente, id: 55
+84. Atualizar cliente, id: 56, contato: novocontato@clientel.com.br
+85. Adicionar produto, nome: Produto I, preço: 900, categoria: Informática
+86. Excluir produto, id: 57
+87. Atualizar produto, id: 58, nome: Produto J, preço: 1000, categoria: Eletrônicos
+88. Adicionar categoria, nome: Categoria L
+89. Excluir categoria, id: 59
+90. Atualizar categoria, id: 60, nome: Categoria R
+91. Adicionar fornecedor, nome: Fornecedor E, contato: contato@fornecedore.com.br
+92. Excluir fornecedor, id: 61
+93. Atualizar fornecedor, id: 62, contato: novocontato@fornecedore.com.br
+94. Adicionar funcionário, nome: Funcionario Q, salário: 29000.00, cargo: Técnico
+95. Excluir funcionário, id: 63
+96. Atualizar funcionário, id: 64, nome: Funcionario R, salário: 30000.00
+97. Adicionar departamento, nome: Departamento K
+98. Excluir departamento, id: 65
+99. Atualizar departamento, id: 66, nome: Departamento L
+100. Adicionar venda, cliente: Cliente M, produto: Produto I, quantidade: 1, data: 2022-09-01
+101. Excluir venda, id: 67
+102. Atualizar venda, id: 68, cliente: Cliente N, produto: Produto J, quantidade: 3, data: 2022-10-01
+103. Adicionar cliente, nome: Cliente O, contato: contato@clienteo.com.br
+104. Excluir cliente, id: 69
+105. Atualizar cliente, id: 70, contato: novocontato@clienteo.com.br
+106. Adicionar produto, nome: Produto K, preço: 1100, categoria: Limpeza
+107. Excluir produto, id: 71
+108. Atualizar produto, id: 72, nome: Produto L, preço: 1200, categoria: Utensílios Domésticos
+109. Adicionar categoria, nome: Categoria M
+110. Excluir categoria, id: 73
+111. Atualizar categoria, id: 74, nome: Categoria S
+112. Adicionar fornecedor, nome: Fornecedor F, contato: contato@fornecedorf.com.br
+113. Excluir fornecedor, id: 75
+114. Atualizar fornecedor, id: 76, contato: novocontato@fornecedorf.com.br
+115. Adicionar funcionário, nome: Funcionario S, salário: 31000.00, cargo: Gerente de Projetos
+116. Excluir funcionário, id: 77
+117. Atualizar funcionário, id: 78, nome: Funcionario T, salário: 32000.00
+118. Adicionar departamento, nome: Departamento C
+119. Excluir departamento, id: 79
+120. Atualizar departamento, id: 80, nome: Departamento D
+121. Adicionar venda, cliente: Cliente P, produto: Produto K, quantidade: 2, data: 2022-11-01
+122. Excluir venda, id: 81
+123. Atualizar venda, id: 82, cliente: Cliente Q, produto: Produto L, quantidade: 4, data: 2022-12-01
+124. Adicionar cliente, nome: Cliente R, contato: contato@clienter.com.br
+125. Excluir cliente, id: 83
+126. Atualizar cliente, id: 84, contato: novocontato@clienter.com.br
+127. Adicionar produto, nome: Produto M, preço: 1300, categoria: Perfumaria
+128. Excluir produto, id: 85
+129. Atualizar produto, id: 86, nome: Produto N, preço: 1400, categoria: Beleza
+130. Adicionar categoria, nome: Categoria N
+131. Excluir categoria, id: 87
+132. Atualizar categoria, id: 88, nome: Categoria T
+133. Adicionar fornecedor, nome: Fornecedor G, contato: contato@fornecedorg.com.br
+134. Excluir fornecedor, id: 89
+135. Atualizar fornecedor, id: 90, contato: novocontato@fornecedorg.com.br
+136. Adicionar funcionário, nome: Funcionario U, salário: 33000.00, cargo: Diretor Financeiro
+137. Excluir funcionário, id: 91
+138. Atualizar funcionário, id: 92, nome: Funcionario V, salário: 34000.00
+139. Adicionar departamento, nome: Departamento E
+140. Excluir departamento, id: 93
+141. Atualizar departamento, id: 94, nome: Departamento F
+142. Adicionar venda, cliente: Cliente S, produto: Produto M, quantidade: 1, data: 2023-01-01
+143. Excluir venda, id: 95
+144. Atualizar venda, id: 96, cliente: Cliente T, produto: Produto N, quantidade: 3, data: 2023-02-01
+145. Adicionar cliente, nome: Cliente U, contato: contato@clienteu.com.br
+146. Excluir cliente, id: 97
+147. Atualizar cliente, id: 98, contato: novocontato@clienteu.com.br
+148. Adicionar produto, nome: Produto O, preço: 1500, categoria: Alimentos
+149. Excluir produto, id: 99
+150. Atualizar produto, id: 100, nome: Produto P, preço: 1600, categoria: Bebidas
+151. Adicionar categoria, nome: Categoria O
+152. Excluir categoria, id: 101
+153. Atualizar categoria, id: 102, nome: Categoria U
+154. Adicionar fornecedor, nome: Fornecedor H, contato: contato@fornecedorh.com.br
+155. Excluir fornecedor, id: 103
+156. Atualizar fornecedor, id: 104, contato: novocontato@fornecedorh.com.br
+157. Adicionar funcionário, nome: Funcionario W, salário: 35000.00, cargo: Diretor de Marketing
+158. Excluir funcionário, id: 105
+159. Atualizar funcionário, id: 106, nome: Funcionario X, salário: 36000.00
+160. Adicionar departamento, nome: Departamento G
+161. Excluir departamento, id: 107
+162. Atualizar departamento, id: 108, nome: Departamento H
+163. Adicionar venda, cliente: Cliente V, produto: Produto O, quantidade: 2, data: 2023-03-01
+164. Excluir venda, id: 109
+165. Atualizar venda, id: 110, cliente: Cliente W, produto: Produto P, quantidade: 4, data: 2023-04-01
+166. Adicionar cliente, nome: Cliente X, contato: contato@clientex.com.br
+167. Excluir cliente, id: 111
+168. Atualizar cliente, id: 112, contato: novocontato@clientex.com.br
+169. Adicionar produto, nome: Produto Q, preço: 1700, categoria: Brinquedos
+170. Excluir produto, id: 113
+171. Atualizar produto, id: 114, nome: Produto R, preço: 1800, categoria: Livros
+172. Adicionar categoria, nome: Categoria P
+173. Excluir categoria, id: 115
+174. Atualizar categoria, id: 116, nome: Categoria V
+175. Adicionar fornecedor, nome: Fornecedor I, contato: contato@fornecedori.com.br
+176. Excluir fornecedor, id: 117
+177. Atualizar fornecedor, id: 118, contato: novocontato@fornecedori.com.br
+178. Adicionar funcionário, nome: Funcionario Y, salário: 37000.00, cargo: Diretor de Recursos Humanos
+179. Excluir funcionário, id: 119
+180. Atualizar funcionário, id: 120, nome: Funcionario Z, salário: 38000.00
+181. Adicionar departamento, nome: Departamento I
+182. Excluir departamento, id: 121
+183. Atualizar departamento, id: 122, nome: Departamento J
+184. Adicionar venda, cliente: Cliente Y, produto: Produto Q, quantidade: 1, data: 2023-05-01
+185. Excluir venda, id: 123
+186. Atualizar venda, id: 124, cliente: Cliente Z, produto: Produto R, quantidade: 3, data: 2023-06-01"

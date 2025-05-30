@@ -1,0 +1,48 @@
+response
+" ""INSERT INTO table (column1, column2, column3) VALUES ('value1', 'value2', 'value3')
+    INSERT INTO table (column4, column5, column6) VALUES ('value4', 'value5', 'value6')
+    UPDATE table SET column7 = 'new_value7' WHERE id = 1
+    DELETE FROM table WHERE name = 'old_name'
+    SELECT * FROM table ORDER BY id DESC LIMIT 10
+    INSERT INTO table2 (column1, column2) VALUES ('value8', 'value9')
+    UPDATE table2 SET column3 = 'new_value3' WHERE id = 5
+    DELETE FROM table2 WHERE name = 'old_name2'
+    SELECT * FROM table2 ORDER BY id ASC LIMIT 10
+    INSERT INTO orders (order_id, customer_id, product_id, quantity, total) VALUES (1, 2, 3, 4, 5)
+    UPDATE orders SET total = 6 WHERE order_id = 7
+    DELETE FROM orders WHERE order_id = 8
+    SELECT * FROM orders ORDER BY customer_id ASC LIMIT 10
+    INSERT INTO products (product_id, product_name, product_description) VALUES (9, 'Product1', 'Description1')
+    UPDATE products SET product_description = 'Description2' WHERE product_id = 10
+    DELETE FROM products WHERE product_id = 11
+    SELECT * FROM products ORDER BY product_name DESC LIMIT 10
+    INSERT INTO customers (customer_id, customer_name, customer_email) VALUES (12, 'Customer1', 'email1@example.com')
+    UPDATE customers SET customer_email = 'email2@example.com' WHERE customer_id = 13
+    DELETE FROM customers WHERE customer_id = 14
+    SELECT * FROM customers ORDER BY customer_name ASC LIMIT 10
+    INSERT INTO articles (article_id, title, author) VALUES (15, 'Article1', 'Author1')
+    UPDATE articles SET author = 'Author2' WHERE article_id = 16
+    DELETE FROM articles WHERE article_id = 17
+    SELECT * FROM articles ORDER BY title DESC LIMIT 10
+    INSERT INTO books (book_id, book_title, book_author) VALUES (18, 'Book1', 'Author3')
+    UPDATE books SET book_author = 'Author4' WHERE book_id = 19
+    DELETE FROM books WHERE book_id = 20
+    SELECT * FROM books ORDER BY book_title DESC LIMIT 10
+    INSERT INTO movies (movie_id, movie_title, running_time) VALUES (21, 'Movie1', 123)
+    UPDATE movies SET running_time = 456 WHERE movie_id = 22
+    DELETE FROM movies WHERE movie_id = 23
+    SELECT * FROM movies ORDER BY movie_title ASC LIMIT 10
+    INSERT INTO cars (car_id, license, color) VALUES (24, 'License1', 'Color1')
+    UPDATE cars SET color = 'Color2' WHERE car_id = 25
+    DELETE FROM cars WHERE car_id = 26
+    SELECT * FROM cars ORDER BY license ASC LIMIT 10
+    INSERT INTO former_teachers (teacher_id, teacher_name) VALUES (27, 'Teacher1')
+    UPDATE former_teachers SET teacher_name = 'Teacher2' WHERE teacher_id = 28
+    DELETE FROM former_teachers WHERE teacher_id = 29
+    SELECT * FROM former_teachers ORDER BY teacher_name ASC LIMIT 10
+    INSERT INTO invoices (invoice_id, customer_id, value) VALUES (30, 31, 32)
+    UPDATE invoices SET value = 33 WHERE invoice_id = 34
+    DELETE FROM invoices WHERE invoice_id = 35
+    SELECT * FROM invoices ORDER BY customer_id ASC LIMIT 10""
+
+   Continua até chegar no total de 500 linhas."

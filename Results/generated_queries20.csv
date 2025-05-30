@@ -1,0 +1,202 @@
+response
+"1. Adicionar produto, nome: ""Livro de Programação"", categoria: ""Tecnologia"", marca: ""Nome da Marca""
+2. Atualizar produto, id: 12345, nome: ""Novo Livro de Programação"", categoria: ""Tecnologia"", marca: ""Nome da Marca""
+3. Excluir produto, id: 67890
+4. Adicionar cliente, nome: ""Jose Silva"", email: ""jose.silva@email.com"", telefone: ""11-98765-4321""
+5. Atualizar cliente, id: 11111, nome: ""Joao Souza"", email: ""joao.souza@email.com"", telefone: ""11-98765-4321""
+6. Excluir cliente, id: 22222
+7. Adicionar venda, cliente: ""Jose Silva"", produto: ""Livro de Programação"", quantidade: 2
+8. Atualizar venda, id: 33333, cliente: ""Joao Souza"", produto: ""Novo Livro de Programação"", quantidade: 5
+9. Excluir venda, id: 44444
+10. Adicionar categoria, nome: ""Tecnologia""
+11. Atualizar categoria, id: 55555, nome: ""Nova Tecnologia""
+12. Excluir categoria, id: 66666
+13. Adicionar fornecedor, nome: ""Fornecedor X"", telefone: ""11-98765-4321""
+14. Atualizar fornecedor, id: 77777, nome: ""Novo Fornecedor"", telefone: ""11-98765-4321""
+15. Excluir fornecedor, id: 88888
+16. Adicionar produto fornecedor, produto: ""Livro de Programação"", fornecedor: ""Fornecedor X""
+17. Atualizar produto fornecedor, id: 99999, produto: ""Novo Livro de Programação"", fornecedor: ""Novo Fornecedor""
+18. Excluir produto fornecedor, id: 111111
+19. Adicionar funcionário, nome: ""Funcionario A"", salário: 5000.00
+20. Atualizar funcionário, id: 123456, nome: ""Novo Funcionário"", salário: 6000.00
+21. Excluir funcionário, id: 135790
+22. Adicionar departamento, nome: ""Tecnologia""
+23. Atualizar departamento, id: 246810, nome: ""Nova Tecnologia""
+24. Excluir departamento, id: 357920
+25. Adicionar funcionário departamento, funcionário: ""Funcionario A"", departamento: ""Tecnologia""
+26. Atualizar funcionário departamento, id: 468130, funcionário: ""Novo Funcionário"", departamento: ""Nova Tecnologia""
+27. Excluir funcionário departamento, id: 579240
+28. Adicionar cliente, nome: ""Maria Santos"", email: ""maria.santos@email.com"", telefone: ""11-98765-4321""
+29. Atualizar cliente, id: 681350, nome: ""Nova Cliente"", email: ""[nova.cliente@email.com](mailto:nova.cliente@email.com)"", telefone: ""11-98765-4321""
+30. Excluir cliente, id: 792460
+31. Adicionar venda, cliente: ""Maria Santos"", produto: ""Novo Livro de Programação"", quantidade: 3
+32. Atualizar venda, id: 892460, cliente: ""Nova Cliente"", produto: ""Livro de Programação"", quantidade: 1
+33. Excluir venda, id: 903570
+34. Adicionar categoria, nome: ""Eletrônicos""
+35. Atualizar categoria, id: 100460, nome: ""Novos Eletrônicos""
+36. Excluir categoria, id: 111570
+37. Adicionar fornecedor, nome: ""Fornecedor Y"", telefone: ""11-98765-4321""
+38. Atualizar fornecedor, id: 122680, nome: ""Novo Fornecedor"", telefone: ""11-98765-4321""
+39. Excluir fornecedor, id: 133790
+40. Adicionar produto fornecedor, produto: ""Smartphone de Alta Gama"", fornecedor: ""Fornecedor Y""
+41. Atualizar produto fornecedor, id: 144800, produto: ""Novo Smartphone de Alta Gama"", fornecedor: ""Novo Fornecedor""
+42. Excluir produto fornecedor, id: 155910
+43. Adicionar funcionário, nome: ""Funcionario B"", salário: 7000.00
+44. Atualizar funcionário, id: 166020, nome: ""Novo Funcionário"", salário: 8000.00
+45. Excluir funcionário, id: 177230
+46. Adicionar departamento, nome: ""Financeiro""
+47. Atualizar departamento, id: 188340, nome: ""Novo Departamento Financeiro""
+48. Excluir departamento, id: 199450
+49. Adicionar funcionário departamento, funcionário: ""Funcionario B"", departamento: ""Financeiro""
+50. Atualizar funcionário departamento, id: 200560, funcionário: ""Novo Funcionário"", departamento: ""Novo Departamento Financeiro""
+51. Excluir funcionário departamento, id: 211670
+52. Adicionar cliente, nome: ""Joana Siqueira"", email: ""[joana.siqueira@email.com](mailto:joana.siqueira@email.com)"", telefone: ""11-98765-4321""
+53. Atualizar cliente, id: 222780, nome: ""Nova Cliente"", email: ""[novacliente@email.com](mailto:novacliente@email.com)"", telefone: ""11-98765-4321""
+54. Excluir cliente, id: 233890
+55. Adicionar venda, cliente: ""Joana Siqueira"", produto: ""Novo Smartphone de Alta Gama"", quantidade: 2
+56. Atualizar venda, id: 244900, cliente: ""Nova Cliente"", produto: ""Smartphone de Alta Gama"", quantidade: 1
+57. Excluir venda, id: 255010
+58. Adicionar categoria, nome: ""Esportes""
+59. Atualizar categoria, id: 266120, nome: ""Novos Esportes""
+60. Excluir categoria, id: 277230
+61. Adicionar fornecedor, nome: ""Fornecedor Z"", telefone: ""11-98765-4321""
+62. Atualizar fornecedor, id: 288340, nome: ""Novo Fornecedor"", telefone: ""11-98765-4321""
+63. Excluir fornecedor, id: 299450
+64. Adicionar produto fornecedor, produto: ""Bicicleta de Alta Performance"", fornecedor: ""Fornecedor Z""
+65. Atualizar produto fornecedor, id: 300560, produto: ""Nova Bicicleta de Alta Performance"", fornecedor: ""Novo Fornecedor""
+66. Excluir produto fornecedor, id: 311670
+67. Adicionar funcionário, nome: ""Funcionario C"", salário: 9000.00
+68. Atualizar funcionário, id: 322780, nome: ""Novo Funcionário"", salário: 10000.00
+69. Excluir funcionário, id: 333890
+70. Adicionar departamento, nome: ""Comercial""
+71. Atualizar departamento, id: 344900, nome: ""Novo Departamento Comercial""
+72. Excluir departamento, id: 355010
+73. Adicionar funcionário departamento, funcionário: ""Funcionario C"", departamento: ""Comercial""
+74. Atualizar funcionário departamento, id: 366120, funcionário: ""Novo Funcionário"", departamento: ""Novo Departamento Comercial""
+75. Excluir funcionário departamento, id: 377230
+76. Adicionar cliente, nome: ""Carlos Almeida"", email: ""[carlos.almeida@email.com](mailto:carlos.almeida@email.com)"", telefone: ""11-98765-4321""
+77. Atualizar cliente, id: 388340, nome: ""Nova Cliente"", email: ""[novacliente@email.com](mailto:novacliente@email.com)"", telefone: ""11-98765-4321""
+78. Excluir cliente, id: 399450
+79. Adicionar venda, cliente: ""Carlos Almeida"", produto: ""Nova Bicicleta de Alta Performance"", quantidade: 3
+80. Atualizar venda, id: 400560, cliente: ""Nova Cliente"", produto: ""Bicicleta de Alta Performance"", quantidade: 1
+81. Excluir venda, id: 411670
+82. Adicionar categoria, nome: ""Moda""
+83. Atualizar categoria, id: 422780, nome: ""Nova Moda""
+84. Excluir categoria, id: 433890
+85. Adicionar fornecedor, nome: ""Fornecedor W"", telefone: ""11-98765-4321""
+86. Atualizar fornecedor, id: 444900, nome: ""Novo Fornecedor"", telefone: ""11-98765-4321""
+87. Excluir fornecedor, id: 455010
+88. Adicionar produto fornecedor, produto: ""Camisa de Luxo"", fornecedor: ""Fornecedor W""
+89. Atualizar produto fornecedor, id: 466120, produto: ""Nova Camisa de Luxo"", fornecedor: ""Novo Fornecedor""
+90. Excluir produto fornecedor, id: 477230
+91. Adicionar funcionário, nome: ""Funcionario D"", salário: 11000.00
+92. Atualizar funcionário, id: 488340, nome: ""Novo Funcionário"", salário: 12000.00
+93. Excluir funcionário, id: 499450
+94. Adicionar departamento, nome: ""Marketing""
+95. Atualizar departamento, id: 500560, nome: ""Novo Departamento Marketing""
+96. Excluir departamento, id: 511670
+97. Adicionar funcionário departamento, funcionário: ""Funcionario D"", departamento: ""Marketing""
+98. Atualizar funcionário departamento, id: 522780, funcionário: ""Novo Funcionário"", departamento: ""Novo Departamento Marketing""
+99. Excluir funcionário departamento, id: 533890
+100. Adicionar cliente, nome: ""Fernanda Costa"", email: ""[fernanda.costa@email.com](mailto:fernanda.costa@email.com)"", telefone: ""11-98765-4321""
+101. Atualizar cliente, id: 544900, nome: ""Nova Cliente"", email: ""[novacliente@email.com](mailto:novacliente@email.com)"", telefone: ""11-98765-4321""
+102. Excluir cliente, id: 555010
+103. Adicionar venda, cliente: ""Fernanda Costa"", produto: ""Nova Camisa de Luxo"", quantidade: 2
+104. Atualizar venda, id: 566120, cliente: ""Nova Cliente"", produto: ""Camisa de Luxo"", quantidade: 1
+105. Excluir venda, id: 577230
+106. Adicionar categoria, nome: ""Cozinha""
+107. Atualizar categoria, id: 588340, nome: ""Nova Cozinha""
+108. Excluir categoria, id: 599450
+109. Adicionar fornecedor, nome: ""Fornecedor V"", telefone: ""11-98765-4321""
+110. Atualizar fornecedor, id: 600560, nome: ""Novo Fornecedor"", telefone: ""11-98765-4321""
+111. Excluir fornecedor, id: 611670
+112. Adicionar produto fornecedor, produto: ""Fogão Profissional"", fornecedor: ""Fornecedor V""
+113. Atualizar produto fornecedor, id: 622780, produto: ""Novo Fogão Profissional"", fornecedor: ""Novo Fornecedor""
+114. Excluir produto fornecedor, id: 633890
+115. Adicionar funcionário, nome: ""Funcionario E"", salário: 13000.00
+116. Atualizar funcionário, id: 644900, nome: ""Novo Funcionário"", salário: 14000.00
+117. Excluir funcionário, id: 655010
+118. Adicionar departamento, nome: ""Recursos Humanos""
+119. Atualizar departamento, id: 666120, nome: ""Novo Departamento Recursos Humanos""
+120. Excluir departamento, id: 677230
+121. Adicionar funcionário departamento, funcionário: ""Funcionario E"", departamento: ""Recursos Humanos""
+122. Atualizar funcionário departamento, id: 688340, funcionário: ""Novo Funcionário"", departamento: ""Novo Departamento Recursos Humanos""
+123. Excluir funcionário departamento, id: 699450
+124. Adicionar cliente, nome: ""Guilherme Oliveira"", email: ""[guilherme.oliveira@email.com](mailto:guilherme.oliveira@email.com)"", telefone: ""11-98765-4321""
+125. Atualizar cliente, id: 700560, nome: ""Nova Cliente"", email: ""[novacliente@email.com](mailto:novacliente@email.com)"", telefone: ""11-98765-4321""
+126. Excluir cliente, id: 711670
+127. Adicionar venda, cliente: ""Guilherme Oliveira"", produto: ""Novo Fogão Profissional"", quantidade: 3
+128. Atualizar venda, id: 722780, cliente: ""Nova Cliente"", produto: ""Fogão Profissional"", quantidade: 1
+129. Excluir venda, id: 733890
+130. Adicionar categoria, nome: ""Informática""
+131. Atualizar categoria, id: 744900, nome: ""Nova Informática""
+132. Excluir categoria, id: 755010
+133. Adicionar fornecedor, nome: ""Fornecedor U"", telefone: ""11-98765-4321""
+134. Atualizar fornecedor, id: 766120, nome: ""Novo Fornecedor"", telefone: ""11-98765-4321""
+135. Excluir fornecedor, id: 777230
+136. Adicionar produto fornecedor, produto: ""Impressora de Alta Velocidade"", fornecedor: ""Fornecedor U""
+137. Atualizar produto fornecedor, id: 788340, produto: ""Nova Impressora de Alta Velocidade"", fornecedor: ""Novo Fornecedor""
+138. Excluir produto fornecedor, id: 799450
+139. Adicionar funcionário, nome: ""Funcionario F"", salário: 15000.00
+140. Atualizar funcionário, id: 800560, nome: ""Novo Funcionário"", salário: 16000.00
+141. Excluir funcionário, id: 811670
+142. Adicionar departamento, nome: ""Tecnologia""
+143. Atualizar departamento, id: 822780, nome: ""Novo Departamento Tecnologia""
+144. Excluir departamento, id: 833890
+145. Adicionar funcionário departamento, funcionário: ""Funcionario F"", departamento: ""Tecnologia""
+146. Atualizar funcionário departamento, id: 844900, funcionário: ""Novo Funcionário"", departamento: ""Novo Departamento Tecnologia""
+147. Excluir funcionário departamento, id: 855010
+148. Adicionar cliente, nome: ""Joana Souza"", email: ""[joana.souza@email.com](mailto:joana.souza@email.com)"", telefone: ""11-98765-4321""
+149. Atualizar cliente, id: 866120, nome: ""Nova Cliente"", email: ""[novacliente@email.com](mailto:novacliente@email.com)"", telefone: ""11-98765-4321""
+150. Excluir cliente, id: 877230
+151. Adicionar venda, cliente: ""Joana Souza"", produto: ""Nova Impressora de Alta Velocidade"", quantidade: 2
+152. Atualizar venda, id: 888340, cliente: ""Nova Cliente"", produto: ""Impressora de Alta Velocidade"", quantidade: 1
+153. Excluir venda, id: 899450
+154. Adicionar categoria, nome: ""Beleza""
+155. Atualizar categoria, id: 900560, nome: ""Nova Beleza""
+156. Excluir categoria, id: 911670
+157. Adicionar fornecedor, nome: ""Fornecedor T"", telefone: ""11-98765-4321""
+158. Atualizar fornecedor, id: 922780, nome: ""Novo Fornecedor"", telefone: ""11-98765-4321""
+159. Excluir fornecedor, id: 933890
+160. Adicionar produto fornecedor, produto: ""Secador Profissional"", fornecedor: ""Fornecedor T""
+161. Atualizar produto fornecedor, id: 944900, produto: ""Novo Secador Profissional"", fornecedor: ""Novo Fornecedor""
+162. Excluir produto fornecedor, id: 955010
+163. Adicionar funcionário, nome: ""Funcionario G"", salário: 17000.00
+164. Atualizar funcionário, id: 966120, nome: ""Novo Funcionário"", salário: 18000.00
+165. Excluir funcionário, id: 977230
+166. Adicionar departamento, nome: ""Design""
+167. Atualizar departamento, id: 988340, nome: ""Novo Departamento Design""
+168. Excluir departamento, id: 999450
+169. Adicionar funcionário departamento, funcionário: ""Funcionario G"", departamento: ""Design""
+170. Atualizar funcionário departamento, id: 1000560, funcionário: ""Novo Funcionário"", departamento: ""Novo Departamento Design""
+171. Excluir funcionário departamento, id: 1011670
+172. Adicionar cliente, nome: ""Marcos Santos"", email: ""[marcos.santos@email.com](mailto:marcos.santos@email.com)"", telefone: ""11-98765-4321""
+173. Atualizar cliente, id: 1022780, nome: ""Nova Cliente"", email: ""[novacliente@email.com](mailto:novacliente@email.com)"", telefone: ""11-98765-4321""
+174. Excluir cliente, id: 1033890
+175. Adicionar venda, cliente: ""Marcos Santos"", produto: ""Novo Secador Profissional"", quantidade: 3
+176. Atualizar venda, id: 1044900, cliente: ""Nova Cliente"", produto: ""Secador Profissional"", quantidade: 1
+177. Excluir venda, id: 1055010
+178. Adicionar categoria, nome: ""Esportes""
+179. Atualizar categoria, id: 1066120, nome: ""Nova Esportes""
+180. Excluir categoria, id: 1077230
+181. Adicionar fornecedor, nome: ""Fornecedor S"", telefone: ""11-98765-4321""
+182. Atualizar fornecedor, id: 1088340, nome: ""Novo Fornecedor"", telefone: ""11-98765-4321""
+183. Excluir fornecedor, id: 1099450
+184. Adicionar produto fornecedor, produto: ""Luva de Boxe"", fornecedor: ""Fornecedor S""
+185. Atualizar produto fornecedor, id: 1100560, produto: ""Nova Luva de Boxe"", fornecedor: ""Novo Fornecedor""
+186. Excluir produto fornecedor, id: 1111670
+187. Adicionar funcionário, nome: ""Funcionario H"", salário: 19000.00
+188. Atualizar funcionário, id: 1122780, nome: ""Novo Funcionário"", salário: 20000.00
+189. Excluir funcionário, id: 1133890
+190. Adicionar departamento, nome: ""Logística""
+191. Atualizar departamento, id: 1144900, nome: ""Novo Departamento Logística""
+192. Excluir departamento, id: 1155010
+193. Adicionar funcionário departamento, funcionário: ""Funcionario H"", departamento: ""Logística""
+194. Atualizar funcionário departamento, id: 1166120, funcionário: ""Novo Funcionário"", departamento: ""Novo Departamento Logística""
+195. Excluir funcionário departamento, id: 1177230
+196. Adicionar cliente, nome: ""Pedro Silva"", email: ""[pedro.silva@email.com](mailto:pedro.silva@email.com)"", telefone: ""11-98765-4321""
+197. Atualizar cliente, id: 1188340, nome: ""Nova Cliente"", email: ""[novacliente@email.com](mailto:novacliente@email.com)"", telefone: ""11-98765-4321""
+198. Excluir cliente, id: 1199450
+199. Adicionar venda, cliente: ""Pedro Silva"", produto: ""Nova Luva de Boxe"", quantidade: 2
+200. Atualizar venda, id: 1200560, cliente: ""Nova Cliente"", produto: ""Luva de Boxe"", quantidade: 1
+201. Excluir venda, id: 1211670"

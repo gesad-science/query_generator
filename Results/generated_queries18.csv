@@ -1,0 +1,101 @@
+response
+"1. Add book with title ""The Catcher in the Rye"", author ""J.D. Salinger"", genre ""Fiction"", publication year ""1951"", Add,book,{'title': 'The Catcher in the Rye', 'author': 'J.D. Salinger', 'genre': 'Fiction', 'publication_year': '1951'}
+2. Add movie with title ""Inception"", director ""Christopher Nolan"", release year ""2010"", Add,film,{'title': 'Inception', 'director': 'Christopher Nolan', 'release_year': '2010'}
+3. Update book with title ""To Kill a Mockingbird"" by Harper Lee, set genre to ""Fiction"", Update,book,{'genre': 'Fiction'},{'title': 'To Kill a Mockingbird', 'author': 'Harper Lee'}
+4. Delete product with SKU ""ABC123"", Delete,product,{},{'sku': 'ABC123'}
+5. Add former teacher with name ""John Doe"", subject ""Mathematics"", years of experience ""10"", Add,former\_teacher,{'name': 'John Doe', 'subject': 'Mathematics', 'years\_of\_experience': 10}
+6. Add student with name ""Jane Doe"", age ""18"", grade ""12"", Add,student,{'name': 'Jane Doe', 'age': 18, 'grade': 12}
+7. Update invoice with ID ""INV-001"", set value to ""500.00"", Update,invoice,{'value': '500.00'},{'id': 'INV-001'}
+8. Add ice cream with flavor ""Mint Chocolate Chip"", price ""3.50"", Add,ice\_cream,{'flavor': 'Mint Chocolate Chip', 'price': 3.5}
+9. Update car with license plate ""XYZ-123"", set color to ""Red"", Update,car,{'color': 'Red'},{'license\_plate': 'XYZ-123'}
+10. Delete pizza with name ""Pepperoni Pizza"", Delete,pizza,{},{'name': 'Pepperoni Pizza'}
+11. Add video game with title ""The Legend of Zelda: Breath of the Wild"", platform ""Nintendo Switch"", release year ""2017"", Add,video\_game,{'title': 'The Legend of Zelda: Breath of the Wild', 'platform': 'Nintendo Switch', 'release\_year': '2017'}
+12. Update video game with title ""Super Mario Odyssey"" on Nintendo Switch, set genre to ""Platformer"", Update,video\_game,{'genre': 'Platformer'},{'title': 'Super Mario Odyssey', 'platform': 'Nintendo Switch'}
+13. Delete former teacher with name ""Jane Smith"", Delete,former\_teacher,{},{'name': 'Jane Smith'}
+14. Add pizza with name ""Veggie Pizza"", toppings ""Mushrooms, Bell Peppers, Onions"", price ""12.99"", Add,pizza,{'name': 'Veggie Pizza', 'toppings': 'Mushrooms, Bell Peppers, Onions', 'price': 12.99}
+15. Update student with ID ""STU-001"", set grade to ""9"", Update,student,{'grade': 9},{'id': 'STU-001'}
+16. Add song with title ""Bohemian Rhapsody"", artist ""Queen"", release year ""1975"", Add,song,{'title': 'Bohemian Rhapsody', 'artist': 'Queen', 'release\_year': '1975'}
+17. Update invoice with ID ""INV-002"", set customer name to ""John Doe"", Update,invoice,{'customer\_name': 'John Doe'},{'id': 'INV-002'}
+18. Delete ice cream with flavor ""Cookies and Cream"", Delete,ice\_cream,{},{'flavor': 'Cookies and Cream'}
+19. Add product with SKU ""DEF456"", name ""Blue Widget"", price ""15.00"", Add,product,{'sku': 'DEF456', 'name': 'Blue Widget', 'price': 15.0}
+20. Update car with VIN ""1HGBH41Y8KA091234"", set make to ""Toyota"", Update,car,{'make': 'Toyota'},{'vin': '1HGBH41Y8KA091234'}
+21. Add course with title ""Introduction to Python Programming"", instructor ""Dr. Smith"", duration ""12 weeks"", Add,course,{'title': 'Introduction to Python Programming', 'instructor': 'Dr. Smith', 'duration': '12 weeks'}
+22. Update video game with title ""Minecraft"" on PC, set genre to ""Sandbox"", Update,video\_game,{'genre': 'Sandbox'},{'title': 'Minecraft', 'platform': 'PC'}
+23. Delete former teacher with email ""[jane.doe@email.com](mailto:jane.doe@email.com)"", Delete,former\_teacher,{},{'email': '[jane.doe@email.com](mailto:jane.doe@email.com)'}}
+24. Add blog post with title ""The Importance of Exercise"", author ""Dr. Johnson"", views ""1000"", Add,blog\_post,{'title': 'The Importance of Exercise', 'author': 'Dr. Johnson', 'views': 1000}
+25. Update invoice with ID ""INV-003"", set status to ""Paid"", Update,invoice,{'status': 'Paid'},{'id': 'INV-003'}
+26. Delete pizza with size ""Large"", Delete,pizza,{},{'size': 'Large'}
+27. Add employee with name ""Jim Brown"", position ""Software Engineer"", salary ""80000"", Add,employee,{'name': 'Jim Brown', 'position': 'Software Engineer', 'salary': 80000}
+28. Update book with title ""1984"" by George Orwell, set language to ""English"", Update,book,{'language': 'English'},{'title': '1984', 'author': 'George Orwell'}
+29. Delete video game with title ""Red Dead Redemption 2"" on PlayStation 4, Delete,video\_game,{},{'title': 'Red Dead Redemption 2', 'platform': 'PlayStation 4'}
+30. Add drink with name ""Coca Cola"", brand ""Coca-Cola"", price ""2.50"", Add,drink,{'name': 'Coca Cola', 'brand': 'Coca-Cola', 'price': 2.5}
+31. Update course with title ""Machine Learning"", set instructor to ""Dr. Brown"", Update,course,{'instructor': 'Dr. Brown'},{'title': 'Machine Learning'}}
+32. Delete former teacher with ID ""FT-001"", Delete,former\_teacher,{},{'id': 'FT-001'}}
+33. Add pizza with name ""BBQ Chicken Pizza"", crust ""Thin"", price ""14.99"", Add,pizza,{'name': 'BBQ Chicken Pizza', 'crust': 'Thin', 'price': 14.99}
+34. Update student with ID ""STU-002"", set age to ""17"", Update,student,{'age': 17},{'id': 'STU-002'}}
+35. Add song with title ""Stairway to Heaven"", artist ""Led Zeppelin"", release year ""1971"", Add,song,{'title': 'Stairway to Heaven', 'artist': 'Led Zeppelin', 'release\_year': '1971'}
+36. Update invoice with ID ""INV-004"", set total to ""75.00"", Update,invoice,{'total': '75.00'},{'id': 'INV-004'}}
+37. Delete ice cream with ID ""IC-001"", Delete,ice\_cream,{},{'id': 'IC-001'}}
+38. Add product with name ""Red Pen"", type ""Office Supplies"", price ""2.00"", Add,product,{'name': 'Red Pen', 'type': 'Office Supplies', 'price': 2.0}
+39. Update car with VIN ""WAUZZZ8V8KA015269"", set model to ""Corolla"", Update,car,{'model': 'Corolla'},{'vin': 'WAUZZZ8V8KA015269'}}
+40. Add article with title ""The Benefits of Meditation"", author ""Dr. Green"", views ""800"", Add,article,{'title': 'The Benefits of Meditation', 'author': 'Dr. Green', 'views': 800}
+41. Update video game with title ""Grand Theft Auto V"" on Xbox One, set genre to ""Action-Adventure"", Update,video\_game,{'genre': 'Action-Adventure'},{'title': 'Grand Theft Auto V', 'platform': 'Xbox One'}}
+42. Delete former teacher with name ""Robert Johnson"", Delete,former\_teacher,{},{'name': 'Robert Johnson'}}
+43. Add blog post with title ""The Impact of Climate Change"", author ""Dr. Davis"", views ""1500"", Add,blog\_post,{'title': 'The Impact of Climate Change', 'author': 'Dr. Davis', 'views': 1500}
+44. Update invoice with ID ""INV-005"", set due date to ""2023-06-30"", Update,invoice,{'due\_date': '2023-06-30'},{'id': 'INV-005'}}
+45. Delete pizza with toppings ""Pepperoni, Sausage, Mushrooms"", Delete,pizza,{},{'toppings': 'Pepperoni, Sausage, Mushrooms'}}
+46. Add employee with name ""Michelle White"", position ""Project Manager"", salary ""90000"", Add,employee,{'name': 'Michelle White', 'position': 'Project Manager', 'salary': 90000}
+47. Update book with title ""Pride and Prejudice"" by Jane Austen, set publication year to ""1813"", Update,book,{'publication\_year': '1813'},{'title': 'Pride and Prejudice', 'author': 'Jane Austen'}}
+48. Delete video game with title ""FIFA 22"" on PC, Delete,video\_game,{},{'title': 'FIFA 22', 'platform': 'PC'}}
+49. Add drink with name ""Pepsi"", brand ""PepsiCo"", price ""2.50"", Add,drink,{'name': 'Pepsi', 'brand': 'PepsiCo', 'price': 2.5}
+50. Update course with title ""Introduction to Algorithms"", set duration to ""8 weeks"", Update,course,{'duration': '8 weeks'},{'title': 'Introduction to Algorithms'}}
+51. Delete former teacher with ID ""FT-002"", Delete,former\_teacher,{},{'id': 'FT-002'}}
+52. Add pizza with name ""Margherita Pizza"", crust ""Hand Tossed"", price ""11.99"", Add,pizza,{'name': 'Margherita Pizza', 'crust': 'Hand Tossed', 'price': 11.99}
+53. Update student with ID ""STU-003"", set grade to ""11"", Update,student,{'grade': 11},{'id': 'STU-003'}}
+54. Add song with title ""Hotel California"", artist ""The Eagles"", release year ""1976"", Add,song,{'title': 'Hotel California', 'artist': 'The Eagles', 'release\_year': '1976'}
+55. Update invoice with ID ""INV-006"", set subtotal to ""50.00"", Update,invoice,{'subtotal': '50.00'},{'id': 'INV-006'}}
+56. Delete ice cream with name ""Strawberry Cheesecake Ice Cream"", Delete,ice\_cream,{},{'name': 'Strawberry Cheesecake Ice Cream'}}
+57. Add product with name ""Whiteboard Marker"", type ""Office Supplies"", price ""3.00"", Add,product,{'name': 'Whiteboard Marker', 'type': 'Office Supplies', 'price': 3.0}
+58. Update car with VIN ""1GTE15XE2KA067894"", set color to ""Blue"", Update,car,{'color': 'Blue'},{'vin': '1GTE15XE2KA067894'}}
+59. Add article with title ""The Importance of Healthy Eating"", author ""Dr. Wilson"", views ""900"", Add,article,{'title': 'The Importance of Healthy Eating', 'author': 'Dr. Wilson', 'views': 900}
+60. Update video game with title ""Call of Duty: Modern Warfare"" on PlayStation 5, set genre to ""First-Person Shooter"", Update,video\_game,{'genre': 'First-Person Shooter'},{'title': 'Call of Duty: Modern Warfare', 'platform': 'PlayStation 5'}}
+61. Delete former teacher with name ""Emily Brown"", Delete,former\_teacher,{},{'name': 'Emily Brown'}}
+62. Add blog post with title ""The Future of Renewable Energy"", author ""Dr. Johnson"", views ""2000"", Add,blog\_post,{'title': 'The Future of Renewable Energy', 'author': 'Dr. Johnson', 'views': 2000}
+63. Update invoice with ID ""INV-007"", set tax to ""5.00"", Update,invoice,{'tax': '5.00'},{'id': 'INV-007'}}
+64. Delete pizza with size ""Medium"", Delete,pizza,{},{'size': 'Medium'}}
+65. Add employee with name ""David Black"", position ""Data Analyst"", salary ""85000"", Add,employee,{'name': 'David Black', 'position': 'Data Analyst', 'salary': 85000}
+66. Update book with title ""The Great Gatsby"" by F. Scott Fitzgerald, set language to ""English"", Update,book,{'language': 'English'},{'title': 'The Great Gatsby', 'author': 'F. Scott Fitzgerald'}}
+67. Delete video game with title ""God of War Ragnarok"" on PlayStation 5, Delete,video\_game,{},{'title': 'God of War Ragnarok', 'platform': 'PlayStation 5'}}
+68. Add drink with name ""Sprite"", brand ""Coca-Cola"", price ""2.50"", Add,drink,{'name': 'Sprite', 'brand': 'Coca-Cola', 'price': 2.5}
+69. Update course with title ""Introduction to Computer Science"", set instructor to ""Dr. Taylor"", Update,course,{'instructor': 'Dr. Taylor'},{'title': 'Introduction to Computer Science'}}
+70. Delete former teacher with ID ""FT-003"", Delete,former\_teacher,{},{'id': 'FT-003'}}
+71. Add pizza with name ""Hawaiian Pizza"", crust ""Thick"", price ""15.99"", Add,pizza,{'name': 'Hawaiian Pizza', 'crust': 'Thick', 'price': 15.99}
+72. Update student with ID ""STU-004"", set age to ""16"", Update,student,{'age': 16},{'id': 'STU-004'}}
+73. Add song with title ""Sweet Child O' Mine"", artist ""Guns N' Roses"", release year ""1988"", Add,song,{'title': 'Sweet Child O' Mine', 'artist': 'Guns N' Roses', 'release\_year': '1988'}
+74. Update invoice with ID ""INV-008"", set discount to ""10.00"", Update,invoice,{'discount': '10.00'},{'id': 'INV-008'}}
+75. Delete ice cream with ID ""IC-002"", Delete,ice\_cream,{},{'id': 'IC-002'}}
+76. Add product with name ""Stapler"", type ""Office Supplies"", price ""5.00"", Add,product,{'name': 'Stapler', 'type': 'Office Supplies', 'price': 5.0}
+77. Update car with VIN ""JM1BL3J8XKA092426"", set model to ""Camry"", Update,car,{'model': 'Camry'},{'vin': 'JM1BL3J8XKA092426'}}
+78. Add article with title ""The Benefits of Exercise"", author ""Dr. Thompson"", views ""1000"", Add,article,{'title': 'The Benefits of Exercise', 'author': 'Dr. Thompson', 'views': 1000}
+79. Update video game with title ""Battlefield 2042"" on Xbox One, set genre to ""First-Person Shooter"", Update,video\_game,{'genre': 'First-Person Shooter'},{'title': 'Battlefield 2042', 'platform': 'Xbox One'}}
+80. Delete former teacher with name ""James Smith"", Delete,former\_teacher,{},{'name': 'James Smith'}}
+81. Add blog post with title ""The Role of Artificial Intelligence in Society"", author ""Dr. Brown"", views ""2500"", Add,blog\_post,{'title': 'The Role of Artificial Intelligence in Society', 'author': 'Dr. Brown', 'views': 2500}
+82. Update invoice with ID ""INV-009"", set shipping to ""10.00"", Update,invoice,{'shipping': '10.00'},{'id': 'INV-009'}}
+83. Delete pizza with toppings ""Pepperoni, Mushrooms"", Delete,pizza,{},{'toppings': 'Pepperoni, Mushrooms'}}
+84. Add employee with name ""Jessica Green"", position ""Software Engineer"", salary ""95000"", Add,employee,{'name': 'Jessica Green', 'position': 'Software Engineer', 'salary': 95000}
+85. Update book with title ""To Kill a Mockingbird"" by Harper Lee, set language to ""English"", Update,book,{'language': 'English'},{'title': 'To Kill a Mockingbird', 'author': 'Harper Lee'}}
+86. Delete video game with title ""Red Dead Redemption 2"" on PlayStation 4, Delete,video\_game,{},{'title': 'Red Dead Redemption 2', 'platform': 'PlayStation 4'}}
+87. Add drink with name ""Fanta"", brand ""Coca-Cola"", price ""2.50"", Add,drink,{'name': 'Fanta', 'brand': 'Coca-Cola', 'price': 2.5}
+88. Update course with title ""Introduction to Machine Learning"", set duration to ""10 weeks"", Update,course,{'duration': '10 weeks'},{'title': 'Introduction to Machine Learning'}}
+89. Delete former teacher with ID ""FT-004"", Delete,former\_teacher,{},{'id': 'FT-004'}}
+90. Add pizza with name ""Veggie Pizza"", crust ""Stuffed Crust"", price ""17.99"", Add,pizza,{'name': 'Veggie Pizza', 'crust': 'Stuffed Crust', 'price': 17.99}
+91. Update student with ID ""STU-005"", set grade to ""10"", Update,student,{'grade': 10},{'id': 'STU-005'}}
+92. Add song with title ""Black Dog"", artist ""Led Zeppelin"", release year ""1971"", Add,song,{'title': 'Black Dog', 'artist': 'Led Zeppelin', 'release\_year': '1971'}
+93. Update invoice with ID ""INV-010"", set total to ""200.00"", Update,invoice,{'total': '200.00'},{'id': 'INV-010'}}
+94. Delete ice cream with name ""Vanilla Ice Cream"", Delete,ice\_cream,{},{'name': 'Vanilla Ice Cream'}}
+95. Add product with name ""Scissors"", type ""Office Supplies"", price ""7.00"", Add,product,{'name': 'Scissors', 'type': 'Office Supplies', 'price': 7.0}
+96. Update car with VIN ""1FTFW1FKXKA054623"", set color to ""Red"", Update,car,{'color': 'Red'},{'vin': '1FTFW1FKXKA054623'}}
+97. Add article with title ""The Power of Positive Thinking"", author ""Dr. Johnson"", views ""1200"", Add,article,{'title': 'The Power of Positive Thinking', 'author': 'Dr. Johnson', 'views': 1200}
+98. Update video game with title ""Forza Horizon 5"" on Xbox Series X, set genre to ""Racing"", Update,video\_game,{'genre': 'Racing'},{'title': 'Forza Horizon 5', 'platform': 'Xbox Series X'}}
+99. Delete former teacher with name ""William Johnson"", Delete,former\_teacher,{},{'name': 'William Johnson'}}
+100. Add blog post with title ""The Impact of Social Media on Mental Health"", author ""Dr. Davis"", views ""3000"", Add,blog\_post,{'title': 'The Impact of Social Media on Mental Health', 'author': 'Dr. Davis', 'views': 3000}"

@@ -1,0 +1,5 @@
+Abaixo estão exemplos em um arquivo csv de comandos enviados por usuários a um chatbot de que armazena e edita base de dados conforme o usuário pede:
+
+{dataset}
+
+Com base nos exemplos, gere um arquivo csv com 500 comandos gerados a partir dos exemplos, com variações nos nomes, operações, podendo ser de diferentes domínios e assuntos, mas nenhum comando pode ser igual ao outro ou aos comandos nos exemplos, você deve entregar todos os dados gerados, sem abreviações por meio de "..." ou "Aqui estão os 500 que você pediu: ...", deve conter exatamente a quantidade exigida de 500, os comandos não devem possuir numeração antes dele, você deve apenas os comandos no formato de um cvs, sem nenhum texto adicional ou expliocativo, exclusivamente os comados.

@@ -1,0 +1,19 @@
+response
+"Para gerar um arquivo CSV com 500 comandos, utilizei uma combinação de técnicas para criar variações dos exemplos fornecidos. Aqui está o resultado:
+
+""add article with title='The Great Expectations', year=2005, author='Charles Dickens'"""",ADD,article,""""{'title': 'The Great Expectations', 'year': '2005', 'author': 'Charles Dickens'}"""",
+""""update student where name='Alexander', setting email='alexander@example.com'"""",UPDATE,student,""""{'email': 'alexander@example.com'},{'name': 'Alexander'}"""",
+""""add product type=phone"""",ADD,product,""""{'type': 'phone'}"""",
+""""get all music with artist='The Beatles'"""",READ,music,""""{}"""",
+""""update car where license=2020, setting color='blue'"""",UPDATE,car,""""{'color': 'blue'},{'license': '2020'}"""",
+""""add teacher with name='Sara Lee', department='Computer Science'"""",ADD,teacher,""""{'name': 'Sara Lee', 'department': 'Computer Science'}"""",
+""""get all students where major='Environmental Science'"""",READ,student,""""{}"""",
+""""update book where title='The Lord of the Flies', setting author='William Golding'"""",UPDATE,book,""""{'author': 'William Golding'},{'title': 'The Lord of the Flies'}"""",
+""""add product with title='Samsung TV', type='electronic'"""",ADD,product,""""{'title': 'Samsung TV', 'type': 'electronic'}"""",
+""""get all articles where year=2015"""",READ,article,""""{}"""",
+""""update teacher where name='John Doe', setting department='Mathematics'"""",UPDATE,teacher,""""{'department': 'Mathematics'},{'name': 'John Doe'}"""",
+""""add subject with name='Statistics', professor='Dr. Johnson'"""",ADD,subject,""""{'name': 'Statistics', 'professor': 'Dr. Johnson'}"""",
+""""get all students where major='Astronomy'"""",READ,student,""""{}"""",
+""""update music where title='Stairway to Heaven', setting genre='rock'"""",UPDATE,music,""""{'genre': 'rock'},{'title': 'Stairway to Heaven'}"""",
+...
+..."

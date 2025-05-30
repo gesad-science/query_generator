@@ -1,0 +1,101 @@
+response
+"1. Adicionar funcionário, nome: João Silva, salário: 50000.00, cargo: Gerente de Projetos
+2. Excluir funcionário, id: 56
+3. Atualizar funcionário, id: 89, nome: Maria Souza, salário: 60000.00, cargo: Diretora Comercial
+4. Adicionar departamento, nome: TI
+5. Excluir departamento, id: 12
+6. Atualizar departamento, id: 37, nome: RH
+7. Adicionar cliente, nome: Empresa XYZ, contato: contato@empresaxyz.com.br
+8. Excluir cliente, id: 95
+9. Atualizar cliente, id: 23, nome: Empresa ABC, contato: novocontato@empresabc.com.br
+10. Adicionar produto, nome: Smartphone XYZ, preço: 1500.00, categoria: Eletrônicos
+11. Excluir produto, id: 76
+12. Atualizar produto, id: 43, nome: Notebook ABC, preço: 2000.00, categoria: Informática
+13. Adicionar venda, cliente: Empresa XYZ, produto: Smartphone XYZ, quantidade: 5, data: 2023-07-01
+14. Excluir venda, id: 108
+15. Atualizar venda, id: 65, cliente: Empresa ABC, produto: Notebook ABC, quantidade: 3, data: 2023-08-01
+16. Adicionar fornecedor, nome: Fornecedor Gamma, contato: contato@fornecedorgamma.com.br
+17. Excluir fornecedor, id: 91
+18. Atualizar fornecedor, id: 24, nome: Fornecedor Beta, contato: novocontato@fornecedobeta.com.br
+19. Adicionar categoria, nome: Tecnologia
+20. Excluir categoria, id: 57
+21. Atualizar categoria, id: 36, nome: Informática e Comunicação
+22. Adicionar funcionário, nome: José da Silva, salário: 45000.00, cargo: Gerente de Operações
+23. Excluir funcionário, id: 78
+24. Atualizar funcionário, id: 19, nome: Carlos Santos, salário: 55000.00, cargo: Diretor Financeiro
+25. Adicionar departamento, nome: Compras
+26. Excluir departamento, id: 33
+27. Atualizar departamento, id: 48, nome: Marketing e Vendas
+28. Adicionar cliente, nome: Empresa LMN, contato: contato@empresalmn.com.br
+29. Excluir cliente, id: 110
+30. Atualizar cliente, id: 67, nome: Empresa DEF, contato: novocontato@empresadef.com.br
+31. Adicionar produto, nome: Tablet ABC, preço: 800.00, categoria: Tecnologia
+32. Excluir produto, id: 92
+33. Atualizar produto, id: 54, nome: Fone de Ouvido XYZ, preço: 120.00, categoria: Acessórios de TI
+34. Adicionar venda, cliente: Empresa LMN, produto: Tablet ABC, quantidade: 3, data: 2023-09-01
+35. Excluir venda, id: 77
+36. Atualizar venda, id: 34, cliente: Empresa DEF, produto: Fone de Ouvido XYZ, quantidade: 10, data: 2023-10-01
+37. Adicionar fornecedor, nome: Fornecedor Alpha, contato: contato@fornecedoralpha.com.br
+38. Excluir fornecedor, id: 55
+39. Atualizar fornecedor, id: 61, nome: Fornecedor Delta, contato: novocontato@fornecedordelta.com.br
+40. Adicionar categoria, nome: Acessórios de TI
+41. Excluir categoria, id: 82
+42. Atualizar categoria, id: 76, nome: Eletrônicos de Consumo
+43. Adicionar funcionário, nome: Ana Maria, salário: 40000.00, cargo: Analista de TI
+44. Excluir funcionário, id: 85
+45. Atualizar funcionário, id: 21, nome: Pedro Paiva, salário: 60000.00, cargo: Gerente de Recursos Humanos
+46. Adicionar departamento, nome: Finanças e Contabilidade
+47. Excluir departamento, id: 29
+48. Atualizar departamento, id: 51, nome: Suporte ao Cliente
+49. Adicionar cliente, nome: Empresa PQR, contato: contato@empresapqr.com.br
+50. Excluir cliente, id: 83
+51. Atualizar cliente, id: 78, nome: Empresa JKL, contato: novocontato@empresajkl.com.br
+52. Adicionar produto, nome: Impressora XYZ, preço: 400.00, categoria: Informática e Comunicação
+53. Excluir produto, id: 10
+54. Atualizar produto, id: 86, nome: Mouse ABC, preço: 40.00, categoria: Acessórios de TI
+55. Adicionar venda, cliente: Empresa PQR, produto: Impressora XYZ, quantidade: 2, data: 2023-11-01
+56. Excluir venda, id: 45
+57. Atualizar venda, id: 98, cliente: Empresa JKL, produto: Mouse ABC, quantidade: 5, data: 2023-12-01
+58. Adicionar fornecedor, nome: Fornecedor Epsilon, contato: contato@fornecedorepsilon.com.br
+59. Excluir fornecedor, id: 67
+60. Atualizar fornecedor, id: 81, nome: Fornecedor Zeta, contato: novocontato@fornecedorzeta.com.br
+61. Adicionar categoria, nome: Periféricos de Computador
+62. Excluir categoria, id: 99
+63. Atualizar categoria, id: 14, nome: Impressoras e Multifuncionais
+64. Adicionar funcionário, nome: Luiza Silva, salário: 50000.00, cargo: Gerente de Marketing
+65. Excluir funcionário, id: 33
+66. Atualizar funcionário, id: 47, nome: Bruno Santos, salário: 70000.00, cargo: Diretor de Operações
+67. Adicionar departamento, nome: Suporte Técnico
+68. Excluir departamento, id: 56
+69. Atualizar departamento, id: 22, nome: Logística e Transporte
+70. Adicionar cliente, nome: Empresa STU, contato: contato@empresastu.com.br
+71. Excluir cliente, id: 96
+72. Atualizar cliente, id: 54, nome: Empresa WXY, contato: novocontato@empresawxy.com.br
+73. Adicionar produto, nome: Monitor ABC, preço: 300.00, categoria: Periféricos de Computador
+74. Excluir produto, id: 35
+75. Atualizar produto, id: 100, nome: Teclado XYZ, preço: 30.00, categoria: Acessórios de TI
+76. Adicionar venda, cliente: Empresa STU, produto: Monitor ABC, quantidade: 1, data: 2024-01-01
+77. Excluir venda, id: 36
+78. Atualizar venda, id: 53, cliente: Empresa WXY, produto: Teclado XYZ, quantidade: 8, data: 2024-02-01
+79. Adicionar fornecedor, nome: Fornecedor Eta, contato: contato@fornecedoreta.com.br
+80. Excluir fornecedor, id: 34
+81. Atualizar fornecedor, id: 72, nome: Fornecedor Theta, contato: novocontato@fornecedortheta.com.br
+82. Adicionar categoria, nome: Acessórios de Impressora
+83. Excluir categoria, id: 45
+84. Atualizar categoria, id: 68, nome: Multifuncionais e Todo-em-Um
+85. Adicionar funcionário, nome: Carlos Oliveira, salário: 55000.00, cargo: Gerente de Compras
+86. Excluir funcionário, id: 17
+87. Atualizar funcionário, id: 28, nome: Clara Almeida, salário: 75000.00, cargo: Diretora de TI
+88. Adicionar departamento, nome: Pesquisa e Desenvolvimento
+89. Excluir departamento, id: 63
+90. Atualizar departamento, id: 15, nome: Design e Inovação
+91. Adicionar cliente, nome: Empresa VWX, contato: contato@empresavwx.com.br
+92. Excluir cliente, id: 87
+93. Atualizar cliente, id: 64, nome: Empresa YZA, contato: novocontato@empresayza.com.br
+94. Adicionar produto, nome: Câmera Digital ABC, preço: 500.00, categoria: Eletrônicos de Consumo
+95. Excluir produto, id: 61
+96. Atualizar produto, id: 32, nome: Scanner XYZ, preço: 200.00, categoria: Impressoras e Multifuncionais
+97. Adicionar venda, cliente: Empresa VWX, produto: Câmera Digital ABC, quantidade: 4, data: 2024-03-01
+98. Excluir venda, id: 65
+99. Atualizar venda, id: 71, cliente: Empresa YZA, produto: Scanner XYZ, quantidade: 3, data: 2024-04-01
+100. Adicionar fornecedor, nome: Fornecedor Iota, contato: contato@fornecedoriota.com.br"

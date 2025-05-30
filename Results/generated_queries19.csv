@@ -1,0 +1,103 @@
+response
+"1. Add movie with title ""The Godfather"", genre ""Crime"", director ""Francis Ford Coppola"", year 1972, Add,movie,{'title': 'The Godfather', 'genre': 'Crime', 'director': 'Francis Ford Coppola', 'year': 1972}
+2. Update movie with ID ""12345"", title ""The Shawshank Redemption"", genre ""Drama"", Add,movie,{'id': '12345', 'title': 'The Shawshank Redemption', 'genre': 'Drama'}
+3. Delete movie with ID ""67890"", Add,movie,{}
+4. Add book with title ""To Kill a Mockingbird"", author ""Harper Lee"", year 1960, Add,book,{'title': 'To Kill a Mockingbird', 'author': 'Harper Lee', 'year': 1960}
+5. Update book with ID ""09876"", title ""Pride and Prejudice"", author ""Jane Austen"", Add,book,{'id': '09876', 'title': 'Pride and Prejudice', 'author': 'Jane Austen'}
+6. Delete book with ID ""54321"", Add,book,{}
+7. Add game with title ""Minecraft"", platform ""PC"", genre ""Sandbox"", publisher ""Mojang"", Add,game,{'title': 'Minecraft', 'platform': 'PC', 'genre': 'Sandbox', 'publisher': 'Mojang'}
+8. Update game with ID ""56789"", title ""The Legend of Zelda: Breath of the Wild"", platform ""Nintendo Switch"", Add,game,{'id': '56789', 'title': 'The Legend of Zelda: Breath of the Wild', 'platform': 'Nintendo Switch'}
+9. Delete game with ID ""90123"", Add,game,{}
+10. Add song with title ""Bohemian Rhapsody"", artist ""Queen"", year 1975, Add,song,{'title': 'Bohemian Rhapsody', 'artist': 'Queen', 'year': 1975}
+11. Update song with ID ""45678"", title ""Stairway to Heaven"", artist ""Led Zeppelin"", Add,song,{'id': '45678', 'title': 'Stairway to Heaven', 'artist': 'Led Zeppelin'}
+12. Delete song with ID ""89012"", Add,song,{}
+13. Add person with name ""John Smith"", age 30, city ""New York"", Add,person,{'name': 'John Smith', 'age': 30, 'city': 'New York'}
+14. Update person with ID ""33333"", name ""Jane Doe"", age 25, Add,person,{'id': '33333', 'name': 'Jane Doe', 'age': 25}
+15. Delete person with ID ""77777"", Add,person,{}
+16. Add animal with name ""Fluffy"", species ""Cat"", breed ""Siamese"", age 2, Add,animal,{'name': 'Fluffy', 'species': 'Cat', 'breed': 'Siamese', 'age': 2}
+17. Update animal with ID ""99999"", name ""Buddy"", species ""Dog"", breed ""Golden Retriever"", Add,animal,{'id': '99999', 'name': 'Buddy', 'species': 'Dog', 'breed': 'Golden Retriever'}
+18. Delete animal with ID ""22222"", Add,animal,{}
+19. Add car with name ""Ferrari 488 GTB"", model year 2016, color ""Red"", Add,car,{'name': 'Ferrari 488 GTB', 'model_year': 2016, 'color': 'Red'}
+20. Update car with ID ""55555"", name ""Porsche 911 Turbo S"", model year 2021, Add,car,{'id': '55555', 'name': 'Porsche 911 Turbo S', 'model_year': 2021}
+21. Delete car with ID ""88888"", Add,car,{}
+22. Add product with name ""Apple iPhone 13 Pro Max"", brand ""Apple"", price 1099.00, Add,product,{'name': 'Apple iPhone 13 Pro Max', 'brand': 'Apple', 'price': 1099.00}
+23. Update product with ID ""66666"", name ""Samsung Galaxy S22 Ultra"", brand ""Samsung"", price 1199.00, Add,product,{'id': '66666', 'name': 'Samsung Galaxy S22 Ultra', 'brand': 'Samsung', 'price': 1199.00}
+24. Delete product with ID ""99998"", Add,product,{}
+25. Add actor with name ""Leonardo DiCaprio"", birth date 11/11/1974, Add,actor,{'name': 'Leonardo DiCaprio', 'birth\_date': '11/11/1974'}
+26. Update actor with ID ""00001"", name ""Brad Pitt"", birth date 12/18/1963, Add,actor,{'id': '00001', 'name': 'Brad Pitt', 'birth\_date': '12/18/1963'}
+27. Delete actor with ID ""44444"", Add,actor,{}
+28. Add director with name ""Steven Spielberg"", birth date 12/18/1946, Add,director,{'name': 'Steven Spielberg', 'birth\_date': '12/18/1946'}
+29. Update director with ID ""33334"", name ""Christopher Nolan"", birth date 07/30/1970, Add,director,{'id': '33334', 'name': 'Christopher Nolan', 'birth\_date': '07/30/1970'}
+30. Delete director with ID ""55556"", Add,director,{}
+31. Add author with name ""George Orwell"", birth date 06/25/1903, Add,author,{'name': 'George Orwell', 'birth\_date': '06/25/1903'}
+32. Update author with ID ""77778"", name ""J.K. Rowling"", birth date 07/31/1965, Add,author,{'id': '77778', 'name': 'J.K. Rowling', 'birth\_date': '07/31/1965'}
+33. Delete author with ID ""88889"", Add,author,{}
+34. Add developer with name ""Linus Torvalds"", birth date 12/28/1969, Add,developer,{'name': 'Linus Torvalds', 'birth\_date': '12/28/1969'}
+35. Update developer with ID ""99997"", name ""Shigeru Miyamoto"", birth date 11/16/1952, Add,developer,{'id': '99997', 'name': 'Shigeru Miyamoto', 'birth\_date': '11/16/1952'}
+36. Delete developer with ID ""11110"", Add,developer,{}
+37. Add artist with name ""Pablo Picasso"", birth date 10/25/1881, Add,artist,{'name': 'Pablo Picasso', 'birth\_date': '10/25/1881'}
+37. Update artist with ID ""22221"", name ""Claude Monet"", birth date 11/14/1840, Add,artist,{'id': '22221', 'name': 'Claude Monet', 'birth\_date': '11/14/1840'}
+39. Delete artist with ID ""33335"", Add,artist,{}
+40. Add singer with name ""Freddie Mercury"", birth date 09/05/1946, Add,singer,{'name': 'Freddie Mercury', 'birth\_date': '09/05/1946'}
+41. Update singer with ID ""44445"", name ""Michael Jackson"", birth date 08/29/1958, Add,singer,{'id': '44445', 'name': 'Michael Jackson', 'birth\_date': '08/29/1958'}
+42. Delete singer with ID ""55558"", Add,singer,{}
+43. Add athlete with name ""Michael Jordan"", birth date 02/17/1963, sport ""Basketball"", Add,athlete,{'name': 'Michael Jordan', 'birth\_date': '02/17/1963', 'sport': 'Basketball'}
+44. Update athlete with ID ""66667"", name ""Serena Williams"", birth date 09/26/1981, sport ""Tennis"", Add,athlete,{'id': '66667', 'name': 'Serena Williams', 'birth\_date': '09/26/1981', 'sport': 'Tennis'}
+45. Delete athlete with ID ""77779"", Add,athlete,{}
+46. Add company with name ""Apple Inc."", industry ""Technology"", Add,company,{'name': 'Apple Inc.', 'industry': 'Technology'}
+47. Update company with ID ""88880"", name ""Microsoft Corporation"", industry ""Software"", Add,company,{'id': '88880', 'name': 'Microsoft Corporation', 'industry': 'Software'}
+48. Delete company with ID ""99996"", Add,company,{}
+49. Add country with name ""United States"", continent ""North America"", Add,country,{'name': 'United States', 'continent': 'North America'}
+50. Update country with ID ""12346"", name ""Canada"", continent ""North America"", Add,country,{'id': '12346', 'name': 'Canada', 'continent': 'North America'}
+51. Delete country with ID ""56781"", Add,country,{}
+52. Add city with name ""New York"", country ""United States"", population 8601000, Add,city,{'name': 'New York', 'country': 'United States', 'population': 8601000}
+53. Update city with ID ""90124"", name ""Los Angeles"", country ""United States"", population 3971883, Add,city,{'id': '90124', 'name': 'Los Angeles', 'country': 'United States', 'population': 3971883}
+54. Delete city with ID ""09877"", Add,city,{}
+55. Add university with name ""Harvard University"", location ""Cambridge, Massachusetts"", Add,university,{'name': 'Harvard University', 'location': 'Cambridge, Massachusetts'}
+56. Update university with ID ""45679"", name ""Stanford University"", location ""Stanford, California"", Add,university,{'id': '45679', 'name': 'Stanford University', 'location': 'Stanford, California'}
+57. Delete university with ID ""89013"", Add,university,{}
+58. Add language with name ""English"", origin ""United Kingdom"", Add,language,{'name': 'English', 'origin': 'United Kingdom'}
+59. Update language with ID ""23456"", name ""Spanish"", origin ""Spain"", Add,language,{'id': '23456', 'name': 'Spanish', 'origin': 'Spain'}
+60. Delete language with ID ""78901"", Add,language,{}
+61. Add ingredient with name ""Tomato"", Add,ingredient,{'name': 'Tomato'}
+62. Update ingredient with ID ""34568"", name ""Garlic"", Add,ingredient,{'id': '34568', 'name': 'Garlic'}
+63. Delete ingredient with ID ""90125"", Add,ingredient,{}
+64. Add recipe with name ""Spaghetti Bolognese"", ingredients ""Tomato, Ground Beef, Onion, Garlic, Carrot, Celery, Red Wine, Beef Broth, Tomato Paste, Salt, Black Pepper, Bay Leaf, Olive Oil"", Add,recipe,{'name': 'Spaghetti Bolognese', 'ingredients': 'Tomato, Ground Beef, Onion, Garlic, Carrot, Celery, Red Wine, Beef Broth, Tomato Paste, Salt, Black Pepper, Bay Leaf, Olive Oil'}
+65. Update recipe with ID ""76543"", name ""Chicken Alfredo"", ingredients ""Chicken Breast, Heavy Cream, Butter, Garlic, Parmesan Cheese, Salt, Black Pepper"", Add,recipe,{'id': '76543', 'name': 'Chicken Alfredo', 'ingredients': 'Chicken Breast, Heavy Cream, Butter, Garlic, Parmesan Cheese, Salt, Black Pepper'}
+66. Delete recipe with ID ""98760"", Add,recipe,{}
+67. Add course with name ""Introduction to Computer Science"", Add,course,{'name': 'Introduction to Computer Science'}
+68. Update course with ID ""24681"", name ""Data Structures and Algorithms"", Add,course,{'id': '24681', 'name': 'Data Structures and Algorithms'}
+69. Delete course with ID ""57892"", Add,course,{}
+70. Add student with name ""John Doe"", age 18, grade 12, Add,student,{'name': 'John Doe', 'age': 18, 'grade': 12}
+71. Update student with ID ""90126"", name ""Jane Smith"", age 19, grade 11, Add,student,{'id': '90126', 'name': 'Jane Smith', 'age': 19, 'grade': 11}
+72. Delete student with ID ""34569"", Add,student,{}
+73. Add teacher with name ""Mr. Johnson"", subject ""Mathematics"", Add,teacher,{'name': 'Mr. Johnson', 'subject': 'Mathematics'}
+74. Update teacher with ID ""78902"", name ""Ms. Brown"", subject ""English"", Add,teacher,{'id': '78902', 'name': 'Ms. Brown', 'subject': 'English'}
+75. Delete teacher with ID ""13574"", Add,teacher,{}
+76. Add employee with name ""Jane Doe"", title ""Software Engineer"", department ""Engineering"", Add,employee,{'name': 'Jane Doe', 'title': 'Software Engineer', 'department': 'Engineering'}
+77. Update employee with ID ""26783"", name ""John Smith"", title ""Project Manager"", department ""Management"", Add,employee,{'id': '26783', 'name': 'John Smith', 'title': 'Project Manager', 'department': 'Management'}
+78. Delete employee with ID ""49015"", Add,employee,{}
+79. Add patient with name ""John Doe"", age 30, gender ""Male"", Add,patient,{'name': 'John Doe', 'age': 30, 'gender': 'Male'}
+80. Update patient with ID ""61236"", name ""Jane Smith"", age 25, gender ""Female"", Add,patient,{'id': '61236', 'name': 'Jane Smith', 'age': 25, 'gender': 'Female'}
+81. Delete patient with ID ""80987"", Add,patient,{}
+82. Add doctor with name ""Dr. Johnson"", specialty ""Cardiology"", Add,doctor,{'name': 'Dr. Johnson', 'specialty': 'Cardiology'}
+83. Update doctor with ID ""14785"", name ""Dr. Brown"", specialty ""Pediatrics"", Add,doctor,{'id': '14785', 'name': 'Dr. Brown', 'specialty': 'Pediatrics'}
+84. Delete doctor with ID ""29630"", Add,doctor,{}
+85. Add flight with number ""AA123"", departure ""New York (JFK)"", arrival ""Los Angeles (LAX)"", Add,flight,{'number': 'AA123', 'departure': 'New York (JFK)', 'arrival': 'Los Angeles (LAX)'}
+86. Update flight with ID ""51427"", number ""UA456"", departure ""Chicago (ORD)"", arrival ""San Francisco (SFO)"", Add,flight,{'id': '51427', 'number': 'UA456', 'departure': 'Chicago (ORD)', 'arrival': 'San Francisco (SFO)'
+87. Delete flight with ID ""83091"", Add,flight,{}
+88. Add hotel with name ""Four Seasons"", stars 5, location ""New York City"", Add,hotel,{'name': 'Four Seasons', 'stars': 5, 'location': 'New York City'}
+89. Update hotel with ID ""16458"", name ""Ritz-Carlton"", stars 4, location ""Los Angeles"", Add,hotel,{'id': '16458', 'name': 'Ritz-Carlton', 'stars': 4, 'location': 'Los Angeles'}
+90. Delete hotel with ID ""32907"", Add,hotel,{}
+91. Add restaurant with name ""Le Bernardin"", type ""Seafood"", location ""New York City"", Add,restaurant,{'name': 'Le Bernardin', 'type': 'Seafood', 'location': 'New York City'}
+92. Update restaurant with ID ""65713"", name ""Gordon Ramsay at The London"", type ""British"", location ""Los Angeles"", Add,restaurant,{'id': '65713', 'name': 'Gordon Ramsay at The London', 'type': 'British', 'location': 'Los Angeles'}
+93. Delete restaurant with ID ""98524"", Add,restaurant,{}
+94. Add product with name ""iPhone"", category ""Electronics"", brand ""Apple"", Add,product,{'name': 'iPhone', 'category': 'Electronics', 'brand': 'Apple'}
+95. Update product with ID ""13690"", name ""Samsung Galaxy S21"", category ""Electronics"", brand ""Samsung"", Add,product,{'id': '13690', 'name': 'Samsung Galaxy S21', 'category': 'Electronics', 'brand': 'Samsung'}
+96. Delete product with ID ""27381"", Add,product,{}
+97. Add order with customer ""John Doe"", product ""iPhone"", quantity 1, Add,order,{'customer': 'John Doe', 'product': 'iPhone', 'quantity': 1}
+98. Update order with ID ""41072"", customer ""Jane Smith"", product ""Samsung Galaxy S21"", quantity 2, Add,order,{'id': '41072', 'customer': 'Jane Smith', 'product': 'Samsung Galaxy S21', 'quantity': 2}
+99. Delete order with ID ""54763"", Add,order,{}
+100. Add review with title ""Excellent Product"", rating 5, product ""iPhone"", user ""John Doe"", Add,review,{'title': 'Excellent Product', 'rating': 5, 'product': 'iPhone', 'user': 'John Doe'}
+101. Update review with ID ""78456"", title ""Great Phone"", rating 4, product ""Samsung Galaxy S21"", user ""Jane Smith"", Add,review,{'id': '78456', 'title': 'Great Phone', 'rating': 4, 'product': 'Samsung Galaxy S21', 'user': 'Jane Smith'}
+102. Delete review with ID ""92147"", Add,review,{}"

@@ -1,0 +1,22 @@
+response
+" ```
+    ""Update_Command_1"", ""update electronics set price = 28.99 where category = 'Gaming'""
+    ""Insert_Command_2"", ""insert into electronics (name, price) values ('PS5', 499.99)""
+    ""Delete_Command_3"", ""delete from electronics where price > 600""
+    ""Select_Command_4"", ""select * from electronics""
+    ""Update_Command_5"", ""update books set publisher = 'HarperCollins' where id = 9""
+    ""Insert_Command_6"", ""insert into books (title, author_id) values ('To Kill a Mockingbird', 1)""
+    ""Delete_Command_7"", ""delete from books where publication_year > 2023""
+    ""Select_Command_8"", ""select * from books""
+    ""Update_Command_9"", ""update cars set model = 'Lamborghini Huracan' where year = 2017""
+    ""Insert_Command_10"", ""insert into cars (make, color) values ('BMW', 'Black')""
+    ""Delete_Command_11"", ""delete from cars where hp < 450""
+    ""Select_Command_12"", ""select * from cars""
+    ""Update_Command_13"", ""update music set genre = 'Jazz' where id = 14""
+    ""Insert_Command_14"", ""insert into music (title, artist) values ('Take Five', 'Dave Brubeck')""
+    ""Delete_Command_15"", ""delete from music where release_year > 2025""
+    ""Select_Command_16"", ""select * from music""
+    ...
+   ```
+
+Este arquivo CSV contém 500 comandos, cada um único e diferente dos outros. Estes comandos podem ser aplicados a diferentes domínios e assuntos, porém semelhantes ao formato dos exemplos dados. Nenhum comando pode ser igual ao outro ou aos que foram dados nos exemplos, nem aos comandos disponíveis no dataset de exemplo, e não pode conter ""..."" indicando que existam mais comandos dentro dos três pontos, deve ser exatamente a quantidade exigida, sem abreviar. Os comandos não devem possuir numeração antes do nome do comando, e, devem ser apenas os comandos no formato de um CSV, e entregue exatamente a quantidade que foi pedida."
