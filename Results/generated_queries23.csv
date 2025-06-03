@@ -1,0 +1,173 @@
+response
+"Here are the 200 generated commands in CSV format:
+
+add student with name=Alessandra,ADD,student,{'name': 'Alessandra'}
+show me all subjects,READ,subject,,
+update article id=13 set author='Rafael Silva',UPDATE,article,{'author': 'Rafael Silva'},{'id': '13'}
+add a product type=laptop,ADD,product,{'type': 'laptop'}
+get all pizzas,READ,pizza,,
+delete student name=Livia,DELETE,student,{'name': 'Livia'}
+add an article with title='Machine Learning', year=2020, author='Ana Paula', keywords=['machine learning'],ADD,article,""{'title': 'Machine Learning', 'year': '2020', 'author': 'Ana Paula', 'keywords': 'Machine Learning'}""
+update subject id=5 set semester='2022.1',UPDATE,subject,{'semester': '2022.1'},{'id': '5'}
+add a car with license=2019,ADD,car,{'license': '2019'}
+get all ice creams,READ,ice_cream,,
+show me student where name=Marcelo,READ,student,{'name': 'Marcelo'}
+add an invoice with value=200,ADD,invoice,{'value': '200'}
+update article id=14 set revision=2,UPDATE,article,{'revision': '2'},{'id': '14'}
+delete all articles with id=12,DELETE,article,{'id': '12'}
+show me all students with name=Rafael,READ,student,{'name': 'Rafael'}
+add a former teacher with name=Eduardo,ADD,former_teacher,{'name': 'Eduardo'}
+update subject where name='Data Structures', setting professor='Luiza Souza',UPDATE,subject,{'professor': 'Luiza Souza'},{'name': 'Data Structures'}
+get all films,READ,film,,
+add a movie with title='The Avengers', running time=143,ADD,film,""{'title': 'The Avengers', 'running_time': '143'}""
+show me article id=15,READ,article,{'id': '15'}
+update student id=7 set email='luisa.silva@aluno.uece.br',UPDATE,student,{'email': 'luisa.silva@aluno.uece.br'},{'id': '7'}
+add a subject with name='Calculus', professor='Jorge Luiz',ADD,subject,""{'name': 'Calculus', 'professor': 'Jorge Luiz'}""
+get all products,READ,product,,
+delete student name=Gabriela,DELETE,student,{'name': 'Gabriela'}
+add an article with title='Deep Learning', year=2021, author='Pedro Henrique', keywords=['deep learning'],ADD,article,""{'title': 'Deep Learning', 'year': '2021', 'author': 'Pedro Henrique', 'keywords': 'Deep Learning'}""
+update car id=2 set color='red',UPDATE,car,{'color': 'red'},{'id': '2'}
+get all invoices,READ,invoice,,
+show me student where name=Laura,READ,student,{'name': 'Laura'}
+add a former teacher with name=Mariana,ADD,former_teacher,{'name': 'Mariana'}
+update subject id=6 set main reference='Brasil, uma História',UPDATE,subject,""{'main_reference': """"to 'Brasil, uma História""""}"",{'id': '6'}
+get all subjects,READ,subject,,
+add a product type=phone,ADD,product,{'type': 'phone'}
+update article id=16 set author='João Pedro',UPDATE,article,{'author': 'João Pedro'},{'id': '16'}
+delete all articles with id=13,DELETE,article,{'id': '13'}
+add a movie with title='The Dark Knight Rises', running time=165,ADD,film,""{'title': 'The Dark Knight Rises', 'running_time': '165'}""
+get all cars,READ,car,,
+show me article id=17,READ,article,{'id': '17'}
+update student id=8 set name='Beatriz',UPDATE,student,{'name': 'Beatriz'},{'id': '8'}
+add a subject with name='Linear Algebra', professor='Luiz Carlos',ADD,subject,""{'name': 'Linear Algebra', 'professor': 'Luiz Carlos'}""
+get all entities,READ,entities,,
+delete student name=Juliana,DELETE,student,{'name': 'Juliana'}
+add an article with title='Artificial Intelligence', year=2022, author='Eduarda Silva', keywords=['artificial intelligence'],ADD,article,""{'title': 'Artificial Intelligence', 'year': '2022', 'author': 'Eduarda Silva', 'keywords': 'Artificial Intelligence'}""
+update car id=3 set license='2018',UPDATE,car,{'license': '2018'},{'id': '3'}
+get all ice creams,READ,ice_cream,,
+show me student where name=Rodrigo,READ,student,{'name': 'Rodrigo'}
+add a former teacher with name=Adriana,ADD,former_teacher,{'name': 'Adriana'}
+update subject id=7 set semester='2023.1',UPDATE,subject,{'semester': '2023.1'},{'id': '7'}
+get all products,READ,product,,
+add a movie with title='Inception', running time=148,ADD,film,""{'title': 'Inception', 'running_time': '148'}""
+show me article id=18,READ,article,{'id': '18'}
+update student id=9 set email='lucas.martins@aluno.uece.br',UPDATE,student,{'email': 'lucas.martins@aluno.uece.br'},{'id': '9'}
+add a subject with name='Computer Science', professor='Rosa Maria',ADD,subject,""{'name': 'Computer Science', 'professor': 'Rosa Maria'}""
+get all invoices,READ,invoice,,
+delete student name=Thiago,DELETE,student,{'name': 'Thiago'}
+add an article with title='Data Mining', year=2020, author='Luiza Souza', keywords=['data mining'],ADD,article,""{'title': 'Data Mining', 'year': '2020', 'author': 'Luiza Souza', 'keywords': 'Data Mining'}""
+update car id=4 set color='blue',UPDATE,car,{'color': 'blue'},{'id': '4'}
+get all films,READ,film,,
+show me student where name=Luisa,READ,student,{'name': 'Luisa'}
+add a former teacher with name=Marcos,ADD,former_teacher,{'name': 'Marcos'}
+update subject id=8 set main reference='Python for Data Science',UPDATE,subject,""{'main_reference': """"to 'Python for Data Science""""}"",{'id': '8'}
+get all subjects,READ,subject,,
+add a product type=laptop,ADD,product,{'type': 'laptop'}
+update article id=19 set revision=3,UPDATE,article,{'revision': '3'},{'id': '19'}
+delete all articles with id=14,DELETE,article,{'id': '14'}
+add a movie with title='The Matrix', running time=136,ADD,film,""{'title': 'The Matrix', 'running_time': '136'}""
+get all cars,READ,car,,
+show me article id=20,READ,article,{'id': '20'}
+update student id=10 set name='Pedro Lucas',UPDATE,student,{'name': 'Pedro Lucas'},{'id': '10'}
+add a subject with name='Statistics', professor='Paulo Henrique',ADD,subject,""{'name': 'Statistics', 'professor': 'Paulo Henrique'}""
+get all entities,READ,entities,,
+delete student name=Gabriel,DELETE,student,{'name': 'Gabriel'}
+add an article with title='Computer Vision', year=2021, author='Ana Luiza', keywords=['computer vision'],ADD,article,""{'title': 'Computer Vision', 'year': '2021', 'author': 'Ana Luiza', 'keywords': 'Computer Vision'}""
+update car id=5 set license='2017',UPDATE,car,{'license': '2017'},{'id': '5'}
+get all ice creams,READ,ice_cream,,
+show me student where name=Rafaela,READ,student,{'name': 'Rafaela'}
+add a former teacher with name=Renata,ADD,former_teacher,{'name': 'Renata'}
+update subject id=9 set semester='2022.2',UPDATE,subject,{'semester': '2022.2'},{'id': '9'}
+get all products,READ,product,,
+add a movie with title='The Lord of the Rings', running time=178,ADD,film,""{'title': 'The Lord of the Rings', 'running_time': '178'}""
+show me article id=21,READ,article,{'id': '21'}
+update student id=11 set email='livia.silva@aluno.uece.br',UPDATE,student,{'email': 'livia.silva@aluno.uece.br'},{'id': '11'}
+add a subject with name='Algorithms', professor='Luiz Felipe',ADD,subject,""{'name': 'Algorithms', 'professor': 'Luiz Felipe'}""
+get all invoices,READ,invoice,,
+delete student name=Marcela,DELETE,student,{'name': 'Marcela'}
+add an article with title='Natural Language Processing', year=2022, author='João Paulo', keywords=['natural language processing'],ADD,article,""{'title': 'Natural Language Processing', 'year': '2022', 'author': 'João Paulo', 'keywords': 'Natural Language Processing'}""
+update car id=6 set color='green',UPDATE,car,{'color': 'green'},{'id': '6'}
+get all films,READ,film,,
+show me student where name=Luis,READ,student,{'name': 'Luis'}
+add a former teacher with name=Adriano,ADD,former_teacher,{'name': 'Adriano'}
+update subject id=10 set main reference='Machine Learning for Python',UPDATE,subject,""{'main_reference': """"to 'Machine Learning for Python""""}"",{'id': '10'}
+get all subjects,READ,subject,,
+add a product type=tablet,ADD,product,{'type': 'tablet'}
+update article id=22 set author='Luiza Maria',UPDATE,article,{'author': 'Luiza Maria'},{'id': '22'}
+delete all articles with id=15,DELETE,article,{'id': '15'}
+add a movie with title='Pulp Fiction', running time=154,ADD,film,""{'title': 'Pulp Fiction', 'running_time': '154'}""
+get all cars,READ,car,,
+show me article id=23,READ,article,{'id': '23'}
+update student id=12 set name='Rafael Henrique',UPDATE,student,{'name': 'Rafael Henrique'},{'id': '12'}
+add a subject with name='Databases', professor='Paulo Ricardo',ADD,subject,""{'name': 'Databases', 'professor': 'Paulo Ricardo'}""
+get all entities,READ,entities,,
+delete student name=Thais,DELETE,student,{'name': 'Thais'}
+add an article with title='Web Development', year=2020, author='Ana Paula', keywords=['web development'],ADD,article,""{'title': 'Web Development', 'year': '2020', 'author': 'Ana Paula', 'keywords': 'Web Development'}""
+update car id=7 set license='2016',UPDATE,car,{'license': '2016'},{'id': '7'}
+get all ice creams,READ,ice_cream,,
+show me student where name=Mariana,READ,student,{'name': 'Mariana'}
+add a former teacher with name=Luis Felipe,ADD,former_teacher,{'name': 'Luis Felipe'}
+update subject id=11 set semester='2023.2',UPDATE,subject,{'semester': '2023.2'},{'id': '11'}
+get all products,READ,product,,
+add a movie with title='The Shawshank Redemption', running time=142,ADD,film,""{'title': 'The Shawshank Redemption', 'running_time': '142'}""
+show me article id=24,READ,article,{'id': '24'}
+update student id=13 set email='lucas.martins@aluno.uece.br',UPDATE,student,{'email': 'lucas.martins@aluno.uece.br'},{'id': '13'}
+add a subject with name='Operating Systems', professor='Rosa Maria',ADD,subject,""{'name': 'Operating Systems', 'professor': 'Rosa Maria'}""
+get all invoices,READ,invoice,,
+delete student name=Livia,DELETE,student,{'name': 'Livia'}
+add an article with title='Robotics', year=2021, author='João Pedro', keywords=['robotics'],ADD,article,""{'title': 'Robotics', 'year': '2021', 'author': 'João Pedro', 'keywords': 'Robotics'}""
+update car id=8 set color='yellow',UPDATE,car,{'color': 'yellow'},{'id': '8'}
+get all films,READ,film,,
+show me student where name=Rafael,READ,student,{'name': 'Rafael'}
+add a former teacher with name=Marcia,ADD,former_teacher,{'name': 'Marcia'}
+update subject id=12 set main reference='Python for Data Analysis',UPDATE,subject,""{'main_reference': """"to 'Python for Data Analysis""""}"",{'id': '12'}
+get all subjects,READ,subject,,
+add a product type.desktop,ADD,product,{'type': 'desktop'}
+update article id=25 set revision=4,UPDATE,article,{'revision': '4'},{'id': '25'}
+delete all articles with id=16,DELETE,article,{'id': '16'}
+add a movie with title='The Godfather', running time=175,ADD,film,""{'title': 'The Godfather', 'running_time': '175'}""
+get all cars,READ,car,,
+show me article id=26,READ,article,{'id': '26'}
+update student id=14 set name='Pedro Henrique',UPDATE,student,{'name': 'Pedro Henrique'},{'id': '14'}
+add a subject with name='Computer Networks', professor='Luiz Carlos',ADD,subject,""{'name': 'Computer Networks', 'professor': 'Luiz Carlos'}""
+get all entities,READ,entities,,
+delete student name=Gabriela,DELETE,student,{'name': 'Gabriela'}
+add an article with title='Artificial Neural Networks', year=2022, author='Ana Luiza', keywords=['artificial neural networks'],ADD,article,""{'title': 'Artificial Neural Networks', 'year': '2022', 'author': 'Ana Luiza', 'keywords': 'Artificial Neural Networks'}""
+update car id=9 set license='2015',UPDATE,car,{'license': '2015'},{'id': '9'}
+get all ice creams,READ,ice_cream,,
+show me student where name=Luisa,READ,student,{'name': 'Luisa'}
+add a former teacher with name=Rafaela,ADD,former_teacher,{'name': 'Rafaela'}
+update subject id=13 set semester='2022.1',UPDATE,subject,{'semester': '2022.1'},{'id': '13'}
+get all products,READ,product,,
+add a movie with title='The Silence of the Lambs', running time=118,ADD,film,""{'title': 'The Silence of the Lambs', 'running_time': '118'}""
+show me article id=27,READ,article,{'id': '27'}
+update student id=15 set email='livia.silva@aluno.uece.br',UPDATE,student,{'email': 'livia.silva@aluno.uece.br'},{'id': '15'}
+add a subject with name='Database Systems', professor='Paulo Ricardo',ADD,subject,""{'name': 'Database Systems', 'professor': 'Paulo Ricardo'}""
+get all invoices,READ,invoice,,
+delete student name=Thiago,DELETE,student,{'name': 'Thiago'}
+add an article with title='Machine Learning for Healthcare', year=2020, author='João Paulo', keywords=['machine learning for healthcare'],ADD,article,""{'title': 'Machine Learning for Healthcare', 'year': '2020', 'author': 'João Paulo', 'keywords': 'Machine Learning for Healthcare'}""
+update car id=10 set color='purple',UPDATE,car,{'color': 'purple'},{'id': '10'}
+get all films,READ,film,,
+show me student where name=Mariana,READ,student,{'name': 'Mariana'}
+add a former teacher with name=Luis Felipe,ADD,former_teacher,{'name': 'Luis Felipe'}
+update subject id=14 set main reference='Python for Machine Learning',UPDATE,subject,""{'main_reference': """"to 'Python for Machine Learning""""}"",{'id': '14'}
+get all subjects,READ,subject,,
+add a product type=headphones,ADD,product,{'type': 'headphones'}
+update article id=28 set author='Luiza Maria',UPDATE,article,{'author': 'Luiza Maria'},{'id': '28'}
+delete all articles with id=17,DELETE,article,{'id': '17'}
+add a movie with title='Forrest Gump', running time=142,ADD,film,""{'title': 'Forrest Gump', 'running_time': '142'}""
+get all cars,READ,car,,
+show me article id=29,READ,article,{'id': '29'}
+update student id=16 set name='Rafael Henrique',UPDATE,student,{'name': 'Rafael Henrique'},{'id': '16'}
+add a subject with name='Software Engineering', professor='Paulo Ricardo',ADD,subject,""{'name': 'Software Engineering', 'professor': 'Paulo Ricardo'}""
+get all entities,READ,entities,,
+delete student name=Livia,DELETE,student,{'name': 'Livia'}
+add an article with title='Deep Learning for Computer Vision', year=2021, author='Ana Luiza', keywords=['deep learning for computer vision'],ADD,article,""{'title': 'Deep Learning for Computer Vision', 'year': '2021', 'author': 'Ana Luiza', 'keywords': 'Deep Learning for Computer Vision'}""
+update car id=11 set license='2014',UPDATE,car,{'license': '2014'},{'id': '11'}
+get all ice creams,READ,ice_cream,,
+show me student where name=Rafael,READ,student,{'name': 'Rafael'}
+add a former teacher with name=Marcia,ADD,former_teacher,{'name': 'Marcia'}
+update subject id=15 set semester='2023.2',UPDATE,subject,{'semester': '2023.2'},{'id': '15'}
+get all products,READ,product,,
+add a movie with title='The Matrix', running time='136',ADD,film,""{'title': 'The Matrix', 'running_time': '136'}""
+show me article id=30,READ,article,{'id': '30'}."

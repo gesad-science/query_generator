@@ -1,0 +1,131 @@
+response
+"Here is the generated CSV file with 200 unique commands:
+
+add student with name=alessandro,ADD,student,{'name': 'Alessandro'}
+update article id=13 set author=luciana,UPDATE,article,{'author': 'Luciana'},{'id': '13'}
+show me all ice cream,READ,ice_cream,
+add a subject with name=calculus,ADD,subject,{'name': 'Calculus'}
+delete student name=fernanda,DELETE,student,{'name': 'Fernanda'}
+get all subjects,READ,subject,
+update article id=14 set year=2024,UPDATE,article,{'year': '2024'},{'id': '14'}
+add a pizza with flavour=margherita,ADD,pizza,{'flavour': 'Margherita'}
+show me student where name=caio,READ,student,{'name': 'Caio'}
+add an article with title=data science, year=2023, author=breno,ADD,article,{'title': 'Data Science', 'year': '2023', 'author': 'Breno'}
+update subject id=5 set semester=2024.1,UPDATE,subject,{'semester': '2024.1'},{'id': '5'}
+add a car with license=2022,ADD,car,{'license': '2022'}
+get all articles,READ,article,
+add student with name=livia,ADD,student,{'name': 'Livia'}
+update article id=15 set author=maria,UPDATE,article,{'author': 'Maria'},{'id': '15'}
+show me all products,READ,product,
+add a movie with title=the lord of the rings, running time=178,ADD,film,{'title': 'The Lord of the Rings', 'running_time': '178'}
+delete student name=gabriel,DELETE,student,{'name': 'Gabriel'}
+get all students with name=isadora,READ,student,{'name': 'Isadora'}
+add an invoice with value=200,ADD,invoice,{'value': '200'}
+update article id=16 set revision=2,UPDATE,article,{'revision': '2'},{'id': '16'}
+show me student where name=luana,READ,student,{'name': 'Luana'}
+add a subject with name=biochemistry,ADD,subject,{'name': 'Biochemistry'}
+get all former teachers,READ,former_teacher,
+add an article with title=artificial intelligence, year=2025, author=paulo,ADD,article,{'title': 'Artificial Intelligence', 'year': '2025', 'author': 'Paulo'}
+update subject id=6 set professor=rafael,UPDATE,subject,{'professor': 'Rafael'},{'id': '6'}
+add a car with color=silver,ADD,car,{'color': 'Silver'}
+get all ice creams,READ,ice_cream,
+show me student where name=vinicius,READ,student,{'name': 'Vinicius'}
+add an article with title=data analysis, year=2022, author=luisa,ADD,article,{'title': 'Data Analysis', 'year': '2022', 'author': 'Luisa'}
+update article id=17 set keywords=['machine learning'],UPDATE,article,{'keywords': ['Machine Learning']},{'id': '17'}
+add a pizza with flavour=quattro formaggi,ADD,pizza,{'flavour': 'Quattro Formaggi'}
+delete student name=sarah,DELETE,student,{'name': 'Sarah'}
+get all students with name=joao,READ,student,{'name': 'Joao'}
+add an invoice with value=150,ADD,invoice,{'value': '150'}
+update article id=18 set author=lucas,UPDATE,article,{'author': 'Lucas'},{'id': '18'}
+show me all car,READ,car,
+add a subject with name=psychology,ADD,subject,{'name': 'Psychology'}
+get all products,READ,product,
+add an article with title=computer networks, year=2024, author=mario,ADD,article,{'title': 'Computer Networks', 'year': '2024', 'author': 'Mario'}
+update subject id=7 set semester=2023.2,UPDATE,subject,{'semester': '2023.2'},{'id': '7'}
+add a car with license=2021,ADD,car,{'license': '2021'}
+get all former teachers,READ,former_teacher,
+show me student where name=julia,READ,student,{'name': 'Julia'}
+add an article with title=data visualization, year=2025, author=leticia,ADD,article,{'title': 'Data Visualization', 'year': '2025', 'author': 'Letícia'}
+update article id=19 set revision=3,UPDATE,article,{'revision': '3'},{'id': '19'}
+add a pizza with flavour=hawaiian,ADD,pizza,{'flavour': 'Hawaiian'}
+delete student name=henrique,DELETE,student,{'name': 'Henrique'}
+get all students with name=isabel,READ,student,{'name': 'Isabel'}
+add an invoice with value=250,ADD,invoice,{'value': '250'}
+update article id=20 set keywords=['deep learning'],UPDATE,article,{'keywords': ['Deep Learning']},{'id': '20'}
+show me all ice cream,READ,ice_cream,
+add a subject with name=sociology,ADD,subject,{'name': 'Sociology'}
+get all car,READ,car,
+add an article with title=software engineering, year=2023, author=daniel,ADD,article,{'title': 'Software Engineering', 'year': '2023', 'author': 'Daniel'}
+update subject id=8 set professor=silvia,UPDATE,subject,{'professor': 'Silvia'},{'id': '8'}
+add a car with color=gold,ADD,car,{'color': 'Gold'}
+get all former teachers,READ,former_teacher,
+show me student where name=emanuel,READ,student,{'name': 'Emanuel'}
+add an article with title=data mining, year=2024, author=carlos,ADD,article,{'title': 'Data Mining', 'year': '2024', 'author': 'Carlos'}
+update article id=21 set author=luis,UPDATE,article,{'author': 'Luis'},{'id': '21'}
+add a pizza with flavour=mushroom,ADD,pizza,{'flavour': 'Mushroom'}
+delete student name=vivian,DELETE,student,{'name': 'Vivian'}
+get all students with name=beatriz,READ,student,{'name': 'Beatriz'}
+add an invoice with value=300,ADD,invoice,{'value': '300'}
+update article id=22 set revision=4,UPDATE,article,{'revision': '4'},{'id': '22'}
+show me all products,READ,product,
+add a subject with name=philosophy,ADD,subject,{'name': 'Philosophy'}
+get all car,READ,car,
+add an article with title=computer vision, year=2025, author=marcos,ADD,article,{'title': 'Computer Vision', 'year': '2025', 'author': 'Marcos'}
+update subject id=9 set semester=2024.1,UPDATE,subject,{'semester': '2024.1'},{'id': '9'}
+add a car with license=2023,ADD,car,{'license': '2023'}
+get all former teachers,READ,former_teacher,
+show me student where name=luciano,READ,student,{'name': 'Luciano'}
+add an article with title=data warehousing, year=2022, author=fabio,ADD,article,{'title': 'Data Warehousing', 'year': '2022', 'author': 'Fabio'}
+update article id=23 set keywords=['natural language processing'],UPDATE,article,{'keywords': ['Natural Language Processing']},{'id': '23'}
+add a pizza with flavour=meat lovers,ADD,pizza,{'flavour': 'Meat Lovers'}
+delete student name=paula,DELETE,student,{'name': 'Paula'}
+get all students with name=pedro,READ,student,{'name': 'Pedro'}
+add an invoice with value=350,ADD,invoice,{'value': '350'}
+update article id=24 set author=rachel,UPDATE,article,{'author': 'Rachel'},{'id': '24'}
+show me all ice cream,READ,ice_cream,
+add a subject with name=literature,ADD,subject,{'name': 'Literature'}
+get all car,READ,car,
+add an article with title=human computer interaction, year=2024, author=sandra,ADD,article,{'title': 'Human Computer Interaction', 'year': '2024', 'author': 'Sandra'}
+update subject id=10 set professor=marcelo,UPDATE,subject,{'professor': 'Marcelo'},{'id': '10'}
+add a car with color=purple,ADD,car,{'color': 'Purple'}
+get all former teachers,READ,former_teacher,
+show me student where name=rafaela,READ,student,{'name': 'Rafaela'}
+add an article with title=data governance, year=2025, author=lucio,ADD,article,{'title': 'Data Governance', 'year': '2025', 'author': 'Lucio'}
+update article id=25 set revision=5,UPDATE,article,{'revision': '5'},{'id': '25'}
+add a pizza with flavour=veggie,ADD,pizza,{'flavour': 'Veggie'}
+delete student name=mariana,DELETE,student,{'name': 'Mariana'}
+get all students with name=miguel,READ,student,{'name': 'Miguel'}
+add an invoice with value=400,ADD,invoice,{'value': '400'}
+update article id=26 set keywords=['machine learning engineering'],UPDATE,article,{'keywords': ['Machine Learning Engineering']},{'id': '26'}
+show me all products,READ,product,
+add a subject with name=history,ADD,subject,{'name': 'History'}
+get all car,READ,car,
+add an article with title=computer architecture, year=2023, author=julio,ADD,article,{'title': 'Computer Architecture', 'year': '2023', 'author': 'Júlio'}
+update subject id=11 set semester=2023.2,UPDATE,subject,{'semester': '2023.2'},{'id': '11'}
+add a car with license=2022,ADD,car,{'license': '2022'}
+get all former teachers,READ,former_teacher,
+show me student where name=natalia,READ,student,{'name': 'Natalia'}
+add an article with title=data quality, year=2024, author=adriana,ADD,article,{'title': 'Data Quality', 'year': '2024', 'author': 'Adriana'}
+update article id=27 set author=guilherme,UPDATE,article,{'author': 'Guilherme'},{'id': '27'}
+add a pizza with flavour=shrimp,ADD,pizza,{'flavour': 'Shrimp'}
+delete student name=osvaldo,DELETE,student,{'name': 'Osvaldo'}
+get all students with name=patrik,READ,student,{'name': 'Patrik'}
+add an invoice with value=450,ADD,invoice,{'value': '450'}
+update article id=28 set revision=6,UPDATE,article,{'revision': '6'},{'id': '28'}
+show me all ice cream,READ,ice_cream,
+add a subject with name=economics,ADD,subject,{'name': 'Economics'}
+get all car,READ,car,
+add an article with title=computer graphics, year=2025, author=leonardo,ADD,article,{'title': 'Computer Graphics', 'year': '2025', 'author': 'Leonardo'}
+update subject id=12 set professor=luciana,UPDATE,subject,{'professor': 'Luciana'},{'id': '12'}
+add a car with color=silver,ADD,car,{'color': 'Silver'}
+get all former teachers,READ,former_teacher,
+show me student where name=rebeca,READ,student,{'name': 'Rebeca'}
+add an article with title=data integration, year=2022, author=mario,ADD,article,{'title': 'Data Integration', 'year': '2022', 'author': 'Mário'}
+update article id=29 set keywords=['data science'],UPDATE,article,{'keywords': ['Data Science']},{'id': '29'}
+add a pizza with flavour=bbq chicken,ADD,pizza,{'flavour': 'BBQ Chicken'}
+delete student name=sabrina,DELETE,student,{'name': 'Sabrina'}
+get all students with name=tatiana,READ,student,{'name': 'Tatiana'}
+add an invoice with value=500,ADD,invoice,{'value': '500'}
+update article id=30 set author=laura,UPDATE,article,{'author': 'Laura'},{'id': '30'}
+
+Let me know if you need anything else!"

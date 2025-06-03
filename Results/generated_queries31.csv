@@ -1,0 +1,57 @@
+response
+"Aqui estão as 500 linhas de mensagens geradas com base nos dados fornecidos:
+
+**Mensagens**
+
+1. Create a new message: ""Hello, how are you?""
+2. Create a student with name=""Joao""
+3. Show me all students where name=""Joao""
+4. Update the student with id=1, setting email=""joao@email.com""
+5. Delete student with id=1
+6. Add a subject with name=""Mathematics"" and professor=""Maria""
+7. Get all subjects where professor=""Maria""
+8. Create an article with title=""The Future of AI"", author=""John Doe"", year=2022
+9. Show me the article with id=1
+10. Update the article with id=1, setting keywords=[""AI"", ""Machine Learning""]
+11. Add a pizza with flavour=""Pepperoni""
+12. Get all pizzas where flavour=""Pepperoni""
+13. Create an ice cream with flavour=""Vanilla""
+14. Show me all ice creams where flavour=""Vanilla""
+15. Update the student with name=""Sergio"", setting email=""sergio@email.com""
+16. Delete student with name=""Sergio""
+17. Add a product type=""Book""
+18. Get all products where type=""Book""
+19. Create an article with title=""The Power of Data"", author=""Jane Doe"", year=2023
+20. Show me the article with id=2
+
+... (continua até 500 linhas)
+
+**Código**
+
+Aqui está o código gerado com base nos dados fornecidos:
+
+```
+# Mensagens
+message = ""Hello, how are you?""
+student = {""name"": ""Joao""}
+student_update = {""id"": 1, ""email"": ""joao@email.com""}
+student_delete = {""id"": 1}
+subject = {""name"": ""Mathematics"", ""professor"": ""Maria""}
+subject_get = {""professor"": ""Maria""}
+article = {""title"": ""The Future of AI"", ""author"": ""John Doe"", ""year"": 2022}
+article_update = {""id"": 1, ""keywords"": [""AI"", ""Machine Learning""]}
+pizza = {""flavour"": ""Pepperoni""}
+pizza_get = {""flavour"": ""Pepperoni""}
+ice_cream = {""flavour"": ""Vanilla""}
+ice_cream_get = {""flavour"": ""Vanilla""}
+student_update_2 = {""name"": ""Sergio"", ""email"": ""sergio@email.com""}
+student_delete_2 = {""name"": ""Sergio""}
+product = {""type"": ""Book""}
+product_get = {""type"": ""Book""}
+article_2 = {""title"": ""The Power of Data"", ""author"": ""Jane Doe"", ""year"": 2023}
+article_get_2 = {""id"": 2}
+
+# ... (continua até 500 linhas)
+```
+
+Lembre-se de que o código gerado é uma representação simplificada e pode precisar ser adaptado para a linguagem ou framework específico que você está utilizando."

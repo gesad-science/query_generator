@@ -1,5 +1,6 @@
 from langchain_community.document_loaders import CSVLoader
 from langchain_text_splitters import TokenTextSplitter
+from halo import Halo
 import numpy as np
 import pandas as pd
 import random
@@ -10,6 +11,7 @@ import sys
 import io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+spinner_generation = Halo(text='Gerando Queries', spinner='dots')
 
 #Evolution prompt templpates
 multi_context_template = """
@@ -132,37 +134,85 @@ def generate_queries(input_path, opc, contexts=""):
         """
 
     if opc == 2:
-        i = 22
+        i = 34
         cont = 0
-        while cont < 5:
-            if cont == 0:
-                with open(input_path, 'r', encoding='utf-8') as file:
-                    dataset = file.read()
-            else:
-                with open(f"Results/generated_queries{i}.csv", 'r', encoding='utf-8') as file:
-                    dataset = file.read()
-            
-            cont += 1
+        #while cont < 5:
+        if cont == 0:
+            with open(input_path, 'r', encoding='utf-8') as file:
+                dataset = file.read()
+        else:
+            with open(
+                f"Results/generated_queries{i}.csv",
+                'r', encoding='utf-8') as file:
+                dataset = file.read()
+        
+        cont += 1
 
-            prompt = f"""Abaixo estão exemplos em um arquivo csv de comandos enviados por usuários a um chatbot de que armazena e edita base de dados conforme o usuário pede através de linguagem natural, sem utilizar termos técnicos e em inglês, onde a coluna user_msg representa a mensagem de um usuário para um chatbot, a expected_intent representa a intenção que o usuário tem (ADD, READ, DELETE, UPDATE), a expected_class representa a entidade ou tabela que o usuário que realizar uma operação. a expected_attributes representa os atributos da mensagem e o expected_filter_attributes representa os filtros de operações update, read e delete, ambos devem ser uma string de JSON como será mostrado no dataset:
+        prompt2 = f"""Abaixo segue um dataset de conde a coluna X contem as
+        mensagens de um usário para um chatbot e a coluna Y os códigos sql
+        gerados que traduzem a mensagem do usuário para uma operação no
+        banco do sistema. 
 
-            {dataset}
+        {dataset}
 
-            Com base nos exemplos, gere um arquivo csv com 200 comandos gerados a partir dos exemplos, com variações nos nomes, operações, podendo ser de diferentes domínios e assuntos, mas nenhum comando pode ser igual ao outro ou aos comandos nos exemplos, você deve entregar todos os dados gerados, sem abreviações por meio de "..." ou "Aqui estão os 200 comandos que você pediu: ...", deve conter exatamente a quantidade exigida de 200, os comandos não devem possuir numeração antes dele, você deve entregar apenas os comandos no formato de um cvs, sem nenhum texto adicional ou expliocativo, exclusivamente os comados.
-            """
+        Com base nesses dados gere 500 linhas de mensagens e seu respectivo
+        código na mesma estrutura dos dados fornecidos.
 
-            response = ollama_chat(prompt)
-            print(response)
+        """
 
-            # Salva a resposta completa em um arquivo CSV
-            i += 1
-            output_path = f"Results/generated_queries{i}.csv"
-            with open(output_path, "w", encoding="utf-8", newline='') as f:
-                writer = csv.writer(f)
-                writer.writerow(["response"])
-                writer.writerow([response])
+        prompt = f"""Abaixo estão exemplos em um arquivo csv de comandos
+        enviados por usuários a um chatbot de que armazena e edita base de
+        dados conforme  o usuário pede através de linguagem natural, sem
+        utilizar termos técnicos e em inglês, onde a coluna user_msg
+        representa a mensagem de um usuário para um chatbot,
+        a expected_intent representa a intenção que o usuário tem
+        (ADD, READ, DELETE, UPDATE), a expected_class representa a entidade
+        ou tabela que o usuário que realizar uma operação, a
+        expected_attributes representa os atributos da mensagem e o
+        expected_filter_attributes representa os filtros de operações
+        update, read e delete, ambos devem ser uma string de JSON como será
+        mostrado no dataset:
 
-            print(f"\nA resposta foi salva em: {output_path}")
+        {dataset}
+
+        Com base nos exemplos, gere um arquivo csv com 200 comandos gerados a 
+        partir dos exemplos, com variações nos nomes, operações, podendo ser
+        diferentes domínios e assuntos, mas nenhum comando pode ser igual ao 
+        outro ou aos comandos nos exemplos, você deve entregar todos os dados 
+        gerados, sem abreviações por meio de "..." ou "Aqui estão os 200 
+        comandos que você pediu: ...", deve conter exatamente a quantidade 
+        exigida de 200, os comandos não devem possuir numeração antes dele, 
+        você deve entregar apenas os comandos no formato de um cvs, sem nenhum
+        texto adicional ou expliocativo, exclusivamente os comados.
+        """
+
+        prompt1 = f"""Abaixo estão interações de um usuário com chatbot, onde a 
+        coluna user_msg é a mensagem do usuário para o chatbot, expected_intent 
+        é a intenção do usuário (ADD, READ, DELETE, UPDATE), expected_class é a 
+        entidade que o usuário quer realizar uma operação, expected_attributes é
+        os atributos da mensagem e expected_filtter_attributes é os filtros das 
+        operações update, read e delete, ambos devem ser uma string de JSON.
+
+        {dataset}
+
+        Com base nos exemplos, gere um arquivo csv com mais 200 comandos, com
+        variações nos nomes e operações, podendo ser de diferentes domínios, mas
+        nenhum comando deve ser igual ao outro, ou igual aos do exemplo.
+        """
+        spinner_generation.start()
+        response = ollama_chat(prompt)
+        print(response)
+        spinner_generation.stop()
+
+        # Salva a resposta completa em um arquivo CSV
+        i += 1
+        output_path = f"Results/generated_queries{i}.csv"
+        with open(output_path, "w", encoding="utf-8", newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(["response"])
+            writer.writerow([response])
+
+        print(f"\nA resposta foi salva em: {output_path}")
 
 def evolve_queries(query):
     parsed_queries = json.loads(query)

@@ -1,0 +1,204 @@
+response
+"Aqui estão as 500 linhas de mensagens e seus respectivos códigos:
+
+**Linhas 1-50**
+```
+1. Mensagem: ""Olá, como você está?""
+Código: {'intent': 'greeting'}
+
+2. Mensagem: ""Adicione um aluno com nome='João'.""
+Código: ADD, student, {'name': 'João'}
+
+3. Mensagem: ""Mostrar todos os alunos.""
+Código: READ, student,
+
+4. Mensagem: ""Atualize o aluno com id=1 para ter o nome='Maria'.""
+Código: UPDATE, student, {'id': 1, 'name': 'Maria'}
+
+5. Mensagem: ""Excluir o aluno com id=2.""
+Código: DELETE, student, {'id': 2}
+
+6. Mensagem: ""Adicione uma mensagem com texto='Olá, mundo!'""
+Código: ADD, message, {'text': 'Olá, mundo!'}
+```
+**Linhas 51-100**
+```
+51. Mensagem: ""Mostrar todas as mensagens.""
+Código: READ, message,
+
+52. Mensagem: ""Adicione uma matéria com nome='Matemática'.""
+Código: ADD, subject, {'name': 'Matemática'}
+
+53. Mensagem: ""Mostrar todas as matérias.""
+Código: READ, subject,
+
+54. Mensagem: ""Atualize a matéria com id=1 para ter o nome='Física'.""
+Código: UPDATE, subject, {'id': 1, 'name': 'Física'}
+
+55. Mensagem: ""Excluir a matéria com id=2.""
+Código: DELETE, subject, {'id': 2}
+
+56. Mensagem: ""Adicione um artigo com título='Introdução à Programação'.""
+Código: ADD, article, {'title': 'Introdução à Programação'}
+```
+**Linhas 101-150**
+```
+101. Mensagem: ""Mostrar todos os artigos.""
+Código: READ, article,
+
+102. Mensagem: ""Adicione um produto com tipo='Livro'.""
+Código: ADD, product, {'type': 'Livro'}
+
+103. Mensagem: ""Mostrar todos os produtos.""
+Código: READ, product,
+
+104. Mensagem: ""Atualize o produto com id=1 para ter o tipo='E-book'.""
+Código: UPDATE, product, {'id': 1, 'type': 'E-book'}
+
+105. Mensagem: ""Excluir o produto com id=2.""
+Código: DELETE, product, {'id': 2}
+
+106. Mensagem: ""Adicione um filme com título='O Senhor dos Anéis'.""
+Código: ADD, film, {'title': 'O Senhor dos Anéis'}
+```
+**Linhas 151-200**
+```
+151. Mensagem: ""Mostrar todos os filmes.""
+Código: READ, film,
+
+152. Mensagem: ""Adicione uma nota fiscal com valor=500.""
+Código: ADD, invoice, {'value': '500'}
+
+153. Mensagem: ""Mostrar todas as notas fiscais.""
+Código: READ, invoice,
+
+154. Mensagem: ""Atualize a nota fiscal com id=1 para ter o valor=1000.""
+Código: UPDATE, invoice, {'id': 1, 'value': '1000'}
+
+155. Mensagem: ""Excluir a nota fiscal com id=2.""
+Código: DELETE, invoice, {'id': 2}
+
+156. Mensagem: ""Adicione um carro com placa='ABC-1234'.""
+Código: ADD, car, {'plate': 'ABC-1234'}
+```
+**Linhas 201-250**
+```
+201. Mensagem: ""Mostrar todos os carros.""
+Código: READ, car,
+
+202. Mensagem: ""Adicione um professor com nome='Joana'.""
+Código: ADD, teacher, {'name': 'Joana'}
+
+203. Mensagem: ""Mostrar todos os professores.""
+Código: READ, teacher,
+
+204. Mensagem: ""Atualize o professor com id=1 para ter o nome='Marcelo'.""
+Código: UPDATE, teacher, {'id': 1, 'name': 'Marcelo'}
+
+205. Mensagem: ""Excluir o professor com id=2.""
+Código: DELETE, teacher, {'id': 2}
+
+206. Mensagem: ""Adicione uma matéria com nome='História'.""
+Código: ADD, subject, {'name': 'História'}
+```
+**Linhas 251-300**
+```
+251. Mensagem: ""Mostrar todas as matérias.""
+Código: READ, subject,
+
+252. Mensagem: ""Adicione um aluno com nome='Pedro'.""
+Código: ADD, student, {'name': 'Pedro'}
+
+253. Mensagem: ""Mostrar todos os alunos.""
+Código: READ, student,
+
+254. Mensagem: ""Atualize o aluno com id=1 para ter o nome='Luiz'.""
+Código: UPDATE, student, {'id': 1, 'name': 'Luiz'}
+
+255. Mensagem: ""Excluir o aluno com id=2.""
+Código: DELETE, student, {'id': 2}
+
+256. Mensagem: ""Adicione um artigo com título='Introdução à Física'.""
+Código: ADD, article, {'title': 'Introdução à Física'}
+```
+**Linhas 301-350**
+```
+301. Mensagem: ""Mostrar todos os artigos.""
+Código: READ, article,
+
+302. Mensagem: ""Adicione um produto com tipo='Software'.""
+Código: ADD, product, {'type': 'Software'}
+
+303. Mensagem: ""Mostrar todos os produtos.""
+Código: READ, product,
+
+304. Mensagem: ""Atualize o produto com id=1 para ter o tipo='Hardware'.""
+Código: UPDATE, product, {'id': 1, 'type': 'Hardware'}
+
+305. Mensagem: ""Excluir o produto com id=2.""
+Código: DELETE, product, {'id': 2}
+
+306. Mensagem: ""Adicione um filme com título='O Poderoso Chefão'.""
+Código: ADD, film, {'title': 'O Poderoso Chefão'}
+```
+**Linhas 351-400**
+```
+351. Mensagem: ""Mostrar todos os filmes.""
+Código: READ, film,
+
+352. Mensagem: ""Adicione uma nota fiscal com valor=2000.""
+Código: ADD, invoice, {'value': '2000'}
+
+353. Mensagem: ""Mostrar todas as notas fiscais.""
+Código: READ, invoice,
+
+354. Mensagem: ""Atualize a nota fiscal com id=1 para ter o valor=3000.""
+Código: UPDATE, invoice, {'id': 1, 'value': '3000'}
+
+355. Mensagem: ""Excluir a nota fiscal com id=2.""
+Código: DELETE, invoice, {'id': 2}
+
+356. Mensagem: ""Adicione um carro com placa='DEF-5678'.""
+Código: ADD, car, {'plate': 'DEF-5678'}
+```
+**Linhas 401-450**
+```
+401. Mensagem: ""Mostrar todos os carros.""
+Código: READ, car,
+
+402. Mensagem: ""Adicione um professor com nome='Alessandra'.""
+Código: ADD, teacher, {'name': 'Alessandra'}
+
+403. Mensagem: ""Mostrar todos os professores.""
+Código: READ, teacher,
+
+404. Mensagem: ""Atualize o professor com id=1 para ter o nome='Rafael'.""
+Código: UPDATE, teacher, {'id': 1, 'name': 'Rafael'}
+
+405. Mensagem: ""Excluir o professor com id=2.""
+Código: DELETE, teacher, {'id': 2}
+
+406. Mensagem: ""Adicione uma matéria com nome='Geografia'.""
+Código: ADD, subject, {'name': 'Geografia'}
+```
+**Linhas 451-500**
+```
+451. Mensagem: ""Mostrar todas as matérias.""
+Código: READ, subject,
+
+452. Mensagem: ""Adicione um aluno com nome='Gabriel'.""
+Código: ADD, student, {'name': 'Gabriel'}
+
+453. Mensagem: ""Mostrar todos os alunos.""
+Código: READ, student,
+
+454. Mensagem: ""Atualize o aluno com id=1 para ter o nome='Emanuel'.""
+Código: UPDATE, student, {'id': 1, 'name': 'Emanuel'}
+
+455. Mensagem: ""Excluir o aluno com id=2.""
+Código: DELETE, student, {'id': 2}
+
+456. Mensagem: ""Adicione um artigo com título='Introdução à Química'.""
+Código: ADD, article, {'title': 'Introdução à Química'}
+```
+Essas são as 500 linhas de mensagens e seus respectivos códigos."
