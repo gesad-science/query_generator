@@ -1,0 +1,49 @@
+response
+"Aqui estão as 500 linhas de mensagens classificadas com seus respectivos elementos de acordo com as colunas do CSV:
+
+**User Messages**
+
+1. `Show me all students` -> `{action: 'READ', entity: 'student'}`
+2. `Add a student with name='John'` -> `{action: 'ADD', entity: 'student', attributes: {name: 'John'}}`
+3. `Update the student with id=1, setting name='Jane'` -> `{action: 'UPDATE', entity: 'student', id: 1, attributes: {name: 'Jane'}}`
+4. `Delete the student with id=2` -> `{action: 'DELETE', entity: 'student', id: 2}`
+5. ...
+... (and so on)
+
+**Article Messages**
+
+1. `Add an article with title='Architecture Guide'` -> `{action: 'ADD', entity: 'article', attributes: {title: 'Architecture Guide'}}`
+2. `Update the article with id=11, setting author='Leo Siebra'` -> `{action: 'UPDATE', entity: 'article', id: 11, attributes: {author: 'Leo Siebra'}}`
+3. `Get all articles` -> `{action: 'READ', entity: 'article'}`
+4. ...
+... (and so on)
+
+**Product Messages**
+
+1. `Add a product with type='book'` -> `{action: 'ADD', entity: 'product', attributes: {type: 'book'}}`
+2. `Get all products` -> `{action: 'READ', entity: 'product'}`
+3. ...
+... (and so on)
+
+**Movie Messages**
+
+1. `Add a movie with title='Batman Begins'` -> `{action: 'ADD', entity: 'film', attributes: {title: 'Batman Begins'}}`
+2. `Get all movies` -> `{action: 'READ', entity: 'film'}`
+3. ...
+... (and so on)
+
+**Invoice Messages**
+
+1. `Add an invoice with value=100` -> `{action: 'ADD', entity: 'invoice', attributes: {value: 100}}`
+2. `Get all invoices` -> `{action: 'READ', entity: 'invoice'}`
+3. ...
+... (and so on)
+
+**Car Messages**
+
+1. `Add a car with license=2020` -> `{action: 'ADD', entity: 'car', attributes: {license: 2020}}`
+2. `Get all cars` -> `{action: 'READ', entity: 'car'}`
+3. ...
+... (and so on)
+
+Let me know if you need anything else!"

@@ -1,6 +1,7 @@
 from langchain_community.document_loaders import CSVLoader
 from langchain_text_splitters import TokenTextSplitter
 from halo import Halo
+from openai import OpenAI
 import numpy as np
 import pandas as pd
 import random
@@ -15,7 +16,8 @@ spinner_generation = Halo(text='Gerando Queries', spinner='dots')
 
 #Evolution prompt templpates
 multi_context_template = """
-I want you to rewrite the given `input` so that it requires readers to use information from al elements in `Context`.
+I want you to rewrite the given `input` so that it requires readers to use 
+information from al elements in `Context`.
 
 1. `Input` should require information from all `Context` elements.
 2. `Rewritten Input` must be concise and fully answerable from `Context`.
@@ -27,7 +29,8 @@ Input: {original_input}
 Rewritten Input:
 """
 reasoning_template = """
-I want you to rewrite the given `input` so that it explicity requests multi-step reasoning.
+I want you to rewrite the given `input` so that it explicity requests multi-step
+reasoning.
 
 1. `Rewritten Input` should require multiple logical connections or inferences.
 2. `Rewritten Input` should be concise and understandable.
@@ -40,9 +43,11 @@ Input: {original_input}
 Rewritten Input:
 """
 hypothetical_scenario_template = """
-I want you to rewrite the given `input` to incorporate a hypothetical or speculative scenario.
+I want you to rewrite the given `input` to incorporate a hypothetical or 
+speculative scenario.
 
-1. `Rewritten Input` should encourage applying knowledge from `Context` to deduce outcomes.
+1. `Rewritten Input` should encourage applying knowledge from `Context` to 
+deduce outcomes.
 2. `Rewritten Input` should be concise and understandable.
 3. Do not use phrases like 'based on the provided context.'
 4. `Rewritten Input` must be fully answerable from `Context`.
@@ -52,7 +57,11 @@ Context: {context}
 Input: {original_input}
 Rewritten Input:
 """
-evolution_templates = [multi_context_template, reasoning_template, hypothetical_scenario_template]
+evolution_templates = [
+    multi_context_template, 
+    reasoning_template, 
+    hypothetical_scenario_template
+    ]
 
 #Function to acess models thorugh chat
 def ollama_chat(prompt, model="llama3:70b"):
@@ -126,15 +135,20 @@ def generate_queries(input_path, opc, contexts=""):
     # Query Generation
     prompt = ""
     if opc == 3:
-        prompt = f"""Bellow there is contexts embeddings, which were generated splitting a dataset of commands sent from user to a chatbot that stores and edits a database, and gruouping the chunks of this dataset throught simillarity on embeddings:
+        prompt = f"""Bellow there is contexts embeddings, which were generated 
+        splitting a dataset of commands sent from user to a chatbot that stores 
+        and edits a database, and gruouping the chunks of this dataset throught 
+        simillarity on embeddings:
 
         {contexts}
 
-        Based on this contexts, generate more 200 simillar commands, whit variations in names, actions, intents and structures, keep in mind the quantity requested.
+        Based on this contexts, generate more 200 simillar commands, whit 
+        variations in names, actions, intents and structures, keep in mind the 
+        quantity requested.
         """
 
     if opc == 2:
-        i = 34
+        i = 36
         cont = 0
         #while cont < 5:
         if cont == 0:
@@ -148,15 +162,16 @@ def generate_queries(input_path, opc, contexts=""):
         
         cont += 1
 
-        prompt2 = f"""Abaixo segue um dataset de conde a coluna X contem as
-        mensagens de um usário para um chatbot e a coluna Y os códigos sql
-        gerados que traduzem a mensagem do usuário para uma operação no
-        banco do sistema. 
+        prompt2 = f"""Abaixo segue um dataset onde a coluna user_msg contem as
+        mensagens de um usário para um chatbot, a coluna expected_intent 
+        contem a intenção do usuário, a coluna expect_attributes contem os 
+        atributos da mensagem, a coluna expected_filter_attributes contem os 
+        filtros das operações de update, read e delete. 
 
         {dataset}
 
-        Com base nesses dados gere 500 linhas de mensagens e seu respectivo
-        código na mesma estrutura dos dados fornecidos.
+        Com base nesses dados gere 50 linhas de mensagens com a classificação 
+        de seus respectivos elementos de acorodo com as colunas do csv.
 
         """
 
