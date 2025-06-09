@@ -1,6 +1,7 @@
 from langchain_community.document_loaders import CSVLoader
 from langchain_text_splitters import TokenTextSplitter
 from halo import Halo
+from dotenv import load_dotenv
 import openai
 import numpy as np
 #import pandas as pd
@@ -12,11 +13,15 @@ import sys
 import io
 import os
 
+# OpenAI API Key confguration
+load_dotenv()
 openai.api_key = os.getenv("OPEN_AI_KEY")
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-spinner_generation = Halo(text='Gerando Queries', spinner='dots')
 
-#Evolution prompt templpates
+# Correction of caracther problems
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+spinner_generation = Halo(text='Gerando Queries\n', spinner='dots')
+
+# Evolution prompt templpates
 multi_context_template = """
 I want you to rewrite the given `input` so that it requires readers to use 
 information from al elements in `Context`.
@@ -63,9 +68,9 @@ evolution_templates = [
     multi_context_template, 
     reasoning_template, 
     hypothetical_scenario_template
-    ]
+]
 
-#Function to acess models thorugh chat
+# Acess models thorugh chat using ollama
 def ollama_chat(prompt, model="llama3:70b"):
     url = "http://localhost:11434/api/generate"
     response = requests.post(url, json={
@@ -76,6 +81,7 @@ def ollama_chat(prompt, model="llama3:70b"):
     response.raise_for_status()
     return response.json()["response"]
 
+# Uses OpenAI to acess models and generate text
 def openai_chat(prompt, model="gpt-4o"):
     response = openai.chat.completions.create(
         model=model,
@@ -84,7 +90,7 @@ def openai_chat(prompt, model="gpt-4o"):
     )
     return (response.choices[0].message.content or "").strip()
 
-#Function to convert to Embeddings
+# Function to convert text to embeddings
 def ollama_embeddings(texts, model="nomic-embed-text"):
     url = "http://localhost:11434/api/embeddings"
     embeddings = []
@@ -95,7 +101,7 @@ def ollama_embeddings(texts, model="nomic-embed-text"):
         embeddings.append(embedding)
     return embeddings
 
-#Function to peform random evolution steps
+# Function to peform random evolution steps
 def evolve_query(original_input, context, steps):
     current_input = original_input
     for _ in range(steps):
@@ -104,22 +110,23 @@ def evolve_query(original_input, context, steps):
         current_input = ollama_chat(evolved_prompt)
     return current_input
 
+# Function to peform context generation
 def context_generation(input_path):
-    #Chunk Document
+    # Chunk Document
     text_splitter = TokenTextSplitter(chunk_size=1024, chunk_overlap=0)
     loader = CSVLoader(input_path, encoding="utf-8")
     raw_chunks = loader.load_and_split(text_splitter)
 
-    #Convert chunks into embeddings
+    # Convert chunks into embeddings
     content = [rc.page_content for rc in raw_chunks]
     embeddings = ollama_embeddings(content)
 
-    #Select a random chunk to use as reference
+    # Select a random chunk to use as reference
     reference_index = random.randint(0, len(embeddings) - 1)
     reference_embedding = embeddings[reference_index]
     contexts = [content[reference_index]]
 
-    #Identify similarity
+    # Identify similarity
     similarity_threshold = 0.8
     similar_indices = []
     for i, embedding in enumerate(embeddings):
@@ -134,6 +141,7 @@ def context_generation(input_path):
     
     print(contexts)
 
+    # Save results on text file
     output_path = "Results/contexts.txt"
     with open(output_path, "w", encoding="utf-8") as f:
         for ctx in contexts:
@@ -141,7 +149,8 @@ def context_generation(input_path):
 
     return contexts
 
-def generate_queries(input_path, opc, context=""):
+# Function to peform query generation using contexts or file examples
+def generate_queries(opc, input_path="", context=""):
     # Query Generation
     prompt = ""
     if opc == 3:
@@ -210,40 +219,43 @@ def generate_queries(input_path, opc, context=""):
         você deve entregar apenas os comandos no formato de um cvs, sem nenhum
         texto adicional ou expliocativo, exclusivamente os comados.
         """
-
-        prompt1 = f"""Abaixo estão interações de um usuário com chatbot, onde a 
-        coluna user_msg é a mensagem do usuário para o chatbot, expected_intent 
-        é a intenção do usuário (ADD, READ, DELETE, UPDATE), expected_class é a 
-        entidade que o usuário quer realizar uma operação, expected_attributes é
-        os atributos da mensagem e expected_filtter_attributes é os filtros das 
-        operações update, read e delete, ambos devem ser uma string de JSON.
+        prompt1 = f"""Bellow are interactions of users with a chatbot, where the
+        user_msg column represents the message from the user to the chatbot,
+        expected_intent is the intention of the user (ADD, READ, DELETE, UPDATE)
+        , expected_class is the entity that the user wants to realize a
+        operation, expected_attributes is the attributes of the message and 
+        expected_filtter_attributes is the filtters of the update, read and 
+        delete operations, both should be a JSON string
 
         {dataset}
 
-        Com base nos exemplos, gere um arquivo csv com mais 200 comandos, com
-        variações nos nomes e operações, podendo ser de diferentes domínios, mas
-        nenhum comando deve ser igual ao outro, ou igual aos do exemplo.
+        Using the examples, generate a CSV file with 200 interactions, with 
+        variations in the names and operations, using different or the same 
+        domain as the example, but any interaction should be equal to another or 
+        equal to the examples.
         """
-        spinner_generation.start()
-        #response = ollama_chat(prompt)
-        response = openai_chat(prompt)
-        print(response)
-        spinner_generation.stop()
 
-        # Salva a resposta completa em um arquivo CSV
-        i += 1
-        output_path = f"Results/generated_queries{i}.csv"
-        with open(output_path, "w", encoding="utf-8", newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow(["response"])
-            writer.writerow([response])
+    spinner_generation.start()
+    response = ollama_chat(prompt3)
+    #response = openai_chat(prompt)
+    print(response)
+    spinner_generation.stop()
 
-        print(f"\nA resposta foi salva em: {output_path}")
+    # Salva a resposta completa em um arquivo CSV
+    i += 1
+    output_path = f"Results/generated_queries{i}.csv"
+    with open(output_path, "w", encoding="utf-8", newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(["response"])
+        writer.writerow([response])
 
-def evolve_queries(contexts, query):
+    print(f"\nA resposta foi salva em: {output_path}")
+    return output_path
+
+def evolve_queries(contexts, query_output_path):
     parsed_queries = json.loads(query)
     evolved_queries = []
-    num_evolution_steps = 1 #KEEP IT 1
+    num_evolution_steps = 3
 
     for item in parsed_queries:
         original_input = item["input"]
@@ -262,20 +274,25 @@ def evolve_queries(contexts, query):
     print(f"\nAs queries foram salvas em: {output_path}")
 
 
-print("========= Query Generator 1.0 =========")
-print("\n1) Gerar contextos com os embeddings.")
-print("2) Gerar queries a partir de CSV (sem contextos).")
-print("3) Gerar queries a partir dos contextos.")
-print("4) Evoluir queries geradas.")
-print("5) Fazer contextos, geração e evolução completas.\n")
-rsp = int(input("Digite operação: "))
+print("============ Query Generator ============")
+print("\n1) Generate contexts with embeddings.")
+print("2) Generate queries without context (based on CSV).")
+print("3) Generate queries based on context.")
+print("4) Evolve queries.")
+print("5) Complete pipeline.\n")
+rsp = int(input("Type the operation: "))
 
 input_path = "Input/dataset_tratado.csv"
 
 if(rsp == 1):
     context_generation(input_path)
 if(rsp == 2):
-    generate_queries(input_path, rsp)
+    generate_queries(rsp, input_path)
 if(rsp == 3):
     context = context_generation(input_path)
-    generate_queries(input_path, rsp, context)
+    generate_queries(rsp, context)
+if(rsp == 4):
+    evolve_queries()
+if(rsp == 5):
+    context = context_generation(input_path)
+    generate_queries(rsp, context)
