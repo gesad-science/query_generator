@@ -1,16 +1,18 @@
 from langchain_community.document_loaders import CSVLoader
 from langchain_text_splitters import TokenTextSplitter
 from halo import Halo
-from openai import OpenAI
+import openai
 import numpy as np
-import pandas as pd
+#import pandas as pd
 import random
 import requests
 import json
 import csv
 import sys
 import io
+import os
 
+openai.api_key = os.getenv("OPEN_AI_KEY")
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 spinner_generation = Halo(text='Gerando Queries', spinner='dots')
 
@@ -74,6 +76,14 @@ def ollama_chat(prompt, model="llama3:70b"):
     response.raise_for_status()
     return response.json()["response"]
 
+def openai_chat(prompt, model="gpt-4o"):
+    response = openai.chat.completions.create(
+        model=model,
+        messages=[{"role":"user", "content":prompt}],
+        temperature=0.7
+    )
+    return (response.choices[0].message.content or "").strip()
+
 #Function to convert to Embeddings
 def ollama_embeddings(texts, model="nomic-embed-text"):
     url = "http://localhost:11434/api/embeddings"
@@ -131,7 +141,7 @@ def context_generation(input_path):
 
     return contexts
 
-def generate_queries(input_path, opc, contexts=""):
+def generate_queries(input_path, opc, context=""):
     # Query Generation
     prompt = ""
     if opc == 3:
@@ -140,7 +150,7 @@ def generate_queries(input_path, opc, contexts=""):
         and edits a database, and gruouping the chunks of this dataset throught 
         simillarity on embeddings:
 
-        {contexts}
+        {context}
 
         Based on this contexts, generate more 200 simillar commands, whit 
         variations in names, actions, intents and structures, keep in mind the 
@@ -215,7 +225,8 @@ def generate_queries(input_path, opc, contexts=""):
         nenhum comando deve ser igual ao outro, ou igual aos do exemplo.
         """
         spinner_generation.start()
-        response = ollama_chat(prompt)
+        #response = ollama_chat(prompt)
+        response = openai_chat(prompt)
         print(response)
         spinner_generation.stop()
 
@@ -229,10 +240,10 @@ def generate_queries(input_path, opc, contexts=""):
 
         print(f"\nA resposta foi salva em: {output_path}")
 
-def evolve_queries(query):
+def evolve_queries(contexts, query):
     parsed_queries = json.loads(query)
     evolved_queries = []
-    um_evolution_steps = 1 #KEEP IT 1
+    num_evolution_steps = 1 #KEEP IT 1
 
     for item in parsed_queries:
         original_input = item["input"]
