@@ -2,7 +2,7 @@ from langchain_community.document_loaders import CSVLoader
 from langchain_text_splitters import TokenTextSplitter
 from halo import Halo
 from dotenv import load_dotenv
-import openai
+# import openai
 import numpy as np
 #import pandas as pd
 import random
@@ -11,11 +11,11 @@ import json
 import csv
 import sys
 import io
-import os
+import re
 
 # OpenAI API Key confguration
-load_dotenv()
-openai.api_key = os.getenv("OPEN_AI_KEY")
+# load_dotenv()
+# openai.api_key = os.getenv("OPEN_AI_KEY")
 
 # Correction of caracther problems
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
@@ -72,6 +72,24 @@ evolution_templates = [
     hypothetical_scenario_template
 ]
 
+# Convert string to JSON
+def context_conversion(text):
+    user_msg = re.search(r'user_msg:\s*(.+)', text)
+    expected_intent = re.search(r'expected_intent:\s*(.+)', text)
+    expected_class = re.search(r'expected_class:\s*(.+)', text)
+    expected_attribute = re.search(r'expected_attribute:\s*(.+)', text)
+    expected_filtter_attributes = re.search(r'expected_filtter_attributes:\s*(.+)', text)
+
+    result = {
+        "user_msg": user_msg.group(1).strip() if user_msg else "",
+        "expected_intent": expected_intent.group(1).strip() if expected_intent else "",
+        "expected_class": expected_class.group(1).strip() if expected_class else "",
+        "expected_attribute": expected_attribute.group(1).strip() if expected_attribute else "",
+        "expected_filtter_attributes": expected_filtter_attributes.group(1).strip() if expected_filtter_attributes else ""
+    }
+
+    return result
+    
 # Acess models thorugh chat using ollama
 def ollama_chat(prompt, model="gemma3:27b"):
     url = "http://localhost:11434/api/generate"
@@ -84,13 +102,12 @@ def ollama_chat(prompt, model="gemma3:27b"):
     return response.json()["response"]
 
 # Uses OpenAI to acess models and generate text
-def openai_chat(prompt, model="gpt-4o"):
-    response = openai.chat.completions.create(
-        model=model,
-        messages=[{"role":"user", "content":prompt}],
-        temperature=0.7
-    )
-    return (response.choices[0].message.content or "").strip()
+#def openai_chat(prompt, model="gpt-4o"):
+#    response = openai.chat.completions.create(
+#        messages=[{"role":"user", "content":prompt}],
+#        temperature=0.7
+#    )
+#    return (response.choices[0].message.content or "").strip()
 
 # Function to convert text to embeddings
 def ollama_embeddings(texts, model="nomic-embed-text"):
@@ -131,7 +148,6 @@ def context_generation(input_path):
     contexts = [content[reference_index]]
 
     # Identify similarity
-    # TODO: TEST WITH DIFFERENT VALUES
     similarity_threshold = 0.8
     
     similar_indices = []
@@ -145,13 +161,17 @@ def context_generation(input_path):
     for i in similar_indices:
         contexts.append(content[i])
     
-    print(contexts)
+    results = []
+    for context in contexts:
+        result = context_conversion(context)
+        results.append(result)
 
-    # Save results on text file
-    output_path = "Results/contexts.txt"
+    print(results)
+    
+    # Save results as JSON file
+    output_path = "Results/contexts.json"
     with open(output_path, "w", encoding="utf-8") as f:
-        for ctx in contexts:
-            f.write(ctx.strip())
+        json.dump({"contexts": results}, f, ensure_ascii=False, indent=2)
 
     return contexts
 
@@ -254,8 +274,8 @@ if(rsp == 2):
 if(rsp == 3):
     context = context_generation(input_path)
     generate_queries(rsp, input_path, context)
-if(rsp == 4):
-    evolve_queries()
+#if(rsp == 4):
+    #evolve_queries()
 if(rsp == 5):
     context = context_generation(input_path)
     result_path = generate_queries(rsp, input_path, context)
