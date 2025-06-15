@@ -1,0 +1,50 @@
+user_msg,expected_intent,expected_class,expected_attributes,expected_filter_attributes
+"add student with name=anderson martins gomes, age=20",ADD,student,"{'name': 'Anderson Martins Gomes', 'age': '20'}",
+"add subject with name=brazilian history, description=the history of brazil",ADD,subject,"{'name': 'Brazilian History', 'description': 'The history of Brazil'}",
+"add teacher with name=paulo henrique, age=65, email=ph@uece.br",ADD,teacher,"{'name': 'Paulo Henrique', 'age': '65', 'email': 'ph@uece.br'}",
+"add subject with name=math, description=the best subject ever",ADD,subject,"{'name': 'Math', 'description': 'The best subject ever'}",
+"add subject with name=math, description='the best subject ever!'",ADD,subject,"{'name': 'Math', 'description': 'The best subject ever!'}",
+add student name=anderson,ADD,student,{'name': 'Anderson'},
+get students with name anderson,READ,student,{'name': 'anderson'},
+show me the teachers,READ,teacher,,
+show teachers,READ,teacher,,
+show teacher,READ,teacher,,
+"include outcome value 900, date is today, and description is ""adjusting the numbers""",ADD,outcome,"{'value': '900', 'date': 'today', 'description': 'adjusting the numbers'}",
+get invoices,READ,invoice,,
+"add a test with scope=module x, date=01/01/2022, timeout = 100, limit=10",ADD,test,"{'scope': 'Module X', 'date': '01/01/2022', 'timeout': '100', 'limit': '10'}",
+add a test with scope=module y and number = 8,ADD,test,"{'scope': 'Module Y', 'number': '8'}",
+"add student with name=anderson, age=199",ADD,student,"{'name': 'Anderson', 'age': '199'}",
+"delete student name is anderson, and age is 199",DELETE,student,"{'name': 'Anderson', 'age': '199'}",
+"add article with title=the title, author=the author",ADD,article,"{'title': 'The title', 'author': 'The author'}",
+"update article with title ""the title"" and author ""the author"" set the title to ""the new title""",UPDATE,article,{'title': 'The new title'},"{'title': 'The title', 'author': 'The author'}"
+add article with author=anderson,ADD,article,{'author': 'Anderson'},
+"delete article when author=""anderson""",DELETE,article,{'author': 'Anderson'},
+show me the articles,READ,article,,
+"add article with title=the title, author=the author, abstract=the abstract, keywords=the keywords",ADD,article,"{'title': 'The title', 'author': 'The author', 'abstract': 'The abstract', 'keywords': 'The keywords'}",
+"update article with title ""the title"", setting the co-author as ""anderson gomes""",UPDATE,article,{'co_author': 'Anderson Gomes'},{'title': 'The title'}
+"update article with id=1, setting the first author as ""paulo maia""",UPDATE,article,{'first_author': 'Paulo Maia'},{'id': '1'}
+show all students,READ,student,,
+view students,READ,student,,
+fetch the students,READ,student,,
+get the students,READ,student,,
+"for the students with name='anderson', update the name to 'anderson martins'",UPDATE,student,{'name': 'Anderson Martins'},{'name': 'Anderson'}
+please change student with name paulo update age to 30,UPDATE,student,{'age': '30'},{'name': 'Paulo'}
+"for students with name anderson, update age to 30",UPDATE,student,{'age': '30'},{'name': 'Anderson'}
+update students,UPDATE,student,,
+"please, when students have the name equal to anderson, update the age to 30.",UPDATE,student,{'age': '30'},{'name': 'Anderson'}
+update students setting the age to 42 when name is anderson,UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+update students set the age to 42 when name is anderson,UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+set students with age to 42 when name is anderson,UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+"for students with name anderson, update the age to 42",UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+please change student with name anderson update age to 30,UPDATE,student,{'age': '30'},{'name': 'Anderson'}
+"please, change the student with name='anderson', updating the age to 30",UPDATE,student,{'age': '30'},{'name': 'Anderson'}
+"update the age to 42, for students with name='anderson'",UPDATE,student,{'age': '42'},{'name': 'Anderson'}
+add a student with name joseph,ADD,student,{'name': 'Joseph'},
+get students,READ,student,,
+add article with title 'dome: a no-code tool',ADD,article,{'title': 'DomE: A no-code tool'},
+get articles,READ,article,,
+"update the articles with id=1, setting the title='new title'",UPDATE,article,{'title': 'new title'},{'id': '1'}
+"add article with title='title 2', author='rodrigo'",ADD,article,"{'title': 'title 2', 'author': 'Rodrigo'}",
+"update the articles with id=1, setting the co-author='layza'",UPDATE,article,{'co_author': 'Layza'},{'id': '1'}
+delete the article with id=1,DELETE,article,{'id': '1'},
+add a student with age=45,ADD,student,{'age': '45'},,

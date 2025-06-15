@@ -4,7 +4,7 @@ from halo import Halo
 from dotenv import load_dotenv
 # import openai
 import numpy as np
-#import pandas as pd
+import pandas as pd
 import random
 import requests
 import json
@@ -77,8 +77,8 @@ def context_conversion(text):
     user_msg = re.search(r'user_msg:\s*(.+)', text)
     expected_intent = re.search(r'expected_intent:\s*(.+)', text)
     expected_class = re.search(r'expected_class:\s*(.+)', text)
-    expected_attribute = re.search(r'expected_attribute:\s*(.+)', text)
-    expected_filtter_attributes = re.search(r'expected_filtter_attributes:\s*(.+)', text)
+    expected_attribute = re.search(r'expected_attributes:\s*(.+)', text)
+    expected_filtter_attributes = re.search(r'expected_filter_attributes:\s*(.+)', text)
 
     result = {
         "user_msg": user_msg.group(1).strip() if user_msg else "",
@@ -91,7 +91,7 @@ def context_conversion(text):
     return result
     
 # Acess models thorugh chat using ollama
-def ollama_chat(prompt, model="gemma3:27b"):
+def ollama_chat(prompt, model="mistral"):
     url = "http://localhost:11434/api/generate"
     response = requests.post(url, json={
         "model":model,
@@ -173,26 +173,53 @@ def context_generation(input_path):
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump({"contexts": results}, f, ensure_ascii=False, indent=2)
 
-    return contexts
+    return output_path
 
 # Function to peform query generation using contexts or file examples
-def generate_queries(opc, input_path, context=""):
+def generate_queries(opc, input_path, context_path=""):
     # Query Generation
     prompt = ""
     i = 42
     if opc == 3 or opc == 5:
+        with open(context_path, 'r') as file:
+            data = json.load(file)
+
         #TODO: Adjust the prompt
-        prompt = f"""Bellow there is contexts embeddings, which were generated 
-        splitting a dataset of commands sent from user to a chatbot that stores 
-        and edits a database, and gruouping the chunks of this dataset throught 
-        simillarity on embeddings:
+        prompt = f"""Generate exactly 50 JSON objects, each following this structure:
 
-        {context}
+        {
+        "user_msg": "...",
+        "expected_intent": "...",
+        "expected_class": "...",
+        "expected_attribute": "...",
+        "expected_filtter_attributes": "..."
+        }
+        
+        Use as base these examples:
+        {data} 
 
-        Based on this contexts, generate more 200 simillar commands, whit 
-        variations in names, actions, intents and structures, keep in mind the 
-        quantity requested.
+        Each object must represent a different natural language instruction (user_msg) for interacting with a database using CRUD operations (Create, Read, Update, Delete). Use common entities like students, teachers, subjects, articles, tests, outcomes, and invoices.
+
+        Ensure diversity in verbs (e.g., "add", "show", "get", "update", "delete", etc.), in values, and in attribute combinations. Use a mix of simple and more complex commands. Keep attribute values realistic (e.g., names, ages, emails, titles).
+        
+        Important:
+        - Return only the array of 50 JSON objects, no explanations, no introductions, no extra text.
+        - Ensure correct JSON syntax.
+        - Do not wrap the output in any outer structure like { "contexts": [...] }, just return a flat array of 50 separate JSON objects, one after another.
+        - Keys like expected_attribute and expected_filtter_attributes must follow this format: "{'key': 'value', ...}" or be empty string "" if not applicable.
         """
+
+        # Generate the queries
+        spinner_generation.start()
+        response = ollama_chat(prompt)
+        #response = openai_chat(prompt)
+        print(response)
+        spinner_generation.stop()
+
+        # Convert JSON to CSV
+        data = json.loads(response)
+        df = pd.json_normalize(data)
+        df.to_csv('Results/queries.csv', index=False, encoding='utf=8')
 
     if opc == 2:
         cont = 0
@@ -213,22 +240,23 @@ def generate_queries(opc, input_path, context=""):
         
         """
 
-    spinner_generation.start()
-    response = ollama_chat(prompt)
-    #response = openai_chat(prompt)
-    print(response)
-    spinner_generation.stop()
+        # Generate the queries
+        spinner_generation.start()
+        response = ollama_chat(prompt)
+        #response = openai_chat(prompt)
+        print(response)
+        spinner_generation.stop()
 
-    # Salva a resposta completa em um arquivo CSV
-    i += 1
-    output_path = f"Results/generated_queries{i}.csv"
-    with open(output_path, "w", encoding="utf-8", newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow(["response"])
-        writer.writerow([response])
+        # Salva a resposta completa em um arquivo CSV
+        i += 1
+        output_path = f"Results/generated_queries{i}.csv"
+        with open(output_path, "w", encoding="utf-8", newline='') as f:
+            writer = csv.writer(f)
+            writer.writerow(["response"])
+            writer.writerow([response])
 
-    print(f"\nA resposta foi salva em: {output_path}")
-    return output_path
+        print(f"\nA resposta foi salva em: {output_path}")
+        return output_path
 
 def evolve_queries(contexts, query_output_path):
     with open(query_output_path, 'r', encoding='utf-8') as file:
@@ -265,18 +293,18 @@ print("4) Evolve queries.")
 print("5) Complete pipeline.\n")
 rsp = int(input("Type the operation: "))
 
-input_path = "Input/dataset_tratado.csv"
+input_path = "Input/dataset_reduzido.csv"
 
 if(rsp == 1):
     context_generation(input_path)
 if(rsp == 2):
     generate_queries(rsp, input_path)
 if(rsp == 3):
-    context = context_generation(input_path)
-    generate_queries(rsp, input_path, context)
+    context_path = context_generation(input_path)
+    generate_queries(rsp, input_path, context_path)
 #if(rsp == 4):
     #evolve_queries()
 if(rsp == 5):
-    context = context_generation(input_path)
-    result_path = generate_queries(rsp, input_path, context)
+    context_generation(input_path)
+    result_path = generate_queries(rsp, input_path)
     evolve_queries(context, result_path)
